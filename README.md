@@ -7,6 +7,7 @@ The current project center is definition, claim-boundary, and empirical-readines
 Start here:
 
 - [Restart Status](RESTART_STATUS.md)
+- [Working Definitions](WORKING_DEFINITIONS.md)
 - [Claim Boundary](CLAIM_BOUNDARY.md)
 - [Public / Private Boundary](PUBLIC_PRIVATE_BOUNDARY.md)
 
