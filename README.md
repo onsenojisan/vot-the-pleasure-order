@@ -9,6 +9,7 @@ Start here:
 - [Restart Status](RESTART_STATUS.md)
 - [Working Definitions](WORKING_DEFINITIONS.md)
 - [Claim Boundary](CLAIM_BOUNDARY.md)
+- [Empirical Readiness](EMPIRICAL_READINESS.md)
 - [Public / Private Boundary](PUBLIC_PRIVATE_BOUNDARY.md)
 
 ## Current Scope
