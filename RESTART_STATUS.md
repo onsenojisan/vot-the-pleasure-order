@@ -4,9 +4,11 @@ This document summarizes the current public status of VOT / The Pleasure Order.
 
 ## Current Center
 
-The current center is public routing, claim-boundary discipline, and bounded measurement-design evidence.
+The current center of this repository is public routing, claim-boundary discipline, and archived-record indexing.
 
-The latest public archive is a Zenodo record supporting:
+This repository is not dedicated to a single Zenodo record. It is the public home for stable public-facing materials and links to archived records.
+
+The latest listed Zenodo record currently supports:
 
 ```text
 L4 rule-conditional D2+ structural-proxy support
@@ -19,13 +21,13 @@ https://zenodo.org/records/20728608
 https://doi.org/10.5281/zenodo.20728608
 ```
 
-This is not presented as direct proof of VOT / The Pleasure Order, direct Omega validation, direct pleasure/suffering measurement, or causality.
+That record is not presented as direct proof of VOT / The Pleasure Order, direct Omega validation, direct pleasure/suffering measurement, or causality.
 
 Current public work is limited to:
 
 - clarifying public definitions;
 - stating claim boundaries;
-- maintaining a public route to archived Zenodo records;
+- maintaining public routing to archived Zenodo records;
 - identifying empirical-readiness requirements for stronger claims;
 - separating active public material from private working repositories and historical Omega material.
 
@@ -41,7 +43,7 @@ Omega is not removed from the project, but its current status is historical, met
 
 Direct Omega validation remains blocked.
 
-The archived L4 record is a bounded structural-proxy measurement-design result. Stronger claims would require, before evaluation:
+The listed L4 Zenodo record is a bounded structural-proxy measurement-design result. Stronger claims would require, before evaluation:
 
 - fixed definitions;
 - independent event, outcome, or case labels;
@@ -50,8 +52,8 @@ The archived L4 record is a bounded structural-proxy measurement-design result. 
 - a validation design;
 - clear treatment of null or weak outcomes.
 
-This restart status does not upgrade the archived L4 record.
+This restart status does not upgrade any archived record.
 
 ## Public Routing
 
-Public materials should point to this repository and the Zenodo record before older Omega-facing execution, reproducibility, or result materials are interpreted. Older Omega-facing materials should remain labeled as historical, methodological, or exploratory unless explicitly reauthorized.
+Public materials should point to this repository and the relevant Zenodo record before older Omega-facing execution, reproducibility, or result materials are interpreted. Older Omega-facing materials should remain labeled as historical, methodological, or exploratory unless explicitly reauthorized.
