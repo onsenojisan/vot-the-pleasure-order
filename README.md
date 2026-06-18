@@ -70,3 +70,11 @@ Zenodo:
 Private working repos:
   drafts, generated outputs, internal audit trails, scripts, raw caches, exploratory work
 ```
+
+## Citation
+
+If you cite this public home repository, see [CITATION.cff](CITATION.cff) for citation metadata. For an archived release package, cite the specific Zenodo record listed in [ZENODO_RECORDS.md](ZENODO_RECORDS.md) rather than this public home repository.
+
+## License
+
+This public home repository is licensed under CC-BY-4.0. See [LICENSE](LICENSE) for details. Archived Zenodo records linked from this repository may state their own release license.
