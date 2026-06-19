@@ -8,6 +8,8 @@ This ledger consolidates the public Zenodo records associated with VOT / The Ple
 
 It is intended for public routing and claim-boundary clarity. It does not add any empirical claim.
 
+For the current public status of the theory and its claim boundary, see [Current Status](CURRENT_STATUS.md). The records below are archival evidence/design records and do not by themselves establish VOT as a validated theory.
+
 ## Status Labels
 
 | Label | Meaning |
