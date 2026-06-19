@@ -113,7 +113,7 @@ Required gates:
 
 ### Test 2: DC2 / EMA Bridge
 
-Lagged data are required to test the bridge:
+Lagged data are required to test the bridge specified in [Bridge Specification](BRIDGE_SPEC.md):
 
 ```text
 dC_dt_lag -> later_directionality
@@ -229,4 +229,3 @@ Not yet available:
 The current correct status is:
 
 > VOT is a disciplined and testable research program with bounded proxy motivation. It is not yet validated, and its distinctiveness remains unproven. Its next legitimate upward move requires direct data and head-to-head comparison with nearby theories.
-

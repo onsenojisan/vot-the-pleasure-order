@@ -37,6 +37,7 @@ The theory does not currently identify `dC/dt` with `dOmega/dt`.
 ## Start Here
 
 - [Current Status](CURRENT_STATUS.md)
+- [Bridge Specification](BRIDGE_SPEC.md)
 - [Zenodo Records](ZENODO_RECORDS.md)
 - [Claim Boundary](CLAIM_BOUNDARY.md)
 - [Working Definitions](WORKING_DEFINITIONS.md)
@@ -74,7 +75,7 @@ The next decisive tests are:
 
 1. Direct D3 measurement: direct O/M/A + Anchor measurement must separate psychometrically and add predictive value beyond SDT, SOC, PANAS, perceived control, and meaning.
 2. Pleasure/suffering asymmetry: ordered pleasure and unanchored suffering must be modeled asymmetrically and outperform a general wellbeing/affect model.
-3. DC2 / EMA bridge: lagged data must test whether local coherence/pleasure flux predicts later directionality only under repairability, corrective update, continuity, future-option, and harmful-order constraints.
+3. DC2 / EMA bridge: lagged data must test whether local coherence/pleasure flux predicts later directionality only under repairability, corrective update, continuity, future-option, and harmful-order constraints. The current bridge hypothesis is stated in [Bridge Specification](BRIDGE_SPEC.md).
 4. Head-to-head distinctiveness: VOT must show added value beyond free-energy/predictive-processing, viability, capability, SDT, SOC, and appraisal models.
 
 ## Distinctiveness Risk
