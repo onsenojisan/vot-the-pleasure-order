@@ -131,7 +131,7 @@ Without this test, the theory remains a two-layer framework rather than a unifie
 
 Even a positive D3 result would not by itself prove distinctiveness.
 
-The theory must be compared against:
+The comparison plan is stated in [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md). The theory must be compared against:
 
 - free-energy / predictive processing accounts of valence
 - viability theory
