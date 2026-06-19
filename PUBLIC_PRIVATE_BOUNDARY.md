@@ -2,6 +2,8 @@
 
 This document defines the intended boundary between this public repository, Zenodo archives, and private/internal working repositories.
 
+For the current public reading order, see [Reader Guide](READER_GUIDE.md). For the global current status, see [Current Status](CURRENT_STATUS.md).
+
 ## Public Repository Role
 
 This public repository is intended for stable public-facing materials, including:
@@ -21,12 +23,14 @@ Zenodo is the authoritative archive for fixed release packages.
 
 For each published package, Zenodo should hold the release files, such as PDFs, zip packages, manifests, QA audits, checksums, and metadata. The public GitHub repository may link to those records, but it does not need to duplicate the full archive.
 
-Current public Zenodo record:
+Primary L4 structural-proxy Zenodo record:
 
 ```text
 https://zenodo.org/records/20728608
 https://doi.org/10.5281/zenodo.20728608
 ```
+
+For the full public record index, see [Zenodo Records](ZENODO_RECORDS.md).
 
 ## Private/Internal Repository Role
 

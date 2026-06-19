@@ -2,11 +2,13 @@
 
 This document defines readiness conditions for empirical claims related to VOT / The Pleasure Order or Omega.
 
+For the global current status, see [Current Status](CURRENT_STATUS.md). This document is narrower: it states what would be required before any stronger empirical claim could responsibly be made.
+
 Empirical readiness is not a single level. The current public archive contains one bounded measurement-design result, while stronger validation claims remain future work.
 
-## Current Completed Public Record
+## Current Completed L4 Public Record
 
-The current archived record is:
+The L4 archived record is:
 
 ```text
 Can public time-series geometry distinguish repair from sustained non-repair?

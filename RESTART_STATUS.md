@@ -2,13 +2,15 @@
 
 This document summarizes the current public status of VOT / The Pleasure Order.
 
+For the current public reading order, see [Reader Guide](READER_GUIDE.md). For the global current status and current strongest safe claim, see [Current Status](CURRENT_STATUS.md). This file is retained as a restart-context summary.
+
 ## Current Center
 
 The current center of this repository is public routing, claim-boundary discipline, and archived-record indexing.
 
 This repository is not dedicated to a single Zenodo record. It is the public home for stable public-facing materials and links to archived records.
 
-The latest listed Zenodo record currently supports:
+One primary L4 structural-proxy Zenodo record supports:
 
 ```text
 L4 rule-conditional D2+ structural-proxy support

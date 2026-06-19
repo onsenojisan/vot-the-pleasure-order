@@ -36,6 +36,7 @@ The theory does not currently identify `dC/dt` with `dOmega/dt`.
 
 ## Start Here
 
+- [Reader Guide](READER_GUIDE.md)
 - [Current Status](CURRENT_STATUS.md)
 - [Bridge Specification](BRIDGE_SPEC.md)
 - [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)

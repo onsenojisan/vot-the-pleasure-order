@@ -3,6 +3,8 @@
 Date: 2026-06-19  
 Status: public-facing boundary summary  
 
+For navigation across public documents, see [Reader Guide](READER_GUIDE.md).
+
 ## One-Sentence Status
 
 Valence Order Theory is currently a coherent and testable research program, not a validated theory.

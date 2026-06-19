@@ -2,9 +2,11 @@
 
 This document defines the current public claim boundary for VOT / The Pleasure Order.
 
-## Current Archived Claim
+For the global current status, see [Current Status](CURRENT_STATUS.md). This document is narrower: it preserves claim discipline for archived evidence, especially the L4 structural-proxy record, and for any stronger future empirical claim.
 
-The current archived Zenodo record supports the following bounded claim:
+## Current L4 Archived Claim
+
+The L4 archived Zenodo record supports the following bounded claim:
 
 ```text
 L4 rule-conditional D2+ structural-proxy support
@@ -18,6 +20,8 @@ https://doi.org/10.5281/zenodo.20728608
 ```
 
 This is a measurement-design and structural-proxy claim. It means that, in the released package, fixed public time-series rules support a distinction between repair-like recovery and sustained non-repair reorganization across the tested cases and controls.
+
+It does not summarize the whole public evidence base. For the full record index, see [Zenodo Records](ZENODO_RECORDS.md).
 
 ## What This Project Does Not Currently Claim
 
