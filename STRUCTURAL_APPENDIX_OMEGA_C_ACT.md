@@ -39,6 +39,15 @@ Act:
   Activation, the amount and intensity of appearance-channel arising.
   This term is written Act, not A, to avoid collision with the A in O/M/A
   and Anchor usage elsewhere in the repository.
+
+Z / ZZ / C / Cs:
+  This appendix distinguishes the BYXCZ layer notation from the coordinate
+  notation used here. In BYXCZ, Z names the self-reference layer and Cs
+  names the empathy layer. ZZ names the whole-brain or all-layer system
+  used in parallel with the BYXCZ decomposition. The consonance coordinate
+  C in this appendix is whole-system or ZZ-level consonance/fit in the
+  same family as "local coherence" in Bridge Specification. It is not the
+  BYXCZ self-reference layer Z, and it is not Cs.
 ```
 
 Pleasure and suffering are treated here as appearance channels whose reports can be associated with local changes in C. They are not treated as identical to C or dC/dt. In future measurement, C-flux and pleasure/suffering reports should be measured separately and then tested for their relation.
@@ -67,7 +76,6 @@ Omega:
 
 C:
   consonance, fit, integration, and dissonance minimization.
-  C is the core meaning of Z in this structural note.
 
 Act:
   activation, the amount and intensity of appearance-channel arising.
@@ -113,6 +121,16 @@ Whether engaged equanimity necessarily collapses into the cessation route is an 
 ## zz-i
 
 zz-i is not defined here as a moral norm, a validated psychological state, or the supremum of Omega.
+
+Mnemonic:
+
+```text
+ZZ-i:
+  the ideal limit of ZZ, where ZZ means the whole-brain or all-layer
+  system used in parallel with BYXCZ.
+```
+
+This mnemonic is secondary. The operational definition below controls the term in this appendix.
 
 In this appendix, zz-i is treated as:
 
