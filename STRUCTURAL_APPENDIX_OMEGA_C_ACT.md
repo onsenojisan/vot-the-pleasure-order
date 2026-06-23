@@ -1,4 +1,4 @@
-# Structural Appendix: Omega-C-A Coordinate Model
+# Structural Appendix: Omega-C-Act Coordinate Model
 
 Status: public-facing structural note  
 Date: 2026-06-23  
@@ -9,6 +9,39 @@ Claim level: conceptual clarification, not empirical validation
 This appendix records a post-v1.3 structural clarification for VOT / The Pleasure Order.
 
 It does not upgrade the current evidence level. It does not claim direct measurement of Omega, pleasure, suffering, consonance, activation, O/M/A, or zz-i. It is a working coordinate model for future measurement design and public interpretation.
+
+## Notation And Relation To Existing Documents
+
+This appendix is a structural clarification of existing public terms. It should not be read as a silent replacement of [Bridge Specification](BRIDGE_SPEC.md), [Current Status](CURRENT_STATUS.md), or [Working Definitions](WORKING_DEFINITIONS.md).
+
+The notation is reconciled as follows:
+
+```text
+C:
+  The same public C family as "local coherence" in Bridge Specification,
+  clarified here as consonance, fit, integration, and dissonance
+  minimization. This appendix does not introduce a second unrelated C.
+
+dC/dt:
+  Still a local coherence/consonance flux term. The earlier phrase
+  "a qualified local pleasure signal" should be read as an operational
+  bridge/proxy statement, not as an identity claim that pleasure is
+  literally dC/dt.
+
+Omega:
+  The same public Omega family as directionality potential: revisability,
+  repairability, future-option preservation, and capacity to keep
+  adaptive trajectories open. "Viability" in this appendix is a
+  viability-facing reading of directionality potential, not a new
+  second Omega.
+
+Act:
+  Activation, the amount and intensity of appearance-channel arising.
+  This term is written Act, not A, to avoid collision with the A in O/M/A
+  and Anchor usage elsewhere in the repository.
+```
+
+Pleasure and suffering are treated here as appearance channels whose reports can be associated with local changes in C. They are not treated as identical to C or dC/dt. In future measurement, C-flux and pleasure/suffering reports should be measured separately and then tested for their relation.
 
 ## Core Shift
 
@@ -36,17 +69,17 @@ C:
   consonance, fit, integration, and dissonance minimization.
   C is the core meaning of Z in this structural note.
 
-A:
+Act:
   activation, the amount and intensity of appearance-channel arising.
   This includes the energetic, affective, motivational, and reportable
   firing of channels such as pleasure, pain, distress, relief, meaning,
   agency, comprehension, emotion, and value appraisal.
 ```
 
-These coordinates should not be treated as a free cube.
+These coordinates should not be treated as a free cube. The manifold relations below are structural conjectures for future testing, not validated facts.
 
 ```text
-Omega is not independent of A and C.
+Omega is not independent of Act and C.
 Viability requires activation that is consonant.
 Activation without consonance can degrade Omega.
 Consonance without activation drives Omega toward zero.
@@ -59,18 +92,18 @@ Earlier level language may remain useful as communication shorthand, but it shou
 
 Levels 1-5 may be read as an ordinal shorthand for Omega-maturity within active life: increasing viability, agency, coherence, meaning, repairability, and adaptive functioning.
 
-Beyond that point, the state does not simply move to a higher scalar level. It turns onto another coordinate relation involving Omega, C, and A.
+Beyond that point, the state does not simply move to a higher scalar level. It turns onto another coordinate relation involving Omega, C, and Act.
 
 The former "Level 6" separates into at least two different cases:
 
 ```text
 engaged equanimity:
-  high Omega, high C, maintained A.
+  high Omega, high C, maintained Act.
   Channels still arise, but the subject is less captured by them.
   This is not necessarily movement toward cessation.
 
 cessation route:
-  high C, declining A, Omega preserved only under constraint.
+  high C, declining Act, Omega preserved only under constraint.
   Channel firing itself attenuates.
   This moves toward the cessation limit.
 ```
@@ -84,7 +117,7 @@ zz-i is not defined here as a moral norm, a validated psychological state, or th
 In this appendix, zz-i is treated as:
 
 ```text
-the high-C, near-zero-A cessation limit.
+the high-C, near-zero-Act cessation limit.
 ```
 
 It is a descriptive limit point of the cessation route, not a command to pursue that route. Whether any contemplative, religious, clinical, or philosophical state instantiates near-zz-i conditions is an empirical and interpretive question, not part of the definition.
@@ -93,20 +126,20 @@ The term should not be used to claim that pleasure is maximized. At the cessatio
 
 ## Distinguishing Similar-Looking States
 
-The Omega-C-A model is useful because low apparent activation is ambiguous.
+The Omega-C-Act model is useful because low apparent activation is ambiguous.
 
 ```text
 contemplative quiet:
-  high C, maintained Omega, low or moderate A.
+  high C, maintained Omega, low or moderate Act.
 
 depressive numbness or void-like paralysis:
-  low A, reduced Omega, C not established.
+  low Act, reduced Omega, C not established.
 
 flow or absorbed mastery:
-  high Omega, high C, high A.
+  high Omega, high C, high Act.
 
 addictive or agitated capture:
-  high A, low C, degraded Omega.
+  high Act, low C, degraded Omega.
 ```
 
 Appearance-channel amplitude alone cannot distinguish these cases. Omega and C require independent measurement or defensible proxies.
@@ -119,7 +152,7 @@ Important test classes include:
 
 ```text
 addictive pleasure:
-  locally positive or high A, but low C and degraded Omega.
+  locally positive or high Act, but low C and degraded Omega.
 
 effort, treatment, or disciplined practice:
   locally unpleasant, but potentially high C and improved Omega.
@@ -128,13 +161,13 @@ calm avoidance or closure:
   low distress, but low future-option preservation or corrective update.
 
 numbness or flatness:
-  low A, but not necessarily high C, and often reduced Omega.
+  low Act, but not necessarily high C, and often reduced Omega.
 
 flow:
-  high A, high C, and high Omega.
+  high Act, high C, and high Omega.
 
 engaged equanimity:
-  maintained A, high C, and high Omega with reduced capture by appearances.
+  maintained Act, high C, and high Omega with reduced capture by appearances.
 ```
 
 These divergence cases are central to future discriminant validity. They are where VOT must outperform a simple valence, wellbeing, affect, prediction-error, or arousal model.
@@ -162,7 +195,7 @@ C-detachment:
   non-capture by arising appearances.
 ```
 
-These may or may not collapse into one measured C factor.
+These may or may not collapse into one measured C factor. C-fit and appearance-channel comprehension may overlap in practice, so future measurement must avoid circularly defining C from the same report items used as Act-channel outcomes.
 
 ### Engaged Equanimity Versus Cessation
 
@@ -189,8 +222,8 @@ Minimum requirements:
 
 - separate channel-level measures before aggregation;
 - independent or defensible proxy measures of Omega;
-- separate measures or proxies for C and A;
-- tests of A x C cells, including high-A/low-C, high-A/high-C, low-A/low-Omega, and high-C/non-capture cases;
+- separate measures or proxies for C and Act;
+- tests of Act x C cells, including high-Act/low-C, high-Act/high-C, low-Act/low-Omega, and high-C/non-capture cases;
 - comparison against simple affect, wellbeing, arousal, and rival-theory models;
 - explicit null and downgrade rules.
 
@@ -198,7 +231,7 @@ Minimum requirements:
 
 Safe:
 
-> The post-v1.3 structural model treats pleasure and suffering as appearance channels, not as a single scalar. It proposes an Omega-C-A coordinate model in which viability depends on activation that is consonant. This model is a conceptual clarification for future measurement, not an empirical validation.
+> The post-v1.3 structural model treats pleasure and suffering as appearance channels, not as a single scalar. It proposes an Omega-C-Act coordinate model in which viability-facing directionality is expected to depend on activation that is consonant. This model is a conceptual clarification for future measurement, not an empirical validation.
 
 Forbidden:
 
@@ -208,9 +241,9 @@ Forbidden:
 
 > Low activation proves awakening or high consonance.
 
-> Pleasure, suffering, Omega, C, and A have already been directly measured.
+> Pleasure, suffering, Omega, C, and Act have already been directly measured.
 
-> The Omega-C-A model validates The Pleasure Order.
+> The Omega-C-Act model validates The Pleasure Order.
 
 ## Current Status
 
@@ -219,4 +252,3 @@ This appendix is a structural clarification only.
 The current public status remains:
 
 > VOT / The Pleasure Order is a coherent and testable research program, not a validated theory.
-

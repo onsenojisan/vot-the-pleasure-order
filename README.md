@@ -34,13 +34,15 @@ The theory currently distinguishes:
 
 The theory does not currently identify `dC/dt` with `dOmega/dt`.
 
+For the post-v1.3 notation clarification, `dC/dt` should be read as an operational local coherence/consonance-flux proxy associated with qualified local pleasure, not as an identity claim that pleasure is literally `dC/dt`. See [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md).
+
 ## Start Here
 
 - [Reader Guide](READER_GUIDE.md)
 - [Current Status](CURRENT_STATUS.md)
 - [Bridge Specification](BRIDGE_SPEC.md)
 - [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
-- [Structural Appendix: Omega-C-A Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_A.md)
+- [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md)
 - [Zenodo Records](ZENODO_RECORDS.md)
 - [Claim Boundary](CLAIM_BOUNDARY.md)
 - [Working Definitions](WORKING_DEFINITIONS.md)

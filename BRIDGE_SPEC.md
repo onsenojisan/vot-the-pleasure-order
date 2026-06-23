@@ -17,6 +17,13 @@ The bridge is needed because the theory distinguishes:
 
 The theory does not currently identify `dC/dt` with `dOmega/dt`.
 
+Post-v1.3 notation note:
+
+- This document uses `dC/dt` as an operational local coherence-flux term and a qualified local pleasure proxy.
+- This should not be read as an identity claim that pleasure is literally `dC/dt`.
+- Pleasure and suffering reports should be measured as appearance-channel outcomes separately from `C`, then tested against `C` and bridge variables.
+- For the post-v1.3 coordinate clarification, see [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md).
+
 The bridge question is therefore:
 
 > When does local coherence or pleasure flux become evidence for later directionality, and when does it fail to do so?

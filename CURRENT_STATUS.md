@@ -24,6 +24,12 @@ In this form, the theory distinguishes:
 
 The theory does not currently identify `dC/dt` with `dOmega/dt`.
 
+Post-v1.3 notation clarification:
+
+- `dC/dt` should be read as an operational local coherence/consonance-flux proxy associated with qualified local pleasure, not as an identity claim that pleasure is literally `dC/dt`.
+- pleasure and suffering reports remain appearance-channel outcomes to be measured separately from `C` before any bridge is tested.
+- see [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md) for the coordinate clarification and notation reconciliation.
+
 ## What The Theory Is Not Claiming
 
 The current evidence does not support the following claims:
