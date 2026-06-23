@@ -11,13 +11,14 @@ The post-v1.3 Omega-C-Act coordinate model and the v1.3 canon apparatus
 proxy family P, and the per-channel gap Gap_c) are two parallel descriptions
 of the same program. This note maps them, marks each correspondence as
 determined / partial / undetermined, and records the naming reconciliation
-around dynamic release, static release, and zz-i. It does not weld claims
+around dynamic release, static release, near-cessation, and deprecated terms.
+It does not weld claims
 that are not yet warranted.
 
 ## The Two Descriptions
 
 - Coordinate model: a state space (Omega, C, Act) with a conjectured
-  constraint manifold and a cessation limit zz-i.
+  constraint manifold, two release modes, near-cessation, and cessation.
 - Canon apparatus: appearances A = F(W, B) read through a subject lens
   beta = BYXKZ, reported as R; viability estimated as Omega-hat via
   P = {RV, OV_resid, CR}; falsifiability carried by Gap_c = A_c - Omega-hat.
@@ -40,43 +41,49 @@ that are not yet warranted.
 | horizon/scope (L, H) | W layer (S, cues(S), L, H, context) | missing in coords | The coordinate model currently omits (L, H); divergence cases are horizon phenomena, so coordinates must import (L, H) from W. |
 | measurement of (Omega, C, Act) | R = blend(A) + mood + memory + response-style + method | determined | Coordinates are read through R; R-layer contamination is inherited and must be modeled. |
 
-## Naming Reconciliation: Dynamic Release, Static Release, And zz-i
+## Naming Reconciliation: Release Modes, Near-Cessation, And Deprecated Terms
 
 The old numbered labels should not be used as formal successors in a scalar
 ladder. The cleaner reconciliation is mode-based:
 
-- Dynamic release: the old Dynamic Nirvana / ZZ-I / Level 6 reading. It is
-  high-C, Omega-active, and Act-maintaining; the awakened agent can still act
-  and teach.
-- Static release: a high-C route in which Act declines while Omega is
-  preserved only under constraint.
-- zz-i: the limiting point of static release, where Act -> 0 and the
-  manifold drives Omega -> 0.
+- Dynamic release: high-C, non-captured release with dOmega/dt open. It is the
+  current name for the older Dynamic Nirvana / ZZ-I / Level 6 reading: the
+  awakened agent can still act, teach, or otherwise affect the world.
+- Static release: high-C, non-captured release with dOmega/dt -> 0. The agent
+  is withdrawn but still viable.
+- Near-cessation: the viable extreme of the static direction, furthest toward
+  stilling all arising while Omega remains > 0.
+- Cessation: Omega -> 0, closure of the life-field itself. It is not a release
+  mode.
 
 Japanese interpretive writing may gloss dynamic release and static release as
 doteki-gedatsu / seiteki-gedatsu (動的解脱 / 静的解脱), but the formal claim is
 only release from capture by arising appearances, not validation of a religious
 attainment.
 
-These are not three ranked levels. They are two modes plus the limiting point
-of the static mode. The old Level 6 / Level 7 language survives only as legacy
-or pedagogy, not as formal notation.
+There is no single apex. The two release modes are different termini, not
+rungs on one scale. Which terminus is "highest" is tradition-relative and
+reduces to a hypothetical imperative. The old Level 6 / Level 7 language
+survives only as legacy or pedagogy, not as formal notation.
 
 Reconciliation:
 
 ```text
 old ZZ-I / Level 6 / Dynamic Nirvana  ==  dynamic release
-                                           high C, Act maintained, Omega active
-static route / cessation mode          ==  static release
-                                           high C, Act declining, Omega constrained
-zz-i                                   ==  limit of static release
-                                           high C, Act -> 0, Omega -> 0
+                                           high C, non-capture, dOmega/dt open
+static / withdrawn route               ==  static release
+                                           high C, non-capture, dOmega/dt -> 0
+lowercase zz-i (brief draft use)       ==  near-cessation
+                                           static extreme, Omega still > 0
+cessation                              ==  Omega -> 0
+                                           closure of the life-field
 ```
 
-State in both document sets that "zz-i" names the limiting point of static
-release, and that the realizable awakened state formerly called ZZ-I /
-Dynamic Nirvana is dynamic release / engaged equanimity. Do not let one
-string name two points, and do not let 6a / 6b / 7 function as formal levels.
+zz-i, ZZ-I, 6a/6b, 6.9999, and Level 7 are deprecated in current formal usage.
+The published term ZZ-I ("Dynamic Nirvana") denoted what is now dynamic
+release; a lowercase zz-i used briefly in an earlier draft denoted what is now
+near-cessation. Because the similar strings pointed to opposite locations, the
+string is retired rather than reassigned.
 
 ## Open Correspondences To Resolve
 
@@ -100,6 +107,6 @@ aligns vocabularies and records the naming reconciliation.
 ## 日本語の要点
 
 - **対応表で一番強い接続**: `divergence cases = 高|Gap_c| セル`。座標モデルの乖離例（依存・努力・虚無・フロー）と canon の `Gap_c = A_c - Omega-hat` は同じ discriminant-validity エンジンとして読める。
-- **一番重い発見**: `zz-i` のラベル衝突は、番号ではなく名前で直す。formal には `dynamic release / static release` を使い、日本語・解釈 gloss では `動的解脱 / 静的解脱` と呼べる。旧 canon の `ZZ-I / Level 6 / Dynamic Nirvana`（高C・Omega活動中）は `dynamic release`（動的解脱）、高CでActが低下する様式は `static release`（静的解脱）、`zz-i` は静的解脱の極限点（Act -> 0・Omega -> 0）に予約する。
+- **一番重い発見**: `zz-i` / `ZZ-I` のラベル衝突は、再定義ではなく退役で直す。formal には `dynamic release / static release / near-cessation / cessation` を使い、日本語・解釈 gloss では `動的解脱 / 静的解脱 / 近滅 / 滅` と呼べる。旧 canon の `ZZ-I / Level 6 / Dynamic Nirvana` は `dynamic release`（高C・非捕捉・dOmega/dt が開く）、一時的な lowercase `zz-i` は `near-cessation`（静的側の極限、Omega > 0）として読み替え、現在の正式語からは外す。単一の頂点は置かない。
 - **未確定としてログする点**: C と Gap_c の関係、Act の集約則と A-side/R-side、bridge に効く C 下位成分、manifold と bridge の関係、beta の変形、(L,H) の取り込み。
 - **三層規律**: Omega は estimand、Omega-hat(P) は estimator、測定は R 経由であり、mood/method contamination を継承する。

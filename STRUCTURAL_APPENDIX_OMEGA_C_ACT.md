@@ -8,7 +8,7 @@ Claim level: conceptual clarification, not empirical validation
 
 This appendix records a post-v1.3 structural clarification for VOT / The Pleasure Order.
 
-It does not upgrade the current evidence level. It does not claim direct measurement of Omega, pleasure, suffering, consonance, activation, O/M/A, or zz-i. It is a working coordinate model for future measurement design and public interpretation.
+It does not upgrade the current evidence level. It does not claim direct measurement of Omega, pleasure, suffering, consonance, activation, O/M/A, release modes, near-cessation, or cessation. It is a working coordinate model for future measurement design and public interpretation.
 
 ## Notation And Relation To Existing Documents
 
@@ -113,52 +113,66 @@ Levels 1-5 may be read as an ordinal shorthand for Omega-maturity within active 
 
 Beyond that point, the state does not simply move to a higher scalar level. It turns onto another coordinate relation involving Omega, C, and Act. Numbered labels beyond this point are legacy or pedagogical shorthand only, not formal successors in a ladder.
 
-The formal distinction is between two release modes:
+## Release Modes (Engagement Axis)
+
+The distinction between release modes is on dOmega/dt (world engagement), not
+on Act. Both modes share high C, non-capture (high C-detachment), inner
+serenity (dC/dt -> 0), and intact Omega (the agent is alive and viable).
 
 These are descriptive coordinate modes, not goals. "Release" denotes high
-C-detachment (non-capture by arising appearances); dynamic vs static is Act
-maintained vs declining. "Released" is not asserted to be better than
-"captured" (hypothetical imperatives only). Japanese interpretive writing may
-gloss these as dynamic/static gedatsu (動的解脱 / 静的解脱), but the formal claim
-is only release from capture by arising appearances, not validation of a
-religious attainment.
+C-detachment (non-capture by arising appearances). "Released" is not asserted
+to be better than "captured" (hypothetical imperatives only). Japanese
+interpretive writing may gloss these as dynamic/static gedatsu (動的解脱 /
+静的解脱), but the formal claim is only release from capture by arising
+appearances, not validation of a religious attainment.
 
 ```text
 dynamic release:
-  high Omega, high C, maintained Act.
-  Channels still arise, but the subject is less captured by them.
-  This is not necessarily movement toward cessation.
+  dOmega/dt open. The agent exerts directional effect on the world.
+  Resonates with: bodhisattva, non-abiding nirvana, the Zen
+  "return to the marketplace," and Gita karma-yoga.
 
 static release:
-  high C, declining Act, Omega preserved only under constraint.
-  Channel firing itself attenuates.
-  This moves toward the cessation limit, whose limiting point is zz-i.
+  dOmega/dt -> 0. Withdrawn, but still viable.
+  Resonates with: hermit / quiescent / with-remainder directions.
 ```
 
-Whether dynamic release necessarily collapses into static release is an empirical question and should not be assumed in the definition.
+There is no single apex. The two are different termini, not rungs on one
+scale. Which terminus is "highest" is tradition-relative and reduces to a
+hypothetical imperative (to affect the world -> dynamic; to still arising ->
+static). This appendix does not rank them.
 
-## zz-i
-
-zz-i is not defined here as a moral norm, a validated psychological state, or the supremum of Omega.
-
-zz-i is a legacy label. Do not decompose its letters; read it only by the
-operational definition below. (The older "ZZ" whole-system reading is a
-legacy abbreviation, not a formal symbol.)
-
-Earlier canon language that used ZZ-I / Level 6 / Dynamic Nirvana for an
-Omega-active awakened state should be read here as dynamic release /
-engaged equanimity, not as zz-i. In this appendix, zz-i is reserved for the
-limiting point of static release.
-
-In this appendix, zz-i is treated as:
+### Near-Cessation And Cessation
 
 ```text
-the high-C, near-zero-Act limiting point of static release.
+near-cessation:
+  the viable extreme of the static direction: furthest toward stilling all
+  arising while Omega remains > 0 (a living, nirodha-like edge).
+
+cessation (滅):
+  Omega -> 0, closure of the life-field itself. Not a release mode; it is
+  the limit/closure, not an attainment-state.
 ```
 
-It is a descriptive limit point of static release, not a command to pursue that route. Whether any contemplative, religious, clinical, or philosophical state instantiates near-zz-i conditions is an empirical and interpretive question, not part of the definition.
+The directions are not symmetric: the static direction runs to the cessation
+cliff (Omega -> 0); the dynamic direction has no death-limit.
 
-The term should not be used to claim that pleasure is maximized. At the cessation limit, appearance-channel arising is minimized rather than optimized.
+### Scope
+
+This chapter describes serene / equanimity / non-capture release only. Paths
+that actively use high activation or high affect -- devotional/ecstatic
+(bhakti, Sufi, charismatic), tantric/energy, shamanic trance -- are out of
+scope here and noted as a future extension. Such an extension would require
+treating Act as a free axis and splitting C into C-fit vs C-detachment. VOT
+does not here claim to describe all contemplative or religious experience.
+
+### Deprecated Terms
+
+zz-i, ZZ-I, 6a/6b, 6.9999, and Level 7 are deprecated and not used in the
+current framework. Corpus note: the published term ZZ-I ("Dynamic Nirvana")
+denoted what is now dynamic release; a lowercase zz-i used briefly in an
+earlier draft denoted what is now near-cessation on the static side. They
+referred to opposite points, which is why the string is retired.
 
 ## Distinguishing Similar-Looking States
 
@@ -203,7 +217,7 @@ flow:
   high Act, high C, and high Omega.
 
 dynamic release / engaged equanimity:
-  maintained Act, high C, and high Omega with reduced capture by appearances.
+  high C, reduced capture by appearances, intact Omega, and open dOmega/dt.
 ```
 
 These divergence cases are central to future discriminant validity. They are where VOT must outperform a simple valence, wellbeing, affect, prediction-error, or arousal model.
@@ -235,17 +249,21 @@ These may or may not collapse into one measured C factor. C-fit and appearance-c
 
 ### Dynamic Versus Static Release
 
-It remains open whether non-attachment can remain compatible with high activation and high viability, or whether sustained non-attachment tends to reduce activation over time.
+It remains open whether non-attachment reopens world engagement, remains
+withdrawn, or moves toward near-cessation. This is not an Act-axis definition:
+Act may be high or low in either path depending on practice, context, body,
+and affective style.
 
 This is the H2/H1 fork:
 
 ```text
 H2:
-  non-attachment can preserve activation and viability.
+  non-attachment can remain compatible with open dOmega/dt
+  (dynamic release).
 
 H1:
-  sustained non-attachment tends to attenuate activation and move toward
-  static release.
+  sustained non-attachment tends to close dOmega/dt and remain withdrawn
+  or move toward near-cessation.
 ```
 
 Neither should be built into the definition before measurement.
@@ -284,11 +302,11 @@ Safe:
 
 Forbidden:
 
-> VOT has proven zz-i.
+> VOT has proven release modes, near-cessation, or cessation.
 
 > Level 6 is simply higher than Level 5.
 
-> Dynamic release, static release, and zz-i are three ranked levels.
+> Dynamic release and static release are ranked, one higher than the other.
 
 > Low activation proves awakening or high consonance.
 
