@@ -113,21 +113,27 @@ Levels 1-5 may be read as an ordinal shorthand for Omega-maturity within active 
 
 Beyond that point, the state does not simply move to a higher scalar level. It turns onto another coordinate relation involving Omega, C, and Act. Numbered labels beyond this point are legacy or pedagogical shorthand only, not formal successors in a ladder.
 
-The formal distinction is between two liberation modes:
+The formal distinction is between two release modes:
+
+These are descriptive coordinate modes, not goals. "Release" denotes high
+C-detachment (non-capture by arising appearances); dynamic vs static is Act
+maintained vs declining. "Released" is not asserted to be better than
+"captured" (hypothetical imperatives only). The contemplative
+"liberation / 解脱" framing belongs to the interpretive/note layer.
 
 ```text
-dynamic liberation:
+dynamic release:
   high Omega, high C, maintained Act.
   Channels still arise, but the subject is less captured by them.
   This is not necessarily movement toward cessation.
 
-static liberation:
+static release:
   high C, declining Act, Omega preserved only under constraint.
   Channel firing itself attenuates.
   This moves toward the cessation limit, whose limiting point is zz-i.
 ```
 
-Whether dynamic liberation necessarily collapses into static liberation is an empirical question and should not be assumed in the definition.
+Whether dynamic release necessarily collapses into static release is an empirical question and should not be assumed in the definition.
 
 ## zz-i
 
@@ -138,17 +144,17 @@ operational definition below. (The older "ZZ" whole-system reading is a
 legacy abbreviation, not a formal symbol.)
 
 Earlier canon language that used ZZ-I / Level 6 / Dynamic Nirvana for an
-Omega-active awakened state should be read here as dynamic liberation /
+Omega-active awakened state should be read here as dynamic release /
 engaged equanimity, not as zz-i. In this appendix, zz-i is reserved for the
-limiting point of static liberation.
+limiting point of static release.
 
 In this appendix, zz-i is treated as:
 
 ```text
-the high-C, near-zero-Act limiting point of static liberation.
+the high-C, near-zero-Act limiting point of static release.
 ```
 
-It is a descriptive limit point of static liberation, not a command to pursue that route. Whether any contemplative, religious, clinical, or philosophical state instantiates near-zz-i conditions is an empirical and interpretive question, not part of the definition.
+It is a descriptive limit point of static release, not a command to pursue that route. Whether any contemplative, religious, clinical, or philosophical state instantiates near-zz-i conditions is an empirical and interpretive question, not part of the definition.
 
 The term should not be used to claim that pleasure is maximized. At the cessation limit, appearance-channel arising is minimized rather than optimized.
 
@@ -194,7 +200,7 @@ numbness or flatness:
 flow:
   high Act, high C, and high Omega.
 
-dynamic liberation / engaged equanimity:
+dynamic release / engaged equanimity:
   maintained Act, high C, and high Omega with reduced capture by appearances.
 ```
 
@@ -225,7 +231,7 @@ C-detachment:
 
 These may or may not collapse into one measured C factor. C-fit and appearance-channel comprehension may overlap in practice, so future measurement must avoid circularly defining C from the same report items used as Act-channel outcomes.
 
-### Dynamic Versus Static Liberation
+### Dynamic Versus Static Release
 
 It remains open whether non-attachment can remain compatible with high activation and high viability, or whether sustained non-attachment tends to reduce activation over time.
 
@@ -237,7 +243,7 @@ H2:
 
 H1:
   sustained non-attachment tends to attenuate activation and move toward
-  static liberation.
+  static release.
 ```
 
 Neither should be built into the definition before measurement.
@@ -267,7 +273,7 @@ Forbidden:
 
 > Level 6 is simply higher than Level 5.
 
-> Dynamic liberation, static liberation, and zz-i are three ranked levels.
+> Dynamic release, static release, and zz-i are three ranked levels.
 
 > Low activation proves awakening or high consonance.
 
