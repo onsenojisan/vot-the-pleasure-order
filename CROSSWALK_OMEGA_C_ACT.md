@@ -53,6 +53,11 @@ ladder. The cleaner reconciliation is mode-based:
 - zz-i: the limiting point of static release, where Act -> 0 and the
   manifold drives Omega -> 0.
 
+Japanese interpretive writing may gloss dynamic release and static release as
+doteki-gedatsu / seiteki-gedatsu (動的解脱 / 静的解脱), but the formal claim is
+only release from capture by arising appearances, not validation of a religious
+attainment.
+
 These are not three ranked levels. They are two modes plus the limiting point
 of the static mode. The old Level 6 / Level 7 language survives only as legacy
 or pedagogy, not as formal notation.
@@ -95,6 +100,6 @@ aligns vocabularies and records the naming reconciliation.
 ## 日本語の要点
 
 - **対応表で一番強い接続**: `divergence cases = 高|Gap_c| セル`。座標モデルの乖離例（依存・努力・虚無・フロー）と canon の `Gap_c = A_c - Omega-hat` は同じ discriminant-validity エンジンとして読める。
-- **一番重い発見**: `zz-i` のラベル衝突は、番号ではなく名前で直す。旧 canon の `ZZ-I / Level 6 / Dynamic Nirvana`（高C・Omega活動中）は `動的解放 / dynamic release`、高CでActが低下する様式は `静的解放 / static release`、`zz-i` は静的解放の極限点（Act -> 0・Omega -> 0）に予約する。`動的解脱 / 静的解脱` は解釈/note 層に限る。
+- **一番重い発見**: `zz-i` のラベル衝突は、番号ではなく名前で直す。formal には `dynamic release / static release` を使い、日本語・解釈 gloss では `動的解脱 / 静的解脱` と呼べる。旧 canon の `ZZ-I / Level 6 / Dynamic Nirvana`（高C・Omega活動中）は `dynamic release`（動的解脱）、高CでActが低下する様式は `static release`（静的解脱）、`zz-i` は静的解脱の極限点（Act -> 0・Omega -> 0）に予約する。
 - **未確定としてログする点**: C と Gap_c の関係、Act の集約則と A-side/R-side、bridge に効く C 下位成分、manifold と bridge の関係、beta の変形、(L,H) の取り込み。
 - **三層規律**: Omega は estimand、Omega-hat(P) は estimator、測定は R 経由であり、mood/method contamination を継承する。

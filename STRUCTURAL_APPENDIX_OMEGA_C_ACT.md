@@ -118,8 +118,10 @@ The formal distinction is between two release modes:
 These are descriptive coordinate modes, not goals. "Release" denotes high
 C-detachment (non-capture by arising appearances); dynamic vs static is Act
 maintained vs declining. "Released" is not asserted to be better than
-"captured" (hypothetical imperatives only). The contemplative
-"liberation / 解脱" framing belongs to the interpretive/note layer.
+"captured" (hypothetical imperatives only). Japanese interpretive writing may
+gloss these as dynamic/static gedatsu (動的解脱 / 静的解脱), but the formal claim
+is only release from capture by arising appearances, not validation of a
+religious attainment.
 
 ```text
 dynamic release:
