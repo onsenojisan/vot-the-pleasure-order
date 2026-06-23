@@ -18,9 +18,13 @@ The notation is reconciled as follows:
 
 ```text
 C:
-  The same public C family as "local coherence" in Bridge Specification,
-  clarified here as consonance, fit, integration, and dissonance
-  minimization. This appendix does not introduce a second unrelated C.
+  Reserved for global / whole-system consonance/fit. The same public C
+  family as "local coherence" in Bridge Specification, clarified here as
+  consonance, fit, integration, and dissonance minimization. C is a
+  coordinate (a quantity), not a brain layer: it is not the BYXKZ
+  self-reference layer Z nor the care/empathy layer K. C may later be
+  decomposed (e.g. internal / world / social consonance); dC/dt remains
+  its overall change term.
 
 dC/dt:
   Still a local coherence/consonance flux term. The earlier phrase
@@ -33,21 +37,24 @@ Omega:
   repairability, future-option preservation, and capacity to keep
   adaptive trajectories open. "Viability" in this appendix is a
   viability-facing reading of directionality potential, not a new
-  second Omega.
+  second Omega. Omega is a coordinate (a quantity), not the whole-brain
+  substrate; "Omega/VOT" as a frame name must not leak into the coordinate
+  symbol.
 
 Act:
   Activation, the amount and intensity of appearance-channel arising.
   This term is written Act, not A, to avoid collision with the A in O/M/A
   and Anchor usage elsewhere in the repository.
 
-Z / ZZ / C / Cs:
-  This appendix distinguishes the BYXCZ layer notation from the coordinate
-  notation used here. In BYXCZ, Z names the self-reference layer and Cs
-  names the empathy layer. ZZ names the whole-brain or all-layer system
-  used in parallel with the BYXCZ decomposition. The consonance coordinate
-  C in this appendix is whole-system or ZZ-level consonance/fit in the
-  same family as "local coherence" in Bridge Specification. It is not the
-  BYXCZ self-reference layer Z, and it is not Cs.
+BYXCZ / BYXKZ layer notation vs coordinates:
+  BYXCZ is kept as the proper name / search term / canon label of the
+  layer scheme. In the BYXCZ scheme, the five formal layer symbols are now
+  written B-Y-X-K-Z; K denotes the care/empathy layer formerly labeled C,
+  and Z denotes the self-reference layer. This removes the collision with
+  the consonance coordinate C. The coordinates (Omega, C, Act) are not
+  brain layers. The whole brain / whole-system is the object described by
+  those coordinates and is given no formal symbol of its own; "ZZ" survives
+  only as a legacy/local abbreviation and is not used formally.
 ```
 
 Pleasure and suffering are treated here as appearance channels whose reports can be associated with local changes in C. They are not treated as identical to C or dC/dt. In future measurement, C-flux and pleasure/suffering reports should be measured separately and then tested for their relation.
@@ -75,7 +82,9 @@ Omega:
   and the capacity to keep life-processes and adaptive trajectories open.
 
 C:
-  consonance, fit, integration, and dissonance minimization.
+  global (whole-system) consonance, fit, integration, and dissonance
+  minimization (later optionally decomposable, e.g. internal / world /
+  social consonance).
 
 Act:
   activation, the amount and intensity of appearance-channel arising.
@@ -122,15 +131,9 @@ Whether engaged equanimity necessarily collapses into the cessation route is an 
 
 zz-i is not defined here as a moral norm, a validated psychological state, or the supremum of Omega.
 
-Mnemonic:
-
-```text
-ZZ-i:
-  the ideal limit of ZZ, where ZZ means the whole-brain or all-layer
-  system used in parallel with BYXCZ.
-```
-
-This mnemonic is secondary. The operational definition below controls the term in this appendix.
+zz-i is a legacy label. Do not decompose its letters; read it only by the
+operational definition below. (The older "ZZ" whole-system reading is a
+legacy abbreviation, not a formal symbol.)
 
 In this appendix, zz-i is treated as:
 
