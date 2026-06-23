@@ -43,6 +43,7 @@ For the post-v1.3 notation clarification, `dC/dt` should be read as an operation
 - [Bridge Specification](BRIDGE_SPEC.md)
 - [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
 - [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md)
+- [Crosswalk: Omega-C-Act To v1.3 Apparatus](CROSSWALK_OMEGA_C_ACT.md)
 - [Zenodo Records](ZENODO_RECORDS.md)
 - [Claim Boundary](CLAIM_BOUNDARY.md)
 - [Working Definitions](WORKING_DEFINITIONS.md)

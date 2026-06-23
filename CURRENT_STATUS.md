@@ -29,6 +29,7 @@ Post-v1.3 notation clarification:
 - `dC/dt` should be read as an operational local coherence/consonance-flux proxy associated with qualified local pleasure, not as an identity claim that pleasure is literally `dC/dt`.
 - pleasure and suffering reports remain appearance-channel outcomes to be measured separately from `C` before any bridge is tested.
 - see [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md) for the coordinate clarification and notation reconciliation.
+- see [Crosswalk: Omega-C-Act To v1.3 Apparatus](CROSSWALK_OMEGA_C_ACT.md) for the desk mapping between the coordinate model and the v1.3 appearance/measurement apparatus.
 
 ## What The Theory Is Not Claiming
 

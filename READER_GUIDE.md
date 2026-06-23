@@ -28,7 +28,8 @@ Read:
 3. [Working Definitions](WORKING_DEFINITIONS.md) for minimal terms.
 4. [Bridge Specification](BRIDGE_SPEC.md) for the `dC/dt -> dOmega/dt` candidate bridge.
 5. [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md) for the post-v1.3 coordinate clarification.
-6. [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) for the anti-redundancy comparison.
+6. [Crosswalk: Omega-C-Act To v1.3 Apparatus](CROSSWALK_OMEGA_C_ACT.md) for the desk mapping between the coordinate model and v1.3 measurement language.
+7. [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) for the anti-redundancy comparison.
 
 Do not start from older Omega-facing records if your goal is to understand the current status.
 
@@ -102,6 +103,7 @@ Do not cite any record as proving VOT, proving The Pleasure Order, directly meas
 | [Current Status](CURRENT_STATUS.md) | Current public status, strongest safe claim, and next decisive tests. |
 | [Bridge Specification](BRIDGE_SPEC.md) | Candidate 2 bridge from local coherence flux to later directionality; unvalidated. |
 | [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md) | Post-v1.3 structural clarification; not empirical validation. |
+| [Crosswalk: Omega-C-Act To v1.3 Apparatus](CROSSWALK_OMEGA_C_ACT.md) | Desk reconciliation between the coordinate model and v1.3 appearance/measurement apparatus; not empirical validation. |
 | [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) | Anti-redundancy plan against nearby theories. |
 | [Claim Boundary](CLAIM_BOUNDARY.md) | Claim discipline for archived evidence and stronger future claims. |
 | [Empirical Readiness](EMPIRICAL_READINESS.md) | Conditions required before stronger empirical claims. |

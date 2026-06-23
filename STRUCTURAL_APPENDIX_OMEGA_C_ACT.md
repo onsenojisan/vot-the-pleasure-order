@@ -14,6 +14,8 @@ It does not upgrade the current evidence level. It does not claim direct measure
 
 This appendix is a structural clarification of existing public terms. It should not be read as a silent replacement of [Bridge Specification](BRIDGE_SPEC.md), [Current Status](CURRENT_STATUS.md), or [Working Definitions](WORKING_DEFINITIONS.md).
 
+For a desk mapping between this coordinate model and the v1.3 appearance/measurement apparatus, see [Crosswalk: Omega-C-Act To v1.3 Apparatus](CROSSWALK_OMEGA_C_ACT.md).
+
 The notation is reconciled as follows:
 
 ```text
@@ -134,6 +136,10 @@ zz-i is not defined here as a moral norm, a validated psychological state, or th
 zz-i is a legacy label. Do not decompose its letters; read it only by the
 operational definition below. (The older "ZZ" whole-system reading is a
 legacy abbreviation, not a formal symbol.)
+
+Earlier canon language that used ZZ-I / Level 6 / Dynamic Nirvana for an
+Omega-active awakened state should be read here as engaged equanimity, not as
+zz-i. In this appendix, zz-i is reserved for the cessation limit.
 
 In this appendix, zz-i is treated as:
 
