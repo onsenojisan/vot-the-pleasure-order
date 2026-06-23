@@ -250,6 +250,19 @@ H1:
 
 Neither should be built into the definition before measurement.
 
+### Known Structural Gaps
+
+This appendix also leaves several structural gaps open:
+
+- how the three-layer discipline (world / subject / analyst) should be applied to C and Act in every measurement design;
+- how horizon and scope (L, H) enter Omega, C, Act, and the divergence cases;
+- where suffering sits in the coordinate model, given that suffering is not simply negative pleasure or -dC/dt;
+- what dynamics move a system across the manifold toward dynamic release, static release, collapse, or recovery;
+- how the Omega-C-Act coordinates differ from nearby models such as affect circumplex, free-energy / predictive processing, allostasis, viability, SOC, SDT, and appraisal;
+- how to keep conceptual surface area from growing faster than empirical coverage.
+
+These gaps are logged here to prevent the coordinate model from being read as a completed theory. They do not upgrade the current evidence level.
+
 ## Measurement Implications
 
 Future measurement should target coordinates and divergence cases rather than a single level number.
