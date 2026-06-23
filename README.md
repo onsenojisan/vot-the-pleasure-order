@@ -40,6 +40,7 @@ The theory does not currently identify `dC/dt` with `dOmega/dt`.
 - [Current Status](CURRENT_STATUS.md)
 - [Bridge Specification](BRIDGE_SPEC.md)
 - [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
+- [Structural Appendix: Omega-C-A Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_A.md)
 - [Zenodo Records](ZENODO_RECORDS.md)
 - [Claim Boundary](CLAIM_BOUNDARY.md)
 - [Working Definitions](WORKING_DEFINITIONS.md)
@@ -93,6 +94,7 @@ This repository is intended to hold concise public-facing materials:
 - public routing and citation guidance;
 - public claim boundaries;
 - public-facing definition and readiness summaries;
+- public structural clarifications that do not upgrade empirical claims;
 - an index of archived Zenodo records and their claim boundaries;
 - clear separation between public summaries and private working repositories.
 
