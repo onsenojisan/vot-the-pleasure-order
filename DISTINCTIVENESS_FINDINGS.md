@@ -8,7 +8,7 @@ This document reports what happened when the distinctiveness tests in [Distincti
 
 ## Headline
 
-On existing data the framework behaves as a **structured redescription** of Sense-of-Coherence / well-being covariance. Construct distinctiveness is **not yet established**, and — importantly — it is **not answerable from existing data at all**, because the framework's `O/M/A` and the nearest rival (SOC) are built from the same items. The decisive test requires a purpose-built study with **disjoint** instruments.
+On existing data the framework's **`O/M/A` construct** behaves as a **structured redescription** of Sense-of-Coherence / well-being covariance. Construct distinctiveness is **not yet established**, and — importantly — it is **not answerable from existing data at all**, because the framework's `O/M/A` and the nearest rival (SOC) are built from the same items. The decisive test requires a purpose-built study with **disjoint** instruments.
 
 This concerns only the **construct-distinctiveness of O/M/A versus neighbors**. It does not bear on the conceptual reframing (pleasure ≠ value; suffering ≠ reversed pleasure) or on the archived L4 structural-proxy record, which are unaffected.
 
