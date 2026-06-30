@@ -4,6 +4,8 @@ Status: public-facing anti-redundancy audit
 Date: 2026-06-19  
 Claim level: comparison plan, not validation evidence  
 
+> This is the comparison **plan**. For what happened when these tests were attempted on existing data — including the Sense-of-Coherence absorption result — see [Distinctiveness Findings](DISTINCTIVENESS_FINDINGS.md) (2026-06-30).
+
 ## Purpose
 
 This document addresses the central distinctiveness risk for Valence Order Theory / The Pleasure Order:

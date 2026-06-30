@@ -145,6 +145,10 @@ The comparison plan is stated in [Distinctiveness Head-to-Head](DISTINCTIVENESS_
 
 If those frameworks explain the same results as well as VOT, then VOT should be treated as a synthesis, redescription, or parameterization, not a distinct theory.
 
+### Update (2026-06-30): Distinctiveness findings on existing data
+
+The distinctiveness comparison has now been attempted on existing data; the findings are recorded in [Distinctiveness Findings](DISTINCTIVENESS_FINDINGS.md). In short: the construct test is **not answerable from existing data**, because the framework's `O/M/A` and the nearest rival (Sense of Coherence) are built from the same items; and where a validated SOC scale exists, the VOT-specific functional form does not beat — and slightly underperforms — the plain SOC sum out of sample. The honest current reading is a **structured redescription of SOC / well-being covariance**, with construct distinctiveness gated to a purpose-built study using **disjoint instruments**. This sharpens "distinctiveness is not established" to "distinctiveness is not testable on existing data, and the existing-data signals do not separate VOT from SOC."
+
 ## What Would Strengthen VOT
 
 VOT would become stronger if:

@@ -2,7 +2,7 @@
 
 This document defines readiness conditions for empirical claims related to VOT / The Pleasure Order or Omega.
 
-For the global current status, see [Current Status](CURRENT_STATUS.md). This document is narrower: it states what would be required before any stronger empirical claim could responsibly be made.
+For the global current status, see [Current Status](CURRENT_STATUS.md). This document is narrower: it states what would be required before any stronger empirical claim could responsibly be made. For a record of the candidate empirical domains/routes themselves (existing-data and purpose-built), see [Empirical Frontier](EMPIRICAL_FRONTIER.md).
 
 Empirical readiness is not a single level. The current public archive contains one bounded measurement-design result, while stronger validation claims remain future work.
 
