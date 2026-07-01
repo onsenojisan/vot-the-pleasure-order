@@ -66,3 +66,18 @@ Historical Omega materials are earlier empirical, reproducibility, execution, or
 They should be read as historical, methodological, or exploratory unless explicitly reauthorized.
 
 They should not be used as current validation of Omega, VOT, The Pleasure Order, pleasure, or directionality.
+
+## O / M / A (retired terminology)
+
+O (comprehensibility), M (meaning), and A (agency / manageability) were earlier working labels in this project.
+
+They correspond to the three components of Antonovsky's Sense of Coherence (SOC): comprehensibility, meaningfulness, and manageability. Measured moment to moment, they are appraisal readouts in the sense of Scherer's Component Process Model (comprehensibility / control / meaning appraisals).
+
+Because they are not separable from SOC — in existing data they are built from the same items, and the project's own functional form did not add over the plain SOC sum — O / M / A are retired as proprietary terms.
+
+- Trait / dispositional context: use SOC (Antonovsky).
+- Momentary / dynamic context: use appraisal terms (comprehensibility / control / meaning appraisals).
+
+Earlier documents keep O / M / A as historical record. This is a terminology decision, not a new empirical claim.
+
+VOT-specific terms not affected by this retirement: **Anchor** (a fall-back / viability component not present in SOC), the **cross-channel order operator**, and **Omega-hat**. These remain under evaluation and are not validated here.
