@@ -149,6 +149,14 @@ If those frameworks explain the same results as well as VOT, then VOT should be 
 
 The distinctiveness comparison has now been attempted on existing data; the findings are recorded in [Distinctiveness Findings](DISTINCTIVENESS_FINDINGS.md). In short: the construct test is **not answerable from existing data**, because the framework's `O/M/A` and the nearest rival (Sense of Coherence) are built from the same items; and where a validated SOC scale exists, the VOT-specific functional form does not beat — and slightly underperforms — the plain SOC sum out of sample. The honest current reading is a **structured redescription of SOC / well-being covariance**, with construct distinctiveness gated to a purpose-built study using **disjoint instruments**. This sharpens "distinctiveness is not established" to "distinctiveness is not testable on existing data, and the existing-data signals do not separate VOT from SOC."
 
+### Update (2026-07-01): Dynamic head-to-head on multi-case EMA (so far negative for the VOT-specific operator)
+
+The distinctiveness comparison against free-energy has now also been attempted **dynamically** on open, multi-case ecological-momentary-assessment (EMA) datasets (Kossakowski n=1; Fisher n=40, MDD/GAD; Marian n=135; Geschwind n=121), predicting within-person depression / negative affect over time.
+
+Result: the VOT-specific **cross-channel order operator** (configural order gated by critical slowing down) does **not** add over a free-energy / prediction-error comparator. The pooled within-person increment is approximately zero, and the theorized direction (rigid order as pathological) is not consistent across people (about a coin flip). The predictive work is done by shared early-warning signals (level, variance), which move as expected in **both** decline and recovery (the Geschwind treatment arm) but are shared with the critical-transition / free-energy literature and are **not** VOT-specific.
+
+Scope and honesty: this tests only the **currently-measurable order operator** (the H3 head-to-head). It does **not** yet test the tipping / **hysteresis** structure or an external viability endpoint, which require a transition-enriched, recovery-arm dataset (a data request for such data has been sent). This is therefore a **partial**, not full, trigger of the "free-energy absorbs VOT" downgrade condition: it sharpens "distinctiveness is not established" to "the currently-measurable VOT operator is, across four datasets, absorbed by free-energy; any remaining distinctiveness rests on the still-untested collapse-gate."
+
 ## What Would Strengthen VOT
 
 VOT would become stronger if:

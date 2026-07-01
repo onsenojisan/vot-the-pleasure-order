@@ -37,11 +37,20 @@ Extend the already-archived L4 repair-vs-sustained-non-repair structural-proxy r
 - Fully doable with public data; lowest risk.
 - Broadens external validity at the **same** claim level (structural proxy); it does not deepen toward causal or direct measurement.
 
+### A4. Dynamic (EMA) head-to-head on open multi-case data — ATTEMPTED 2026-07-01 (so far negative)
+
+Unlike the construct test (blocked by item overlap), the *dynamic* distinctiveness test can be run on open intensive-EMA data. It has now been run on four open datasets (Kossakowski n=1; Fisher n=40; Marian n=135; Geschwind n=121): the VOT-specific cross-channel order operator (gated by critical slowing) does **not** add over a free-energy / prediction-error comparator (pooled within-person increment approximately zero; theorized direction not consistent across people). Shared early-warning signals (level, variance) carry the prediction, in both decline and recovery.
+
+- This route is now largely **exhausted for the measurable operator (H3)**: the result is a replicated negative, not a candidate for further mining.
+- What it does **not** reach: the tipping / hysteresis structure and an external viability endpoint (H2 / P3), which need a **recovery-arm, transition-enriched** dataset. That is not available in open data.
+
 ## B. Routes That Require Purpose-Built Data (not existing-data)
 
 - L2 appearance model `value = Appearance_BYXCZ(Omega, context) + noise`: needs an independently coded BYXCZ profile battery; existing datasets do not carry these moderators (D3).
 - Anchored bridge `dC/dt -> dOmega/dt`: needs lagged within-person data with a clean downstream directionality endpoint; existing EMA datasets stop at next-step affect (DC2).
 - Direct O/M/A and Omega measurement: needs purpose-built items meeting the separation/incremental-validity gates in [Current Status](CURRENT_STATUS.md) (D3).
+
+- Status note (2026-07-01): a request for the transition-enriched **TRANS-ID** recovery / tapering EMA (the one design carrying both a decline and a recovery transition, needed for the hysteresis / collapse-gate test) has been sent to the data holders. This is the realistic route to the H2 / P3 tests that open data cannot reach.
 
 ## C. Civilization-Scale Status
 
