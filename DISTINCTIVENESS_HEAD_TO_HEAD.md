@@ -4,7 +4,7 @@ Status: public-facing anti-redundancy audit
 Date: 2026-06-19  
 Claim level: comparison plan, not validation evidence  
 
-> This is the comparison **plan**. For what happened when these tests were attempted on existing data — including the Sense-of-Coherence absorption result — see [Distinctiveness Findings](DISTINCTIVENESS_FINDINGS.md) (2026-06-30).
+> This is the comparison **plan**. For what happened when these tests were attempted on existing data — including the Sense-of-Coherence absorption result — see [Distinctiveness Findings](DISTINCTIVENESS_FINDINGS.md) (2026-06-30). For the **dynamic** free-energy head-to-head on multi-case EMA (2026-07-01), see the update near the end of this document.
 
 ## Purpose
 
@@ -543,6 +543,12 @@ Forbidden:
 > O/M/A is already proven distinct from existing constructs.
 
 > Existing proxy evidence establishes VOT's uniqueness.
+
+## Update (2026-07-01): Free-energy head-to-head attempted dynamically
+
+The free-energy head-to-head above has now been run **dynamically** on four open multi-case EMA datasets (Kossakowski n=1; Fisher n=40, MDD/GAD; Marian n=135; Geschwind n=121). The VOT-specific cross-channel order operator (configural order gated by critical slowing) did **not** add over a prediction-error / free-energy comparator: the pooled within-person increment was approximately zero, and the theorized "rigid order is pathological" direction was not consistent across people. Shared early-warning signals (level, variance) carried the prediction, in both decline and recovery.
+
+This is a **replicated negative for the currently-measurable operator** (the H3 test above). It does **not** settle the tipping / hysteresis / harmful-order-gate structure, which needs a recovery-arm, transition-enriched dataset (requested separately). Reading: for what is currently measurable, free-energy absorbs the VOT operator; the remaining distinctiveness candidate is the untested collapse-gate. Per the downgrade rules above, this is a partial — not yet full — trigger.
 
 ## Current Status
 
