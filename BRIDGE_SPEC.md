@@ -17,6 +17,8 @@ The bridge is needed because the theory distinguishes:
 
 The theory does not currently identify `dC/dt` with `dOmega/dt`.
 
+Note on `C` vs felt consonance: read as a pleasure signal, `dC/dt` is the felt-consonance proxy `p_loc` (an appearance channel), which is distinct from the structural consonance coordinate `C`. The two can diverge — a state can feel coherent (high `p_loc`) while being poorly integrated with the whole system (low structural `C`) and low on `Omega`, as in addiction. See the [Structural Appendix](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md). This divergence is exactly why a positive local `dC/dt` is not, by itself, evidence of positive `dOmega/dt` (see the Core Guardrail below).
+
 The bridge question is therefore:
 
 > When does local coherence or pleasure flux become evidence for later directionality, and when does it fail to do so?

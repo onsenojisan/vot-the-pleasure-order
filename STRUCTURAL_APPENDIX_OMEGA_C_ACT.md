@@ -296,6 +296,10 @@ This appendix also leaves several structural gaps open:
 
 These gaps are logged here to prevent the coordinate model from being read as a completed theory. They do not upgrade the current evidence level.
 
+### Pleasure/Suffering Asymmetry Depends On The Collapse-Gate
+
+The theory treats pleasure and suffering asymmetrically: suffering is not merely negative pleasure or `-dC/dt`. On the current reading this asymmetry is **not an independent postulate**. It is derived from the collapse-gate's irreversibility asymmetry — there is an irreversible floor below (collapse / 滅) but no symmetric ceiling above (the dynamic direction has no death-limit). The asymmetry therefore shares the fate of the collapse-gate wager: if the generic collapse-gate / critical-transition claim fails empirically, the asymmetry loses its VOT-specific grounding and would reduce to the well-documented negativity bias / loss aversion already described by other frameworks. It is a consequence to test, not a separate pillar the theory can fall back on.
+
 ## Measurement Implications
 
 Future measurement should target coordinates and divergence cases rather than a single level number.
@@ -335,4 +339,4 @@ This appendix is a structural clarification only.
 
 The current public status remains:
 
-> VOT / The Pleasure Order is a coherent and testable research program, not a validated theory.
+> VOT / The Pleasure Order is a coherent, testable research program, not a validated theory. On current evidence it reads as a structured redescription of nearby frameworks, with its one distinctive empirical claim (a collapse-gate / critical-transition wager) pre-registered but not yet tested.
