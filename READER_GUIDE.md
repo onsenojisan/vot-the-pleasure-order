@@ -1,7 +1,7 @@
 # Reader Guide
 
 Status: public routing guide  
-Date: 2026-06-19  
+Date: 2026-07-02  
 Purpose: help readers choose the right document without upgrading any claim  
 
 ## Shortest Route
@@ -101,6 +101,8 @@ Do not cite any record as proving VOT, proving The Pleasure Order, directly meas
 | [Current Status](CURRENT_STATUS.md) | Current public status, strongest safe claim, and next decisive tests. |
 | [Bridge Specification](BRIDGE_SPEC.md) | Candidate 2 bridge from local coherence flux to later directionality; unvalidated. |
 | [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) | Anti-redundancy plan against nearby theories. |
+| [Structural Appendix: Omega-C-Act](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md) | Post-v1.3 coordinate model (Omega, C, Act); felt-consonance (`p_loc`) vs structural consonance (`C`); release modes. Conceptual clarification only. |
+| [Crosswalk: Omega-C-Act](CROSSWALK_OMEGA_C_ACT.md) | Desk mapping between the coordinate model and the v1.3 appearance/measurement apparatus. |
 | [Claim Boundary](CLAIM_BOUNDARY.md) | Claim discipline for archived evidence and stronger future claims. |
 | [Empirical Readiness](EMPIRICAL_READINESS.md) | Conditions required before stronger empirical claims. |
 | [Working Definitions](WORKING_DEFINITIONS.md) | Minimal restart definitions. |

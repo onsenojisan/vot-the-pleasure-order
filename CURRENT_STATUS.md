@@ -1,13 +1,13 @@
 # Valence Order Theory / The Pleasure Order: Current Status
 
-Date: 2026-06-19  
+Date: 2026-07-02  
 Status: public-facing boundary summary  
 
 For navigation across public documents, see [Reader Guide](READER_GUIDE.md).
 
 ## One-Sentence Status
 
-Valence Order Theory is currently a coherent and testable research program, not a validated theory.
+Valence Order Theory is a coherent, testable research program, not a validated theory. On current evidence its distinctive content is not yet demonstrated: it presently reads as a structured redescription of nearby frameworks (sense of coherence, appraisal, free-energy / predictive processing, viability), with its one distinctive empirical claim — a generic collapse-gate / critical-transition wager — pre-registered but not yet tested (see the 2026-06-30 and 2026-07-01 updates below).
 
 ## Minimal Current Claim
 
@@ -95,23 +95,22 @@ Bridge side:
 
 ## Next Decisive Tests
 
+Priority note (2026-07-01): the make-or-break has moved. The 2026-06-30 and 2026-07-01 findings below show that the construct-level test (Test 1) can, at best, establish that the appearance channels separate from rivals — necessary but not sufficient for distinctiveness — while the currently-measurable order operator is already absorbed by free-energy across four datasets. The only still-open distinctive claim lives in the tipping / hysteresis / external-viability structure of Test 2. Test 2's collapse-gate arm therefore now outranks Test 1; Test 1 is kept ready but is no longer the first move.
+
 ### Test 1: Direct D3 Measurement
 
-Directly measure:
+Directly measure the appearance-channel vector — comprehension, agency, meaning, value, ordered pleasure, and unanchored suffering (pleasure and suffering as separate channels) — using **disjoint instruments** written to be item-distinct from the rivals, plus **Anchor**.
 
-- Order
-- Meaning
-- Agency
-- Anchor
-- ordered pleasure
-- unanchored suffering
+Note on terminology: the earlier `O/M/A` grouping is **retired** as a proprietary object (its items are identical to Antonovsky's Sense of Coherence; see [Working Definitions](WORKING_DEFINITIONS.md)). Anchor is retained but flagged as a likely redescription (secure-base attachment / resilience / ruin-reserve), so its rival block must include those.
 
 Required gates:
 
-1. O/M/A must separate psychometrically from one general factor.
-2. O/M/A + Anchor must add predictive value beyond SDT, SOC, PANAS, perceived control, and meaning.
+1. The channels must separate psychometrically from one general factor with purpose-built, disjoint items — not the SOC-identical items that made this untestable on existing data.
+2. The channel vector + Anchor must add predictive value beyond SOC, SDT, PANAS, perceived control, meaning, secure-base attachment, and a resilience measure.
 3. An asymmetric pleasure/suffering model must outperform a simple general wellbeing/affect model.
 4. Results must reproduce in a holdout or preregistered test.
+
+Passing Test 1 establishes construct separation only; it does **not** by itself establish distinctiveness, which requires Test 2's collapse-gate arm.
 
 ### Test 2: DC2 / EMA Bridge
 
@@ -230,16 +229,20 @@ Prepared but not fielded:
 - head-to-head distinctiveness audit
 - decision tree for claim upgrades and downgrades
 
+Already attempted (recorded above):
+
+- head-to-head comparison against free-energy on existing and multi-case EMA data — **done, negative** for the currently-measurable VOT operator (Updates 2026-06-30 / 2026-07-01).
+
 Not yet available:
 
 - direct respondent data
 - successful D3 validation
 - external reanalysis result
 - lagged H4 bridge test
-- head-to-head empirical comparison against nearest rivals
+- the **decisive** head-to-head: the tipping / hysteresis / external-viability (collapse-gate) test that requires transition-enriched, recovery-arm data (data request sent 2026-07-01, awaiting reply)
 
 ## Bottom Line
 
 The current correct status is:
 
-> VOT is a disciplined and testable research program with bounded proxy motivation. It is not yet validated, and its distinctiveness remains unproven. Its next legitimate upward move requires direct data and head-to-head comparison with nearby theories.
+> VOT is a disciplined and testable research program with bounded proxy motivation. It is not yet validated, and its distinctiveness is, on current evidence, unproven and trending negative: the currently-measurable operator is absorbed by free-energy across four datasets. Its remaining distinctive claim is localized to a single untested collapse-gate / critical-transition wager, and its next legitimate upward move requires the transition-enriched, recovery-arm data needed to test it.

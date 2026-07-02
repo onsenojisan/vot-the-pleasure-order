@@ -6,16 +6,16 @@ It is not dedicated to a single Zenodo record. It keeps public-facing definition
 
 ## Current Status
 
-Valence Order Theory / The Pleasure Order is currently a coherent and testable research program, not a validated theory.
+Valence Order Theory / The Pleasure Order is a coherent, testable research program, not a validated theory. On current evidence it reads as a structured redescription of nearby frameworks; its one distinctive empirical claim (a collapse-gate / critical-transition wager) is pre-registered but not yet tested. See [Current Status](CURRENT_STATUS.md) for the dated details.
 
 Current claim level:
 
-- D2/D2+ O-M-A evidence: proxy-level only.
+- D2/D2+ proxy evidence (O/M/A grammar): proxy-level only. Note: `O/M/A` is now retired as a proprietary term (item-identical to Sense of Coherence — see [Working Definitions](WORKING_DEFINITIONS.md)).
 - L4 structural work: rule-conditional structural-proxy evidence only.
-- Direct O/M/A validation: not yet established.
+- Direct channel-vector validation with disjoint instruments: not yet established.
 - Omega measurement: not established.
 - `dC/dt -> dOmega/dt` bridge: specified but untested.
-- Distinctiveness from free-energy, viability, capability, SDT, SOC, and appraisal theories: not yet established.
+- Distinctiveness from free-energy, viability, capability, SDT, SOC, and appraisal theories: not established; the currently-measurable order operator is, across four EMA datasets, absorbed by free-energy.
 
 ## Minimal Current Claim
 
@@ -32,7 +32,7 @@ The theory currently distinguishes:
 - `Omega`: directionality potential, the capacity to revise, repair, reverse, and reorganize future trajectories.
 - `dOmega/dt`: long-term directionality flux.
 
-The theory does not currently identify `dC/dt` with `dOmega/dt`.
+The theory does not currently identify `dC/dt` with `dOmega/dt`. It also distinguishes *felt* consonance (`p_loc`, the "local pleasure signal" reading of `dC/dt`, an appearance channel) from the *structural* consonance coordinate `C`; the two can diverge (addiction feels coherent yet is poorly integrated). See the [Structural Appendix](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md).
 
 ## Start Here
 
@@ -40,6 +40,8 @@ The theory does not currently identify `dC/dt` with `dOmega/dt`.
 - [Current Status](CURRENT_STATUS.md)
 - [Bridge Specification](BRIDGE_SPEC.md)
 - [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
+- [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md)
+- [Crosswalk: Omega-C-Act To v1.3 Apparatus](CROSSWALK_OMEGA_C_ACT.md)
 - [Zenodo Records](ZENODO_RECORDS.md)
 - [Claim Boundary](CLAIM_BOUNDARY.md)
 - [Working Definitions](WORKING_DEFINITIONS.md)
