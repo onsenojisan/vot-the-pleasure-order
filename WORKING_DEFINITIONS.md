@@ -80,4 +80,10 @@ Because they are not separable from SOC — in existing data they are built from
 
 Earlier documents keep O / M / A as historical record. This is a terminology decision, not a new empirical claim.
 
-VOT-specific terms not affected by this retirement: **Anchor** (a fall-back / viability component not present in SOC), the **cross-channel order operator**, and **Omega-hat**. These remain under evaluation and are not validated here.
+Terms kept in use after this retirement, none of them validated:
+
+- **Anchor** — a fall-back / viability component not found in SOC. It is retained, but flagged as a **likely redescription**: a distinctiveness audit finds it overlaps secure-base attachment, resilience / recovery, SOC-manageability, and ruin-reserve (Taleb / Peters), and its only non-generic sliver ("reserve relative to the collapse floor") is parasitic on the still-untested collapse-gate. Any future test of an "Anchor increment" must therefore control for secure-base attachment and a resilience measure, or the increment could be either of those in disguise.
+- **cross-channel order operator (O\*)** — flagged: across four EMA datasets its currently-measurable form is absorbed by a free-energy / prediction-error comparator (see [Current Status](CURRENT_STATUS.md)).
+- **Omega-hat** — flagged: overlaps viability, resilience, and expected-free-energy option value.
+
+Net: no VOT-specific term currently stands alone as distinct; each is a redescription, absorbed, or hangs on the one untested collapse-gate wager. These remain under evaluation and are not validated here.
