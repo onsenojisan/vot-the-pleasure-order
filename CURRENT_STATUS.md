@@ -15,6 +15,8 @@ The current bounded claim is:
 
 > Local pleasure or coherence change is not identical to long-term value or directionality. It may support directionality only when it is anchored to repairability, corrective update, continuity, and future option preservation. Pleasure and suffering should therefore be tested asymmetrically rather than treated as mirror images on one valence scale.
 
+Note: on the current reading the pleasure/suffering asymmetry is *derived* from the collapse-gate's irreversibility, not an independent postulate, so it shares the fate of the still-untested collapse-gate wager (see the [Structural Appendix](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md)).
+
 In this form, the theory distinguishes:
 
 - `C`: local coherence.
