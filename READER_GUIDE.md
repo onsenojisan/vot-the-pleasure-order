@@ -1,7 +1,7 @@
 # Reader Guide
 
 Status: public routing guide  
-Date: 2026-07-02  
+Date: 2026-07-14  
 Purpose: help readers choose the right document without upgrading any claim  
 
 ## Shortest Route
@@ -73,6 +73,7 @@ Read:
 2. [Empirical Readiness](EMPIRICAL_READINESS.md)
 3. [Bridge Specification](BRIDGE_SPEC.md)
 4. [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
+5. [Make-or-Break Preregistration](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md) — the frozen test your data could run
 
 Useful data would need at least one of:
 
@@ -105,6 +106,7 @@ Do not cite any record as proving VOT, proving The Pleasure Order, directly meas
 | [Crosswalk: Omega-C-Act](CROSSWALK_OMEGA_C_ACT.md) | Desk mapping between the coordinate model and the v1.3 appearance/measurement apparatus. |
 | [Claim Boundary](CLAIM_BOUNDARY.md) | Claim discipline for archived evidence and stronger future claims. |
 | [Empirical Readiness](EMPIRICAL_READINESS.md) | Conditions required before stronger empirical claims. |
+| [Make-or-Break Preregistration](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md) | Frozen preregistration of the decisive distinctiveness test (D4 decline->recovery hysteresis); as of 2026-07-14 preregistered but un-run. |
 | [Working Definitions](WORKING_DEFINITIONS.md) | Minimal restart definitions. |
 | [Zenodo Records](ZENODO_RECORDS.md) | Public index of archived Zenodo records and their claim boundaries. |
 | [Public / Private Boundary](PUBLIC_PRIVATE_BOUNDARY.md) | Separation between public summaries, Zenodo archives, and private working repositories. |

@@ -48,6 +48,12 @@ Concept DOI: [10.5281/zenodo.20728607](https://doi.org/10.5281/zenodo.20728607)
 |---:|---|---:|---|---|---|
 | 20728608 | [10.5281/zenodo.20728608](https://doi.org/10.5281/zenodo.20728608) | 2026-06-17 | `current-bounded` | L4 public time-series geometry package distinguishing repair-like versus sustained non-repair/reorganization-like patterns under fixed gates. | Rule-conditional structural-proxy support only. Not direct Omega, pleasure, suffering, or O-M-A validation. |
 
+### Distinctiveness Make-or-Break Preregistration
+
+| Record | DOI | Date | Status | Contents | Claim Boundary |
+|---:|---|---:|---|---|---|
+| Generic-Tipping Discriminator Pre-Registration v0.2 | _pending (Zenodo deposit in preparation)_ | 2026-07-04 | `design / readiness` | Frozen preregistration of the decisive distinctiveness test (D1-D5 discriminators; D4 decline->recovery hysteresis as the load-bearing discriminator) plus a fully offline analysis package runnable on the data holder's own machine. Public copy: [PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md). | Design / preregistration only; assumes no outcome and validates nothing. As of 2026-07-14 the test is preregistered but **un-run** (no accessible recovery-arm dataset). |
+
 ## Older Omega-Facing Records
 
 These records are retained as conceptual, historical, methodological, or navigational materials. They should be read together with the boundary note [10.5281/zenodo.20474232](https://doi.org/10.5281/zenodo.20474232).
