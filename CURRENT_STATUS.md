@@ -261,6 +261,14 @@ What this does and does not mean:
 - The pre-committed disposition for the *current* public record is therefore the honest downgrade already stated above: on available evidence VOT reads as a **synthesis / redescription** of nearby frameworks, with its one distinctive claim staked but untested.
 - The program is **dormant on this test, not withdrawn.** It becomes runnable again if either (a) an intensive dataset with a within-person decline->recovery arm becomes accessible, or (b) the project gains an institutional home able to run the frozen offline package under proper governance. The analysis package is built to run entirely on the data holder's machine; no participant-level data leaves it.
 
+### Known issue in the frozen preregistration (disclosed 2026-07-15)
+
+§4.2 of the preregistration leaves `min_shift` as a band (`[1.0, 1.5] z`) rather than a single frozen value. This is inconsistent with the document's own standard — §4.3 deliberately freezes the EWS window as a *formula* "so the choice cannot drift per-dataset" — and is disclosed here rather than quietly patched.
+
+It does not reach the verdict: §4.1 confines the data-driven magnitude detector to a fallback sanity check only, the primary transition anchoring is the study design label, and in the preregistration's own words "D4 keys off arm labels anyway, so the decisive discriminator is unaffected."
+
+The frozen v0.2 is **not** edited with hindsight. If the test is ever reopened, a v0.3 will freeze `min_shift` to a single value **before any data is received**, recorded in a changelog.
+
 ## Bottom Line
 
 The current correct status is:
