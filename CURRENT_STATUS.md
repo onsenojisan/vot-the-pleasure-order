@@ -1,13 +1,13 @@
 # Valence Order Theory / The Pleasure Order: Current Status
 
-Date: 2026-07-02  
+Date: 2026-07-14  
 Status: public-facing boundary summary  
 
 For navigation across public documents, see [Reader Guide](READER_GUIDE.md).
 
 ## One-Sentence Status
 
-Valence Order Theory is a coherent, testable research program, not a validated theory. On current evidence its distinctive content is not yet demonstrated: it presently reads as a structured redescription of nearby frameworks (sense of coherence, appraisal, free-energy / predictive processing, viability), with its one distinctive empirical claim — a generic collapse-gate / critical-transition wager — pre-registered but not yet tested (see the 2026-06-30 and 2026-07-01 updates below).
+Valence Order Theory is a coherent, testable research program, not a validated theory. On current evidence its distinctive content is not yet demonstrated: it presently reads as a structured redescription of nearby frameworks (sense of coherence, appraisal, free-energy / predictive processing, viability), with its one distinctive empirical claim — a generic collapse-gate / critical-transition wager — pre-registered and frozen but, as of 2026-07-14, **un-run** because the intensive decline→recovery data it requires is not accessible (see the 2026-07-14 update below).
 
 ## Minimal Current Claim
 
@@ -241,10 +241,28 @@ Not yet available:
 - successful D3 validation
 - external reanalysis result
 - lagged H4 bridge test
-- the **decisive** head-to-head: the tipping / hysteresis / external-viability (collapse-gate) test that requires transition-enriched, recovery-arm data (data request sent 2026-07-01, awaiting reply)
+- the **decisive** head-to-head: the tipping / hysteresis / external-viability (collapse-gate) test that requires transition-enriched, recovery-arm data. This test is now preregistered and frozen (see [Generic-Tipping Discriminator Pre-Registration v0.2](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md)), but no accessible dataset meets it and the on-request routes did not yield access, so it is **un-run** (see the 2026-07-14 update below)
+
+## Update (2026-07-14): the make-or-break test is pre-registered and frozen, but currently un-run
+
+The single distinctive claim — the generic collapse-gate / critical-transition wager — now has a frozen, public preregistration: [Generic-Tipping Discriminator Pre-Registration v0.2](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md) (2026-07-04; the two remaining numeric choices were ratified data-blind on 2026-07-14).
+
+Its decisive discriminator is **D4** (decline→recovery hysteresis parsimony): the recovery-side threshold must be predicted from the decline-side dynamics under one shared parameter set, tested against the strongest honest free-energy comparator. D4 **requires a within-person recovery arm** in intensive longitudinal (ESM/EMA) data.
+
+Status of execution:
+
+- An exhaustive scan of the open ESM landscape found **no dataset that meets D4** (within-person decline *and* recovery, intensive, >= 50 beeps/arm).
+- The **on-request routes** to the identified recovery-arm datasets (a TRANS-ID recovery arm; a bipolar early-warning dataset) **did not yield access** — the data holders could not share within available capacity and governance, and the project has no institutional home to provide the required ethical oversight.
+- Therefore, on the preregistration's own terms, the make-or-break test is **un-run**.
+
+What this does and does not mean:
+
+- **Un-run is not falsified, and not foreclosed.** No outcome data touched the frozen spec; the wager stands undecided.
+- The pre-committed disposition for the *current* public record is therefore the honest downgrade already stated above: on available evidence VOT reads as a **synthesis / redescription** of nearby frameworks, with its one distinctive claim staked but untested.
+- The program is **dormant on this test, not withdrawn.** It becomes runnable again if either (a) an intensive dataset with a within-person decline->recovery arm becomes accessible, or (b) the project gains an institutional home able to run the frozen offline package under proper governance. The analysis package is built to run entirely on the data holder's machine; no participant-level data leaves it.
 
 ## Bottom Line
 
 The current correct status is:
 
-> VOT is a disciplined and testable research program with bounded proxy motivation. It is not yet validated, and its distinctiveness is, on current evidence, unproven and trending negative: the currently-measurable operator is absorbed by free-energy across four datasets. Its remaining distinctive claim is localized to a single untested collapse-gate / critical-transition wager, and its next legitimate upward move requires the transition-enriched, recovery-arm data needed to test it.
+> VOT is a disciplined and testable research program with bounded proxy motivation. It is not yet validated, and its distinctiveness is, on current evidence, unproven and trending negative: the currently-measurable operator is absorbed by free-energy across four datasets. Its remaining distinctive claim is localized to a single untested collapse-gate / critical-transition wager, and its next legitimate upward move requires the transition-enriched, recovery-arm data needed to test it. That test is now preregistered and frozen, but the data it requires is not accessible, so it is **un-run** — not falsified, not withdrawn — and the program is dormant on this test.

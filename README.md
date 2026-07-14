@@ -6,7 +6,7 @@ It is not dedicated to a single Zenodo record. It keeps public-facing definition
 
 ## Current Status
 
-Valence Order Theory / The Pleasure Order is a coherent, testable research program, not a validated theory. On current evidence it reads as a structured redescription of nearby frameworks; its one distinctive empirical claim (a collapse-gate / critical-transition wager) is pre-registered but not yet tested. See [Current Status](CURRENT_STATUS.md) for the dated details.
+Valence Order Theory / The Pleasure Order is a coherent, testable research program, not a validated theory. On current evidence it reads as a structured redescription of nearby frameworks; its one distinctive empirical claim (a collapse-gate / critical-transition wager) is pre-registered and frozen but, as of 2026-07-14, un-run — the intensive decline->recovery data it requires is not accessible. See [Current Status](CURRENT_STATUS.md) for the dated details.
 
 Current claim level:
 
@@ -40,6 +40,7 @@ The theory does not currently identify `dC/dt` with `dOmega/dt`. It also disting
 - [Current Status](CURRENT_STATUS.md)
 - [Bridge Specification](BRIDGE_SPEC.md)
 - [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
+- [Make-or-Break Preregistration (Generic-Tipping Discriminator v0.2)](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md)
 - [Structural Appendix: Omega-C-Act Coordinate Model](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md)
 - [Crosswalk: Omega-C-Act To v1.3 Apparatus](CROSSWALK_OMEGA_C_ACT.md)
 - [Zenodo Records](ZENODO_RECORDS.md)
