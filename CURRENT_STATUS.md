@@ -245,7 +245,7 @@ Not yet available:
 
 ## Update (2026-07-14): the make-or-break test is pre-registered and frozen, but currently un-run
 
-The single distinctive claim — the generic collapse-gate / critical-transition wager — now has a frozen, public preregistration: [Generic-Tipping Discriminator Pre-Registration v0.2](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md) (2026-07-04; the two remaining numeric choices were ratified data-blind on 2026-07-14).
+The single distinctive claim — the generic collapse-gate / critical-transition wager — now has a frozen, public preregistration: [Generic-Tipping Discriminator Pre-Registration v0.2](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md) (2026-07-04; the two remaining numeric choices were ratified data-blind on 2026-07-14). It is archived, together with the offline analysis package and a dated status/known-issues note, at [10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132).
 
 Its decisive discriminator is **D4** (decline→recovery hysteresis parsimony): the recovery-side threshold must be predicted from the decline-side dynamics under one shared parameter set, tested against the strongest honest free-energy comparator. D4 **requires a within-person recovery arm** in intensive longitudinal (ESM/EMA) data.
 
