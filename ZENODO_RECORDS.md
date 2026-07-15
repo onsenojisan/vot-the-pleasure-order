@@ -50,9 +50,11 @@ Concept DOI: [10.5281/zenodo.20728607](https://doi.org/10.5281/zenodo.20728607)
 
 ### Distinctiveness Make-or-Break Preregistration
 
+Concept DOI: [10.5281/zenodo.21366131](https://doi.org/10.5281/zenodo.21366131)
+
 | Record | DOI | Date | Status | Contents | Claim Boundary |
 |---:|---|---:|---|---|---|
-| Generic-Tipping Discriminator Pre-Registration v0.2 | _pending (Zenodo deposit in preparation)_ | 2026-07-04 | `design / readiness` | Frozen preregistration of the decisive distinctiveness test (D1-D5 discriminators; D4 decline->recovery hysteresis as the load-bearing discriminator) plus a fully offline analysis package runnable on the data holder's own machine. Public copy: [PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md). | Design / preregistration only; assumes no outcome and validates nothing. As of 2026-07-14 the test is preregistered but **un-run** (no accessible recovery-arm dataset). |
+| 21366132 | [10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132) | 2026-07-04 | `design / readiness` | Frozen preregistration of the decisive distinctiveness test (D1-D5 discriminators; D4 decline->recovery hysteresis as the load-bearing discriminator), plus a dated status/known-issues note and a fully offline analysis package runnable on the data holder's own machine. Public copy of the frozen spec: [PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md). | Design / preregistration only; assumes no outcome and validates nothing. Preregistered, not post hoc; frozen before any target data existed. As of 2026-07-14 the test is **un-run** — not falsified, not withdrawn (no accessible recovery-arm dataset). |
 
 ## Older Omega-Facing Records
 
@@ -82,6 +84,7 @@ Use this routing to avoid overclaiming:
 | Current O-M-A proxy evidence | [10.5281/zenodo.20689077](https://doi.org/10.5281/zenodo.20689077) | D2/D2+ proxy support only; direct O-M-A validation remains future work. |
 | O-M-A evidence history / earlier brief | [10.5281/zenodo.20685339](https://doi.org/10.5281/zenodo.20685339) or [10.5281/zenodo.20685931](https://doi.org/10.5281/zenodo.20685931) | Earlier bounded evidence/design records; not stronger than v2.1. |
 | L4 structural-proxy package | [10.5281/zenodo.20728608](https://doi.org/10.5281/zenodo.20728608) | Rule-conditional structural proxy; not direct Omega or O-M-A validation. |
+| The decisive distinctiveness test / collapse-gate wager | [10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132) | Preregistration only; the test is **un-run** — not falsified, not withdrawn. Do not cite it as evidence for or against the collapse-gate. |
 | Grand Omega conceptual origin | [10.5281/zenodo.18296691](https://doi.org/10.5281/zenodo.18296691) | Conceptual origin only; not empirical validation. |
 | Older Omega empirical/reproduction track | [10.5281/zenodo.19159111](https://doi.org/10.5281/zenodo.19159111), [10.5281/zenodo.19159664](https://doi.org/10.5281/zenodo.19159664) | Historical V1 only; pair with boundary note [10.5281/zenodo.20474232](https://doi.org/10.5281/zenodo.20474232). |
 | Project integrity / empirical boundary | [10.5281/zenodo.20474232](https://doi.org/10.5281/zenodo.20474232) | Omega-centered validation is not currently supported. |
