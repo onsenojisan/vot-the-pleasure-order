@@ -21,13 +21,13 @@ that are not yet warranted.
   constraint manifold, two release modes, near-cessation, and cessation.
 - Canon apparatus: appearances A = F(W, B) read through a subject lens
   beta = BYXKZ, reported as R; viability estimated as Omega-hat via
-  P = {RV, OV_resid, CR}; falsifiability carried by Gap_c = A_c - Omega-hat.
+  P = {OV, CR}; falsifiability carried by Gap_c = A_c - Omega-hat.
 
 ## Crosswalk Table
 
 | Coordinate-model term | v1.3 canon term | Status | Note |
 |---|---|---|---|
-| Omega (viability/directionality coordinate) | Omega-hat via P = {RV, OV_resid, CR} | determined | Omega(coord) = world-level estimand; Omega-hat = analyst's estimate. The manifold is a claim about Omega(coord), tested through Omega-hat. |
+| Omega (viability/directionality coordinate) | Omega-hat via P = {OV, CR} | determined | Omega(coord) = world-level estimand; Omega-hat = analyst's estimate. The manifold is a claim about Omega(coord), tested through Omega-hat. **Revised 2026-07-15: reproductive value (RV) removed as a component.** Omega is defined as trajectory-revision capacity, and expected future reproduction is not that capacity; RV had entered via measurability (the animals-first testbed measures Omega "via reproductive value", because that is what a Leslie matrix yields), not via the construct. The old scalar `z(RV) + lambda*z(OV_resid)` also scored a childless healthy person at ~0 — i.e. it ranked lives by reproductive contribution, which the sign map's own USE & ETHICS banner disclaims. **RV is retained only as (part of) the training criterion for OV's factor loadings on the animal track — never in any individual's score.** `lambda` is retired (it was the ratio `b_OV/b_RV`, meaningless once RV leaves the formula) and the RV-residualization of OV is dropped. |
 | C (global consonance coordinate) | BRIDGE_SPEC `C` (local -> global coherence/consonance) | determined | Same symbol family; C is whole-system fit, not a brain layer. Internal configural consonance (C1) is measurable without Omega-hat, but the distinctive anti-rigidity / harmful-coherence order (C2) is Omega-aligned by construction and is therefore not independent of Omega. |
 | felt-consonance (p_loc) vs C | p_loc = the "local pleasure signal" reading of dC/dt; an appearance channel | determined | p_loc (felt/reported coherence) is NOT the structural coordinate C. p_loc can be high while C is low: addiction, rigid certainty, and coercive order can feel coherent yet be poorly integrated and low on Omega. |
 | C vs Gap_c | Gap_c = A_c - Omega-hat | partial | Distinct constructs. The apparent tension "addiction feels coherent" is resolved by the p_loc/C split above: addiction is high felt-consonance (high p_loc) but low structural C, hence a high-\|Gap_c\| cell. Exact functional relation still to be specified. |
