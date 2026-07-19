@@ -158,6 +158,12 @@ Result: the VOT-specific **cross-channel order operator** (configural order gate
 
 Scope and honesty: this tests only the **currently-measurable order operator** (the H3 head-to-head). It does **not** yet test the tipping / **hysteresis** structure or an external viability endpoint, which require a transition-enriched, recovery-arm dataset (a data request for such data has been sent). This is therefore a **partial**, not full, trigger of the "free-energy absorbs VOT" downgrade condition: it sharpens "distinctiveness is not established" to "the currently-measurable VOT operator is, across four datasets, absorbed by free-energy; any remaining distinctiveness rests on the still-untested collapse-gate."
 
+### Update (2026-07-19): the individual-level layer is formally retracted
+
+The appraisal decomposition earlier labeled `O/M/A` is retired to Antonovsky's Sense of Coherence (trait) / appraisal readouts (state); the `BYXCZ` faculty scheme is retired to `BXZ` = the Triple Network (a relabeling, no novelty); and the one element that had been reserved as possibly distinctive — a **non-compensatory ("bottleneck") aggregation** of those dimensions — was put head-to-head against the additive SOC sum on existing MIDUS proxy data (5-fold cross-validation, 36 tests). It earns essentially nothing out of sample (ΔCV R² ≈ +0.001–0.005) and its coefficient runs **opposite** to the non-compensatory prediction; every `O/M/A` form also loses to the incumbent domain scales. An identifiability check shows the minimum-based form is 94% collinear with the mean (underpowered), but the well-identified imbalance-based form is **also** null and mis-signed, so this is not merely a power artifact. The bottleneck is therefore **retracted as an active claim** and may be revisited only under a pre-registered test on data where the dimensions genuinely dissociate.
+
+Consequence: the individual-psych layer carries no VOT-distinctive content, and the theory's distinctive content rests **entirely** on the Ω / collapse-gate wager, which remains pre-registered and un-run.
+
 ## What Would Strengthen VOT
 
 VOT would become stronger if:
