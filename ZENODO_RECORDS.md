@@ -38,7 +38,7 @@ Concept DOI: [10.5281/zenodo.21205587](https://doi.org/10.5281/zenodo.21205587)
 
 | Version | Record | DOI | Date | Status | Contents | Claim Boundary |
 |---|---:|---|---:|---|---|---|
-| v2 [current] | 21351394 | [10.5281/zenodo.21351394](https://doi.org/10.5281/zenodo.21351394) | 2026-07-14 | `conceptual-origin` | Consolidated philosophical foundation, tiered (Frozen core / Companion / Open / Superseded), with value = Ω grounding and the F0 recovery-impossibility schema. EN package + reader-summary PDF. Source repo: `pleasure-order-philosophy` (EN + `ja/`). | Conceptual / philosophical foundation only; descriptive and non-normative. Establishes no empirical claim. |
+| v2 [current] | 21351394 | [10.5281/zenodo.21351394](https://doi.org/10.5281/zenodo.21351394) | 2026-07-14 | `conceptual-origin` | Consolidated philosophical foundation, tiered (Frozen core / Companion / Open / Superseded), in which `value = Ω` is a retired position (Superseded S3) and Ω is treated as descriptive / non-normative (Frozen F7), plus the F0 recovery-impossibility schema. EN package + reader-summary PDF. Source repo: `pleasure-order-philosophy` (EN + `ja/`). | Conceptual / philosophical foundation only; descriptive and non-normative. Establishes no empirical claim. |
 
 ## Current Public / Bounded Evidence Records
 
