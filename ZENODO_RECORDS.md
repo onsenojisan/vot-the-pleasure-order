@@ -10,6 +10,8 @@ It is intended for public routing and claim-boundary clarity. It does not add an
 
 For the current public status of the theory and its claim boundary, see [Current Status](CURRENT_STATUS.md). The records below are archival evidence/design records and do not by themselves establish VOT as a validated theory.
 
+**Last reconciled: 2026-07-23** — DOIs re-verified against the Zenodo API; the Theory Specification line was added (it had been missing); the O-M-A series was re-labelled to reflect the 2026-07-19 individual-layer retraction.
+
 ## Status Labels
 
 | Label | Meaning |
@@ -32,6 +34,16 @@ For the current public status of the theory and its claim boundary, see [Current
 
 ## Conceptual Foundation
 
+### Theory Specification (primary entry point)
+
+Concept DOI: [10.5281/zenodo.20770206](https://doi.org/10.5281/zenodo.20770206)
+
+| Version | Record | DOI | Date | Status | Contents | Claim Boundary |
+|---|---:|---|---:|---|---|---|
+| v1.5 [current] | 21205718 | [10.5281/zenodo.21205718](https://doi.org/10.5281/zenodo.21205718) | 2026-07-05 | `conceptual-origin` | The Pleasure Order — Theory Specification and Honest Claim-Boundary (v1.5, 2026-07-05 status sync). The current statement of the theory together with what it does and does not claim. | Specification and claim boundary only; establishes no empirical result. **Post-dates by the individual-layer retraction of 2026-07-19** — the appraisal decomposition `O/M/A` is retired to Sense of Coherence and the non-compensatory aggregation is retracted; read with [Current Status](CURRENT_STATUS.md). |
+
+*This is the record to cite for "the theory itself." It was missing from this ledger until 2026-07-23.*
+
 ### Philosophy Core (consolidated foundation)
 
 Concept DOI: [10.5281/zenodo.21205587](https://doi.org/10.5281/zenodo.21205587)
@@ -44,13 +56,15 @@ Concept DOI: [10.5281/zenodo.21205587](https://doi.org/10.5281/zenodo.21205587)
 
 ### The Pleasure Order / O-M-A Evidence Series
 
+> **Construct retracted (2026-07-19).** The `O/M/A` appraisal decomposition these records are framed around is **retired** — its items are item-identical to Antonovsky's Sense of Coherence, and the one element reserved as possibly distinctive (non-compensatory "bottleneck" aggregation) was tested head-to-head against the additive SOC sum and came out **null and mis-signed**. See [Current Status](CURRENT_STATUS.md) (§ *the individual-level layer is formally retracted*). The deposits below are **not withdrawn** — they remain accurate as records of what was measured — but they must **not** be cited as evidence for `O/M/A` as a distinct measurement architecture, and "direct O/M/A validation" is no longer pending future work: the construct itself is retired.
+
 Concept DOI: [10.5281/zenodo.20685338](https://doi.org/10.5281/zenodo.20685338)
 
 | Version | Record | DOI | Date | Status | Contents | Claim Boundary |
 |---|---:|---|---:|---|---|---|
-| v0.1.3 | 20685339 | [10.5281/zenodo.20685339](https://doi.org/10.5281/zenodo.20685339) | 2026-06-14 | `current-bounded` | D2/D2+ existing-data package, including core framework, D2 evidence report, and results brief PDFs. | Proxy-level D2/D2+ support only. Not direct O-M-A validation. |
-| v2.0 | 20685931 | [10.5281/zenodo.20685931](https://doi.org/10.5281/zenodo.20685931) | 2026-06-14 | `current-bounded` | Evidence synthesis, adversarial boundaries, and D3/DC2 blueprint. | D2/D2+ synthesis and design. Not validated theory. |
-| v2.1 | 20689077 | [10.5281/zenodo.20689077](https://doi.org/10.5281/zenodo.20689077) | 2026-06-14 | `current-bounded` | External D2+ package with pleasure/distress separation and deficit-anchored distress evidence. | Current main O-M-A proxy evidence. Supports bounded proxy claims only. |
+| v0.1.3 | 20685339 | [10.5281/zenodo.20685339](https://doi.org/10.5281/zenodo.20685339) | 2026-06-14 | `historical-v1` | D2/D2+ existing-data package, including core framework, D2 evidence report, and results brief PDFs. | Proxy-level D2/D2+ support only, for a construct **since retired** (2026-07-19). Historical record; not current validation. |
+| v2.0 | 20685931 | [10.5281/zenodo.20685931](https://doi.org/10.5281/zenodo.20685931) | 2026-06-14 | `historical-v1` | Evidence synthesis, adversarial boundaries, and D3/DC2 blueprint. | D2/D2+ synthesis and design for a construct **since retired** (2026-07-19). The DC2 design it blueprints is **dormant** — it tests the retracted decomposition. Historical record. |
+| v2.1 | 20689077 | [10.5281/zenodo.20689077](https://doi.org/10.5281/zenodo.20689077) | 2026-06-14 | `current-bounded` | External D2+ package with pleasure/distress separation and deficit-anchored distress evidence. | **Partly superseded.** Its `O/M/A` framing is retired (2026-07-19); what stands is the bounded proxy finding it also carries — the pleasure/distress separation and the asymmetric deficit-anchored distress signal. Cite for that, not for `O/M/A`. |
 
 ### L4 Structural-Proxy Series
 
@@ -66,7 +80,7 @@ Concept DOI: [10.5281/zenodo.21366131](https://doi.org/10.5281/zenodo.21366131)
 
 | Record | DOI | Date | Status | Contents | Claim Boundary |
 |---:|---|---:|---|---|---|
-| 21366132 | [10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132) | 2026-07-04 | `design / readiness` | Frozen preregistration of the decisive distinctiveness test (D1-D5 discriminators; D4 decline->recovery hysteresis as the load-bearing discriminator), plus a dated status/known-issues note and a fully offline analysis package runnable on the data holder's own machine. Public copy of the frozen spec: [PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md). | Design / preregistration only; assumes no outcome and validates nothing. Preregistered, not post hoc; frozen before any target data existed. As of 2026-07-14 the test is **un-run** — not falsified, not withdrawn (no accessible recovery-arm dataset). |
+| 21366132 | [10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132) | 2026-07-04 | `design / readiness` | Frozen preregistration of the decisive distinctiveness test (D1-D5 discriminators; D4 decline->recovery hysteresis as the load-bearing discriminator), plus a dated status/known-issues note and a fully offline analysis package runnable on the data holder's own machine. Public copy of the frozen spec: [PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md). | Design / preregistration only; assumes no outcome and validates nothing. Preregistered, not post hoc; frozen before any target data existed. As of 2026-07-23 the test is still **un-run** — not falsified, not withdrawn. The blocker is the shape of available data, not effort: a 2026-07 search found no open, multi-person, bidirectional decline↔recovery dataset, and the structural argument for why is deposited separately as the co-measurement gap note ([21427130](https://doi.org/10.5281/zenodo.21427130)). |
 
 ## Negative Results and Meta-Science Records
 
@@ -111,8 +125,9 @@ Use this routing to avoid overclaiming:
 
 | If Citing... | Use | Also State |
 |---|---|---|
-| Current O-M-A proxy evidence | [10.5281/zenodo.20689077](https://doi.org/10.5281/zenodo.20689077) | D2/D2+ proxy support only; direct O-M-A validation remains future work. |
-| O-M-A evidence history / earlier brief | [10.5281/zenodo.20685339](https://doi.org/10.5281/zenodo.20685339) or [10.5281/zenodo.20685931](https://doi.org/10.5281/zenodo.20685931) | Earlier bounded evidence/design records; not stronger than v2.1. |
+| The theory itself / its claim boundary | [10.5281/zenodo.21205718](https://doi.org/10.5281/zenodo.21205718) | Theory Specification v1.5 (concept [20770206](https://doi.org/10.5281/zenodo.20770206)). Specification only, no empirical claim — and it **pre-dates** the 2026-07-19 individual-layer retraction; pair with [Current Status](CURRENT_STATUS.md). |
+| Pleasure/distress separation, deficit-anchored distress | [10.5281/zenodo.20689077](https://doi.org/10.5281/zenodo.20689077) | Bounded proxy evidence for **that** signal only. Its `O/M/A` framing is retired (2026-07-19); do **not** cite it as O-M-A evidence. |
+| O-M-A evidence history / earlier brief | [10.5281/zenodo.20685339](https://doi.org/10.5281/zenodo.20685339) or [10.5281/zenodo.20685931](https://doi.org/10.5281/zenodo.20685931) | Historical records for a **retired** construct. Cite as history only, never as current validation. |
 | L4 structural-proxy package | [10.5281/zenodo.20728608](https://doi.org/10.5281/zenodo.20728608) | Rule-conditional structural proxy; not direct Omega or O-M-A validation. |
 | The decisive distinctiveness test / collapse-gate wager | [10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132) | Preregistration only; the test is **un-run** — not falsified, not withdrawn. Do not cite it as evidence for or against the collapse-gate. |
 | Philosophical foundation | [10.5281/zenodo.21351394](https://doi.org/10.5281/zenodo.21351394) | Conceptual / descriptive foundation only; no empirical claim. |
@@ -126,7 +141,7 @@ Use this routing to avoid overclaiming:
 
 The current public record supports only bounded claims:
 
-- O-M-A records support exploratory/proxy D2/D2+ evidence and DC2/D3 measurement design.
+- O-M-A records are **historical**: the construct was retired on 2026-07-19, so they support neither current evidence nor pending measurement design. What survives from that series is the bounded pleasure/distress separation and deficit-anchored distress signal in 20689077.
 - L4 supports rule-conditional structural-proxy evidence under fixed gates.
 - Older Omega records are historical, conceptual, methodological, or navigational unless explicitly reauthorized under the boundary conditions.
 
@@ -135,7 +150,7 @@ The public record does not currently support claims that:
 - Omega is validated.
 - Omega predicts collapse.
 - The Pleasure Order is empirically proven.
-- O-M-A has been directly validated as a distinct measurement architecture.
+- O-M-A has been directly validated as a distinct measurement architecture. (Stronger, as of 2026-07-19: it is **retracted** — its items are item-identical to Sense of Coherence, and the reserved non-compensatory aggregation tested null and mis-signed.)
 - Pleasure, suffering, or directionality has been directly measured as the theory defines them.
 
 ## File Location Policy
