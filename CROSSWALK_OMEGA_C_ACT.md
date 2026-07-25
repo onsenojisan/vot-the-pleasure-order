@@ -7,7 +7,7 @@ Claim level: conceptual clarification only; adds no empirical claim and upgrades
 ## Purpose
 
 The post-v1.3 Omega-C-Act coordinate model and the v1.3 canon apparatus
-(W/B/A/R, the appearance-channel vector A, the BYXKZ lens beta, the Omega
+(W/B/A/R, the appearance-channel vector A, the BXKZ lens beta, the Omega
 proxy family P, and the per-channel gap Gap_c) are two parallel descriptions
 of the same program. This note maps them, marks each correspondence as
 determined / partial / undetermined, and records the naming reconciliation
@@ -20,7 +20,7 @@ that are not yet warranted.
 - Coordinate model: a state space (Omega, C, Act) with a conjectured
   constraint manifold, two release modes, near-cessation, and cessation.
 - Canon apparatus: appearances A = F(W, B) read through a subject lens
-  beta = BYXKZ, reported as R; viability estimated as Omega-hat via
+  beta = BXKZ, reported as R; viability estimated as Omega-hat via
   P = {OV, CR}; falsifiability carried by Gap_c = A_c - Omega-hat.
 
 ## Crosswalk Table
@@ -35,7 +35,7 @@ that are not yet warranted.
 | Act layer | A (appearance) vs R (report) | undetermined | Whether Act is appearance-side (A) or report-side (R) must be fixed; reported Act inherits mood/memory/response-style/method. |
 | dC/dt (consonance dynamics) | dC/dt -> dOmega/dt bridge (Candidate 2) | partial | Same dC/dt. Read as a pleasure signal this is p_loc (felt-consonance flux), not the flux of the structural coordinate C. Which flux feeds the bridge is open now that felt-consonance and structural C are separated. |
 | manifold Omega ~ f(C, Act) | (no direct canon twin) | partial | Possibly the static shadow of the dynamic bridge; reconcile levels-vs-flux. |
-| beta (BYXKZ) | B layer / subject lens; A = F(W, beta) | partial | beta is a parameter that deforms C, Act, Gap and the manifold per subject; it is not a coordinate. trait-beta = manifold shape; act-beta(a) = current state. |
+| beta (BXKZ) | B layer / subject lens; A = F(W, beta) | partial | beta is a parameter that deforms C, Act, Gap and the manifold per subject; it is not a coordinate. trait-beta = manifold shape; act-beta(a) = current state. |
 | appearance channels (pleasure, meaning, agency, ...) | components of the A vector | determined | The coordinate model's "channels" are the canon A vector. |
 | divergence cases (addiction, effort, numbness, flow) | high-magnitude Gap_c cases | determined | The dissociations are exactly the high-\|Gap_c\| cells; this is the shared discriminant-validity engine. |
 | O / M / A (dissolved in v1.3) | O ~ C-fit; M and agency = A channels | partial | O (comprehensibility) maps toward C-fit; M (meaning) and agency map to A channels. Not a clean three-factor object. |
@@ -105,7 +105,7 @@ These are logged, not solved here:
 
 It does not validate the manifold, the bridge, Gap_c compressibility, the
 channel grouping, or any coordinate. Those remain the standing empirical
-program (BYXKZ battery + independent Omega-hat + Gap survey). This note only
+program (BXKZ battery + independent Omega-hat + Gap survey). This note only
 aligns vocabularies and records the naming reconciliation.
 
 ## 日本語の要点

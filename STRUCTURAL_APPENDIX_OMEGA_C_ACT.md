@@ -61,13 +61,19 @@ Act:
   This term is written Act, not A, to avoid collision with the A in O/M/A
   and Anchor usage elsewhere in the repository.
 
-BYXCZ / BYXKZ layer notation vs coordinates:
-  BYXCZ is kept as the proper name / search term / canon label of the
-  layer scheme. In the BYXCZ scheme, the five formal layer symbols are now
-  written B-Y-X-K-Z; K denotes the care/empathy layer formerly labeled C,
-  and Z denotes the self-reference layer. This removes the collision with
-  the consonance coordinate C. The coordinates (Omega, C, Act) are not
-  brain layers. The whole brain / whole-system is the object described by
+Layer notation vs coordinates (updated 2026-07-25):
+  The canon label of the layer scheme is BXKZ -- four layers: B drive/stake,
+  X observer/attention, K care/affiliation, Z self-reference. K denotes the
+  care/empathy layer formerly labeled C, which also removes the collision
+  with the consonance coordinate C; Z denotes self-reference.
+  Y (meaning) is NO LONGER a layer: no primary-process system carries it, so
+  meaning is treated as an appearance emergent on B/X/K/Z and lives in the
+  appearance-channel vector rather than the layer scheme. B is kept
+  undivided; its internal granularity (temperament-4 / ANPS) belongs to the
+  measurement track only. BYXCZ and BYXKZ are retained as legacy search
+  terms for older records, not as current labels. The scheme is a carving
+  over cited existing systems: it claims no novelty and validates nothing.
+  The coordinates (Omega, C, Act) are not brain layers. The whole brain / whole-system is the object described by
   those coordinates and is given no formal symbol of its own; "ZZ" survives
   only as a legacy/local abbreviation and is not used formally.
 ```
