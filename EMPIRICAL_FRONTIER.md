@@ -46,7 +46,7 @@ Unlike the construct test (blocked by item overlap), the *dynamic* distinctivene
 
 ## B. Routes That Require Purpose-Built Data (not existing-data)
 
-- L2 appearance model `value = Appearance_BYXCZ(Omega, context) + noise`: needs an independently coded BYXCZ profile battery; existing datasets do not carry these moderators (D3).
+- L2 appearance model `value = Appearance_BXKZ(Omega, context) + noise`: needs an independently coded BXKZ profile battery; existing datasets do not carry these moderators (D3). Note the battery must be **non-self-report** (behavioural / physiological / network) — a self-report battery collapses into a general factor and reproduces the O/M/A outcome.
 - Anchored bridge `dC/dt -> dOmega/dt`: needs lagged within-person data with a clean downstream directionality endpoint; existing EMA datasets stop at next-step affect (DC2).
 - Direct O/M/A and Omega measurement: needs purpose-built items meeting the separation/incremental-validity gates in [Current Status](CURRENT_STATUS.md) (D3).
 
@@ -58,7 +58,7 @@ The civilization-scale companion is **not** an open existing-data route; it has 
 
 - A collapse-gradient ordering hypothesis was preregistered and run twice on public data (national: V-Dem + World Bank GDP; organizational: Apache Attic). Both returned **not supported / inconclusive** (mostly because change points were barely detectable, endpoints were construct-drifted or delayed, and guardian proxies tend to vanish exactly at collapse).
 - This is **not a refutation** of the civilization layer; it is a weak headwind against the strong "easily observable early-warning signature" version. The empirical subprogram was deliberately stopped to avoid forking-paths re-specification.
-- Separately, on theoretical grounds, the civilization layer is **not** modeled as a literal 5->5 externalization of the individual BYXCZ faculties. It is modeled as **2 frames (B body/material, Z time/history) + 3 forces (Y competition-over-meaning, Cs ethics, X meta-observation)** — a role differentiation, not a naming isomorphism. Restart would require a fresh preregistration with a non-delayed collapse-onset endpoint and guardian proxies that do not co-vanish with collapse.
+- Separately, on theoretical grounds, the civilization layer is **not** modeled as a literal externalization of the individual faculties. It is modeled as **2 frames (body/material, time/history) + 3 forces (competition-over-meaning, ethics, meta-observation)** — a role differentiation, not a naming isomorphism. The civilizational level carries **no letters**: the individual-level symbols (`BXKZ`) are not reused there, because `Z` in particular means *self* individually and *abstraction/history* socially. Restart would require a fresh preregistration with a non-delayed collapse-onset endpoint and guardian proxies that do not co-vanish with collapse.
 
 ## Boundary
 

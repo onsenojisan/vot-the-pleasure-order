@@ -160,7 +160,32 @@ Scope and honesty: this tests only the **currently-measurable order operator** (
 
 ### Update (2026-07-19): the individual-level layer is formally retracted
 
-The appraisal decomposition earlier labeled `O/M/A` is retired to Antonovsky's Sense of Coherence (trait) / appraisal readouts (state); the `BYXCZ` faculty scheme is retired to `BXZ` = the Triple Network (a relabeling, no novelty); and the one element that had been reserved as possibly distinctive — a **non-compensatory ("bottleneck") aggregation** of those dimensions — was put head-to-head against the additive SOC sum on existing MIDUS proxy data (5-fold cross-validation, 36 tests). It earns essentially nothing out of sample (ΔCV R² ≈ +0.001–0.005) and its coefficient runs **opposite** to the non-compensatory prediction; every `O/M/A` form also loses to the incumbent domain scales. An identifiability check shows the minimum-based form is 94% collinear with the mean (underpowered), but the well-identified imbalance-based form is **also** null and mis-signed, so this is not merely a power artifact. The bottleneck is therefore **retracted as an active claim** and may be revisited only under a pre-registered test on data where the dimensions genuinely dissociate.
+The appraisal decomposition earlier labeled `O/M/A` is retired to Antonovsky's Sense of Coherence (trait) / appraisal readouts (state); the `BYXCZ` faculty scheme is retired (superseded first by an interim `BXZ = Triple Network` relabel and, from 2026-07-25, by **`BXKZ`** — see the update below); and the one element that had been reserved as possibly distinctive — a **non-compensatory ("bottleneck") aggregation** of those dimensions — was put head-to-head against the additive SOC sum on existing MIDUS proxy data (5-fold cross-validation, 36 tests). It earns essentially nothing out of sample (ΔCV R² ≈ +0.001–0.005) and its coefficient runs **opposite** to the non-compensatory prediction; every `O/M/A` form also loses to the incumbent domain scales. An identifiability check shows the minimum-based form is 94% collinear with the mean (underpowered), but the well-identified imbalance-based form is **also** null and mis-signed, so this is not merely a power artifact. The bottleneck is therefore **retracted as an active claim** and may be revisited only under a pre-registered test on data where the dimensions genuinely dissociate.
+
+### Update (2026-07-25): the individual-level layer scheme is fixed as `BXKZ`
+
+The interim `BXZ = Triple Network` relabel is **superseded**. The individual-level scheme is now **`BXKZ`** —
+**B** drive/stake · **X** observer/attention · **K** care/affiliation · **Z** self-reference — with **`Y`
+(meaning) demoted from a layer to an appearance**, and `B` kept undivided (its temperament-level granularity
+belongs to the measurement track only). The civilizational level continues to carry **no letters**.
+
+Why the change: Menon's triple network is a model of **cognitive control** — salience-gated switching between
+default-mode and central-executive — and has no slot for any *motivational* system. Mapping `B` (drive/stake)
+onto the salience network therefore mislabelled it: the salience network detects and switches, whereas
+appetitive drive is mesolimbic dopamine. The cortical parcellations that framework belongs to also exclude the
+subcortical systems carrying both drive and care, so that mapping could not have represented either. `K` is
+retained on three independent dissociations — neurochemical (CARE oxytocin/opioid vs SEEKING dopamine),
+trait-level (affiliative vs agentic extraversion), and training-fMRI (compassion vs empathy activate
+non-overlapping networks) — together with the psychopathy pattern (theory of mind intact, empathic response
+impaired), which is why care does not reduce to drive plus self-model. `Y` is dropped because no
+primary-process system carries it; *having a primary system* is the criterion that separates the two.
+
+Status of this change: it is a **carving, not a discovery**. Every component is cited, nothing is coined,
+**no novelty is claimed and nothing is validated** — no gate, threshold, evidence, or claim moves, and Ω does
+not depend on how the individual layer is carved. Two disciplines are attached and are binding: **no
+load-bearing claim may rest on the four faces being empirically separable**, and the layers must not be
+measured by self-report batteries (the positive-manifold failure that sank `O/M/A`). Frozen deposits — the
+published Zenodo records, including titles containing the old scheme name — are **not** retroactively edited.
 
 Consequence: the individual-psych layer carries no VOT-distinctive content, and the theory's distinctive content rests **entirely** on the Ω / collapse-gate wager, which remains pre-registered and un-run.
 
