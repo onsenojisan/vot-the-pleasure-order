@@ -37,7 +37,9 @@ The current evidence does not support the following claims:
 - distress reduction proves directionality gain.
 - `dC/dt = dOmega/dt`.
 - O/M/A has been directly validated as a distinct measurement architecture.
+  - **Stronger than "not claimed", as of 2026-07-19:** the construct is **retracted** (Option A) — item-identical to Antonovsky's Sense of Coherence in every reachable dataset. Not pending validation; withdrawn, subject only to a narrow conditional reopening.
 - VOT has been shown to be distinct from free-energy theory, viability theory, capability theory, SDT, SOC, or appraisal theory.
+  - **Stronger than "not claimed", as of 2026-07-18:** against free energy this was *tested, and lost* — see the dynamic head-to-head recorded below and at [10.5281/zenodo.21422215](https://doi.org/10.5281/zenodo.21422215). A replicated negative, not an open question.
 - civilization-scale or scale-invariant claims have been empirically validated.
 
 ## Current Evidence
@@ -193,8 +195,14 @@ Consequence: the individual-psych layer carries no VOT-distinctive content, and 
 
 VOT would become stronger if:
 
-- purpose-built O/M/A items separate cleanly;
-- O/M/A + Anchor add holdout prediction beyond strong competitors;
+> **Two of these lapsed on 2026-07-19 (Option A).** The first two bullets describe strengthening a construct
+> that has since been **retracted** — O/M/A came out item-identical to Sense of Coherence, and a self-report
+> battery collapses into a general factor and reproduces that outcome. They are kept here as the record of
+> what was once expected to carry the weight, **not** as work to do. The narrow conditional under which the
+> route reopens is in [Empirical Frontier](EMPIRICAL_FRONTIER.md).
+
+- ~~purpose-built O/M/A items separate cleanly~~ — **lapsed (retracted construct)**;
+- ~~O/M/A + Anchor add holdout prediction beyond strong competitors~~ — **lapsed (retracted construct)**;
 - Unanchored_Deficit predicts suffering/distress more than ordered pleasure;
 - Anchored_Gain predicts ordered/restorative/integrative/opening pleasure more than suffering;
 - external datasets reproduce the distress-side unanchored-deficit increment;

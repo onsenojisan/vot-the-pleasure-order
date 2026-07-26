@@ -5,6 +5,8 @@ Date: 2026-06-19
 Claim level: comparison plan, not validation evidence  
 
 > This is the comparison **plan**. For what happened when these tests were attempted on existing data — including the Sense-of-Coherence absorption result — see [Distinctiveness Findings](DISTINCTIVENESS_FINDINGS.md) (2026-06-30). For the **dynamic** free-energy head-to-head on multi-case EMA (2026-07-01), see the update near the end of this document.
+>
+> **Superseded on two points (noted 2026-07-26); not retroactively rewritten.** This document specifies many tests around `O/M/A`, which was **retracted on 2026-07-19** (Option A) as item-identical to Sense of Coherence — so those are plans for a construct the project no longer asserts, kept as a dated record of the design rather than as work to do. And the free-energy comparison it plans **was run, and lost** ([10.5281/zenodo.21422215](https://doi.org/10.5281/zenodo.21422215)). Read this for the reasoning and the threat model, **not** as a to-do list. Current position: [Current Status](CURRENT_STATUS.md) · [Empirical Frontier](EMPIRICAL_FRONTIER.md).
 
 ## Purpose
 

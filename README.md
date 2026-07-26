@@ -71,17 +71,34 @@ The current public record does not support claims that:
 - distress reduction proves directionality gain.
 - `dC/dt = dOmega/dt`.
 - O/M/A has been directly validated as a distinct measurement architecture.
+  - **Stronger than "not claimed", as of 2026-07-19:** the construct is **retracted** (Option A). In every reachable dataset it was *item-identical* to Antonovsky's Sense of Coherence, so its distinctiveness is not answerable on existing data at all. It is not pending validation — it is withdrawn, subject only to a narrow conditional reopening.
 - VOT has been shown to be distinct from free-energy theory, viability theory, capability theory, SDT, SOC, or appraisal theory.
+  - **Stronger than "not claimed", as of 2026-07-18:** against free energy this was *tested, and lost*. On four open EMA datasets the measurable order operator was absorbed by a prediction-error comparator — pooled within-person increment ≈ 0, and the theorized direction not consistent across people. A replicated negative, not an open question: [10.5281/zenodo.21422215](https://doi.org/10.5281/zenodo.21422215).
 - civilization-scale or scale-invariant claims have been empirically validated.
 
 ## Next Decisive Tests
 
-The next decisive tests are:
+> **Revised 2026-07-26.** This list was written before the 2026-07-18 head-to-head result and the
+> 2026-07-19 individual-layer retraction. Two of its four items are no longer next tests: one was
+> retracted, one was run and lost. The list below marks both rather than deleting them, and names what
+> the decisive test actually is now.
 
-1. Direct D3 measurement: direct O/M/A + Anchor measurement must separate psychometrically and add predictive value beyond SDT, SOC, PANAS, perceived control, and meaning.
+**The decisive test is a single un-run one:** the **Generic-Tipping Discriminator**
+([10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132)) — whether the collapse gate operates
+*generically*, transferring without per-case tuning and constraining decline and recovery jointly. It is
+**pre-registered and frozen**, and **un-run**, because it needs within-person decline **and** recovery arms
+that no accessible dataset provides. Everything else below is secondary to it.
+
+1. ~~Direct D3 measurement: direct O/M/A + Anchor measurement…~~ — **retracted 2026-07-19 (Option A).**
+   O/M/A came out item-identical to Sense of Coherence, so this is not a pending test. See
+   [Empirical Frontier](EMPIRICAL_FRONTIER.md) for the narrow conditional under which it could reopen.
 2. Pleasure/suffering asymmetry: ordered pleasure and unanchored suffering must be modeled asymmetrically and outperform a general wellbeing/affect model.
-3. DC2 / EMA bridge: lagged data must test whether local coherence/pleasure flux predicts later directionality only under repairability, corrective update, continuity, future-option, and harmful-order constraints. The current bridge hypothesis is stated in [Bridge Specification](BRIDGE_SPEC.md).
-4. Head-to-head distinctiveness: VOT must show added value beyond free-energy/predictive-processing, viability, capability, SDT, SOC, and appraisal models. The current comparison plan is stated in [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md).
+3. DC2 / EMA bridge: lagged data must test whether local coherence/pleasure flux predicts later directionality only under repairability, corrective update, continuity, future-option, and harmful-order constraints. The current bridge hypothesis is stated in [Bridge Specification](BRIDGE_SPEC.md). *(Note: the built DC2 survey instrument tests the retracted O/M/A factor structure and is dormant; the bridge question itself is not retracted.)*
+4. ~~Head-to-head distinctiveness: VOT must show added value beyond free-energy…~~ — **run 2026-07-18, and lost.**
+   On four open EMA datasets the measurable order operator was absorbed by a prediction-error comparator
+   ([10.5281/zenodo.21422215](https://doi.org/10.5281/zenodo.21422215)). What remains open is only whether the
+   un-run generic-tipping structure survives the same contest. The plan document
+   ([Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)) predates the result.
 
 ## Distinctiveness Risk
 

@@ -44,10 +44,10 @@ Read:
 
 Review priority:
 
-- whether direct O/M/A validation is still missing;
+- ~~whether direct O/M/A validation is still missing~~ — **superseded 2026-07-19.** This asked the wrong question. O/M/A is not awaiting validation; it is **retracted** (Option A), having come out item-identical to Antonovsky's Sense of Coherence. Read the retraction instead of looking for the missing validation;
 - whether `dC/dt` and `dOmega/dt` are kept distinct;
 - whether the bridge has failure conditions;
-- whether free-energy, viability, capability, SDT, SOC, and appraisal theories could absorb VOT.
+- ~~whether free-energy, viability, capability, SDT, SOC, and appraisal theories could absorb VOT~~ — **partly answered 2026-07-18.** Free energy *did* absorb the measurable order operator on four open EMA datasets ([21422215](https://doi.org/10.5281/zenodo.21422215)). The open form of this question is now narrower: whether the **un-run** generic-tipping structure survives the same contest ([21366132](https://doi.org/10.5281/zenodo.21366132)).
 
 ## If You Are Checking Evidence
 
@@ -77,10 +77,12 @@ Read:
 
 Useful data would need at least one of:
 
-- direct or near-direct O/M/A, Anchor, pleasure, suffering, control, meaning, and affect measures;
+- **a within-person decline arm *and* recovery arm** in the same series (≈50 observations per arm), with an **independent** viability or functional endpoint not derived from self-report. **This is the one that matters** — it is what the frozen preregistration needs, and its absence is why that test is un-run. The structural reason no field produces it is documented separately ([21427129](https://doi.org/10.5281/zenodo.21427129));
 - longitudinal or EMA structure with lagged windows;
 - independent directionality or repairability endpoints;
 - strong competitor measures such as SDT, SOC, PANAS, perceived control, meaning, appraisal, free-energy/prediction-error proxies, viability, capability, or resilience variables.
+
+**No longer solicited: O/M/A measures.** An earlier version of this list asked for "direct or near-direct O/M/A" data. That request is withdrawn — O/M/A was retracted on 2026-07-19 (Option A) as item-identical to Sense of Coherence, and a self-report battery collapses into a general factor and reproduces that outcome. The one narrow exception is the retraction's own conditional reopening: data in which O/M/A components **genuinely dissociate within-person**, paired with a pre-registered non-compensatory increment. Short of that, do not build items for it.
 
 Data are not useful for claim upgrade if the endpoint defines the predictor, if windows are not separable, or if competitor constructs are absent.
 
