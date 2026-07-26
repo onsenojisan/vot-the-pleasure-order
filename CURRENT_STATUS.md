@@ -220,6 +220,26 @@ Possible downgrade labels:
 - two-layer framework without validated bridge
 - unsupported conceptual framework
 
+**What absorption would actually retract** *(added 2026-07-26)*. The labels above say how the program would be
+*described*; the philosophy core now says, in advance, which of its own components would *go*. Frozen core
+v1.14 (Zenodo [10.5281/zenodo.21589463](https://doi.org/10.5281/zenodo.21589463), companion C11) grades it,
+because the fold-and-hysteresis machinery is used in eight of the thirteen companions:
+
+- **Retracted outright** — the detection programme; the claim that abstraction-based coping covers an
+  early-warning signal; "below the floor" wherever it means a basin with a boundary.
+- **Demoted to description** — Ω̂ as a continuous axis (it survives as distance from loss of self-recoverable
+  viability, and loses the tipping-point structure); the suffering-as-collapse-rate dual.
+- **Untouched** — the rescue-channel ladder, which rests on the adult-regulation literature rather than on the
+  bifurcation; the account of death; value-as-a-maintained-style.
+
+Two consequences worth stating here rather than only there. The **one usable hypothetical imperative** VOT
+offers — *if you want to avoid ruin, watch for these signals* — holds only if the signals beat the
+alternatives, so on absorption the program is left with **no practical output at all**. And the **philosophy
+core does not move**: not because it is shielded, but because it never claimed empirical support and carries a
+separate falsifier of its own. The size of that exposure is conceded rather than defended — if the whole
+practical stake is a single hypothetical imperative, "wager" flatters it, and what is really at stake is the
+right to be called a distinct theory rather than a re-description.
+
 ## Why This Is Not "Pleasure Proves Order"
 
 The current theory explicitly rejects the simple claim that pleasure proves order.
