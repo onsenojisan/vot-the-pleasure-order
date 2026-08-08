@@ -2,6 +2,12 @@
 
 Date: 2026-07-14  
 Status: public-facing boundary summary  
+Last verified: 2026-08-08 — **internal-consistency check only.** No external sweep, no content re-read.
+`status_consistency.ps1` returned **9 unanchored state claims, 0 superseded pointers, 0 contradicted
+record ids** against this file. That says it **does not contradict itself**; it does **not** say the
+claims in it are current. *(This field exists because the file had no freshness marker at all, so a
+staleness check had no date to compare against. Replace this line with a real verification when one
+is run.)*  
 
 For navigation across public documents, see [Reader Guide](READER_GUIDE.md).
 
