@@ -1,6 +1,15 @@
 # Status and known issues (added 2026-07-15)
 
-**This deposit:** <https://doi.org/10.5281/zenodo.21366132>
+**This package:** concept DOI <https://doi.org/10.5281/zenodo.21366131> — always resolves to the current
+version, **21694817** (2026-07-30, *v0.2 + Amendment 1*). The first deposit was
+<https://doi.org/10.5281/zenodo.21366132> (2026-07-04), and the frozen `PREREGISTRATION.md` is
+byte-identical in both; what the later version adds is §4 below. **Cite the concept DOI**, because
+`21366132` predates the amendment and still routes a critical-slowing failure to *collapse-gate
+unsupported* rather than `INCONCLUSIVE`.
+
+⚠️ **This file is dated and grows; the deposited copies do not.** Deposited files are not retroactively
+edited, so a copy read inside a Zenodo record stops where it stopped: the copy in `21366132` predates §4
+entirely, and the copy in `21694817` ends at §4 — which is also where **this** copy currently ends.
 
 This note travels with the package. It records what happened **after** the
 preregistration was frozen, plus one known blemish in it.

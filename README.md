@@ -84,7 +84,7 @@ The current public record does not support claims that:
 > the decisive test actually is now.
 
 **The decisive test is a single un-run one:** the **Generic-Tipping Discriminator**
-([10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132)) — whether the collapse gate operates
+([10.5281/zenodo.21366131](https://doi.org/10.5281/zenodo.21366131)) — whether the collapse gate operates
 *generically*, transferring without per-case tuning and constraining decline and recovery jointly. It is
 **pre-registered and frozen**, and **un-run**, because it needs within-person decline **and** recovery arms
 that no accessible dataset provides. Everything else below is secondary to it.
