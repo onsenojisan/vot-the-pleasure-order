@@ -126,6 +126,17 @@ Whether later trajectories remain open, revisable, and recoverable.
 
 This is the closest bridge-side proxy to `Omega`, but it must be measured independently from the endpoint being predicted.
 
+**Prior art (recorded 2026-08-09). This construct is not new, and the space it occupies has a named owner.** Lade, Walker & Haider (2020), *Resilience as pathway diversity: Linking systems, individual and temporal perspectives on resilience*, *Ecology and Society* 25(3):19, doi:`10.5751/ES-11760-250319` (preprint arXiv:1911.02294), state their theory as: *"resilience is greater if more actions are currently available and can be maintained or enhanced into the future."* That is the specific move this element makes — counting options that **persist forward**, not options available now — and it is published, peer-reviewed, and prior.
+
+Consequences, stated so they are not left to be inferred:
+
+- **The environment-side option-preservation route may be used, but it cannot be introduced as new.** Any write-up presenting it as a new direction is making a novelty claim this note already refutes.
+- **`Omega` itself is affected, not only this element.** `Omega` is *defined* as trajectory-revision capacity, and the same check found five further published constructs whose stated definitions collide with it — including the **viability kernel** (Aubin's viability theory), which owns the word *viability*, and **psychological flexibility** (Kashdan & Rottenberg 2010), which arrives with validated instruments.
+- **This is a collision of definitions, not a demonstration of redundancy.** Whether `Omega` earns anything over these constructs is an incremental-validity question on data, and it sits behind the same data wall as `D1` and `D4`. Nothing here refutes the theory; it removes a claim of priority the theory had not earned.
+- **Open author decision, not taken here:** whether to add a pathway-diversity baseline to the Required Baselines below, alongside the resilience/adaptability, viability-kernel and psychological-flexibility baselines the same check identified.
+
+Verification level: the Lade et al. title, author list and quoted definition were checked against the primary abstract on 2026-08-09; the full *Ecology and Society* article was not read. Full check, including all six colliding constructs and what the check does **not** establish: `omega_ov_construct_redundancy_check_v0_1.md` (workbench).
+
 ### Harmful Order Gate
 
 A predeclared exclusion or penalty for coherent states that destroy directionality despite high local order.
