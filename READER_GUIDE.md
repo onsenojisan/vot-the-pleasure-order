@@ -47,7 +47,7 @@ Review priority:
 - ~~whether direct O/M/A validation is still missing~~ — **superseded 2026-07-19.** This asked the wrong question. O/M/A is not awaiting validation; it is **retracted** (Option A), having come out item-identical to Antonovsky's Sense of Coherence. Read the retraction instead of looking for the missing validation;
 - whether `dC/dt` and `dOmega/dt` are kept distinct;
 - whether the bridge has failure conditions;
-- ~~whether free-energy, viability, capability, SDT, SOC, and appraisal theories could absorb VOT~~ — **partly answered 2026-07-18.** Free energy *did* absorb the measurable order operator on four open EMA datasets ([21422215](https://doi.org/10.5281/zenodo.21422215)). The open form of this question is now narrower: whether the **un-run** generic-tipping structure survives the same contest ([21366132](https://doi.org/10.5281/zenodo.21366132)).
+- ~~whether free-energy, viability, capability, SDT, SOC, and appraisal theories could absorb VOT~~ — **partly answered 2026-07-18.** Free energy *did* absorb the measurable order operator on four open EMA datasets ([21422215](https://doi.org/10.5281/zenodo.21422215)). The open form of this question is now narrower: whether the **un-run** generic-tipping structure survives the same contest ([21366131](https://doi.org/10.5281/zenodo.21366131), concept — current version `21694817`).
 
 ## If You Are Checking Evidence
 
