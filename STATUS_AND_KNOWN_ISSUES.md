@@ -1,4 +1,4 @@
-# Status and known issues (added 2026-07-15)
+﻿# Status and known issues (added 2026-07-15)
 
 **This package:** concept DOI <https://doi.org/10.5281/zenodo.21366131> — always resolves to the current
 version, **21694817** (2026-07-30, *v0.2 + Amendment 1*). The first deposit was
@@ -9,7 +9,8 @@ unsupported* rather than `INCONCLUSIVE`.
 
 ⚠️ **This file is dated and grows; the deposited copies do not.** Deposited files are not retroactively
 edited, so a copy read inside a Zenodo record stops where it stopped: the copy in `21366132` predates §4
-entirely, and the copy in `21694817` ends at §4 — which is also where **this** copy currently ends.
+entirely, and the copy in `21694817` ends at §4. **§5, §5b and §5c below are in neither deposit**, and
+§5c concerns two figures quoted inside §4 that this project has since retired.
 
 This note travels with the package. It records what happened **after** the
 preregistration was frozen, plus one known blemish in it.
@@ -145,3 +146,215 @@ have converted the first into evidence for the second.
 
 Amendment written 2026-07-27, blind to any outcome data, in `vot-empirical-workbench`.
 The frozen `PREREGISTRATION.md` is byte-unchanged.
+
+---
+
+## 5. Known issue in Amendment 1's own wording (2026-07-30)
+
+**This section postdates the deposit.** Amendment 1 was published on 2026-07-30 as Zenodo
+`21694817` (version string `v0.2 + Amendment 1`). The copy of this file *inside that record*
+ends at §4 and does not contain this section. Files on a published Zenodo record are
+immutable, so this is disclosed here rather than patched there — the same reason §2 exists.
+
+**The issue.** Amendment 1 labels the CSD-failure row
+`INCONCLUSIVE — measurement-limited`. The verdict is right; **the label is not established.**
+
+On a full re-reading of Helmich et al. 2024 on 2026-07-30, its *Grounding the theory*
+section gives four ways a transition can lack critical slowing down, and they are not the
+same kind of thing:
+
+1. the wrong bifurcation type, or a transition faster than CSD can manifest;
+2. an abrupt change in a control parameter;
+3. **external forcing** — a strong perturbation, with **no bifurcation involved**;
+4. the attractor **evolving gradually from healthy to disordered without destabilising** —
+   again **no bifurcation**.
+
+Items 3 and 4 are not measurement limitations. They are **rival structural hypotheses to
+the collapse gate.** Moreover the fold sits in the class of transitions for which CSD *is*
+theoretically expected, so under a fold-specific hypothesis a CSD failure carries some
+evidential weight against the fold rather than none.
+
+`MEASUREMENT-LIMITED` therefore names one cause out of a set the review itself shows is not
+identifiable — and it is the cause favourable to the theory. §4's body text is careful on
+this point ("at least as consistent with the instrument not working as with the structure
+not existing"); only the two-word label overreaches.
+
+**Not corrected, disclosed.** Candidate wording if a later version is ever cut:
+`INCONCLUSIVE — cause not identifiable (measurement failure, or no fold)`. **The disposition
+itself does not change**: the outcome was already non-evidential in both directions, so
+nothing downstream of §4 moves.
+
+**A second, larger point from the same reading, recorded here because it bears on §4's
+closing claim.** §4 says the CSD-free pre-gate "establishes only that two states exist — not
+that CSD is measurable", and treats that as half a repair. Helmich et al.'s *Moving forward*
+section argues the opposite ordering: establish the structure by CSD-free means **first**,
+because otherwise absent EWS can always be attributed to system misspecification — which is
+exactly what §4's own routing does. On that reading the pre-gate is not half a repair; it is
+the whole prescribed route, and this preregistration has it as a corroborator. Full argument in
+`outputs/ews_critique_helmich_2024_assessment.md`, second reading.
+
+> 🛑 **CORRECTED 2026-08-10.** This paragraph originally priced the cost as *"the pre-gate is blind
+> below ~6 SD separation; measured separation is 1.92 SD median, so promotion is not currently
+> affordable."* **The 1.92 SD figure was retired on 2026-07-30** — in both units it was computed in —
+> and must not be quoted. The blindness figure survives, on a benchmark matched to the data's own
+> autocorrelation: **power stays under 11% below 6 SD.**
+>
+> **What replaced the retired number is worse for the argument, not better.** A run on 2026-08-09
+> (`outputs/separation_estimability_result_2026-08-09.md`, 100 reps/cell, rules frozen before
+> execution) found that at the dwell the observed autocorrelation implies, **separation is not
+> estimable at all** — the estimator is bimodal, collapsing below 1 SD in 24–39% of replications even
+> at a true 5–6 SD separation, and length does not help. So the honest statement is no longer *"our
+> separation is too low to afford promotion."* It is **"we cannot say what our separation is."**
+
+### 5b. §4 overstates the absence of an instrument (found 2026-07-30)
+
+> 🛑 **READ THIS BEFORE THE SECTION — corrected 2026-08-10.** The core finding below stands: a
+> CSD-free hysteresis instrument exists, so §4's stated reason the defect *"cannot be repaired"* is
+> wrong. **Three of the section's supporting points do not stand**, and each is marked in place:
+>
+> 1. **The separation figure (item 1) is retired.** `1.92 SD` must not be quoted, and as of
+>    2026-08-09 the project cannot state its separation at all.
+> 2. **Item 2's arrow is invalid.** *"No multilevel form, therefore D1 has no vehicle"* — **D1 as
+>    frozen is a procedure, not an instrument**, and needs no multilevel model.
+> 3. **The sibling question at the foot is dissolved, and the reason is larger than the question.**
+>    HysTAR **cannot carry the distinctive claim at all** — not a fit preference, a scope boundary.
+>
+> Nothing is deleted. Corrections sit at each point, because a correction collected at the end of a
+> document is a correction most readers never reach.
+
+§4 says, as the reason the underlying defect cannot be repaired:
+
+> "no instrument for the fold that bypasses critical slowing is in hand"
+
+**That is not accurate.** A CSD-free hysteresis detector with a published R package has existed
+since 2023: the **hysteretic threshold autoregressive (HysTAR) model** (de Jong, Ryan, van der
+Maas & Hamaker, doi:10.31234/osf.io/zrcft; package `hystar`). It is the hysteresis reference
+Helmich et al. 2024 themselves cite. It estimates two direction-dependent thresholds and
+decides hysteresis by information-criterion comparison. **Critical slowing plays no part in it.**
+
+**What is genuinely absent is narrower, and is what §4 should have said:**
+
+1. HysTAR is **not validated at this project's state separation.** Its simulations use regime
+   separations of 3.75 and 5 SD (plus an equal-means edge case the authors call atypical). At the
+   equal-means condition the authors' preferred criterion selects correctly only ~10% of the time;
+   at 3.75 SD, ~93%. ~~The measured within-person separation here is **1.92 SD** median — between
+   the edge case and the lowest working condition.~~
+   🛑 **CORRECTED 2026-08-10: `1.92 SD` is retired and must not be quoted** (2026-07-30, in both
+   units it was computed in). **And it cannot simply be replaced with a better number** — the
+   2026-08-09 estimability run found separation **not estimable** in this regime. So the feasibility
+   check against HysTAR's validated range is not *"we fall short of it"* but
+   **`NOT CHECKABLE — the quantity is not identified here`**.
+2. ~~It has **no multilevel form** (one exists for the non-hysteretic TAR), so it cannot carry
+   D1's frozen-parameter cross-case transfer.~~ **The absence is real; the consequence drawn from
+   it was not.** 🛑 **CORRECTED 2026-08-08: D1 as frozen is a procedure, not an instrument** — a
+   cross-validation harness wrapped around per-case estimators, which needs no multilevel model and
+   runs on exactly the N=1 estimators HysTAR provides. Its deciding `n` was computed on 2026-08-08
+   and is **4 cases**; the real blocker is cross-case decline↔recovery data, the same wall as D4.
+   **What survives is the narrow version:** the genericness test and the hysteresis test cannot
+   presently be run **inside one model**.
+3. It tests **whether hysteresis exists** — not D4's actual stake, which is that the
+   recovery-side threshold is predicted *from* decline-side dynamics under one shared parameter
+   set against a parsimony penalty. **HysTAR is not D4**, and D4's specific claim survives.
+
+**Why the overstatement matters.** §4 used "no instrument is in hand" to justify why the CSD
+dependency cannot be repaired. The repair path exists; it is **priced, not absent.**
+~~The honest blocker is the 1.92 SD separation and the missing multilevel form — the same wall the
+pre-gate hit, which is now independently corroborated by a published method's own validation
+range.~~
+
+🛑 **CORRECTED 2026-08-10. Both named blockers were wrong, and the corrected version is harder, not
+softer.** The multilevel gap does not block D1 (item 2). The separation figure is retired, and the
+quantity turned out **not to be estimable** in this regime (item 1) — so the blocker is not a
+number the project falls short of but **a number it cannot obtain**. The corroboration claim goes
+with it: a retired figure cannot be corroborated by anything.
+
+**What is left standing is narrower and still fatal to "cannot be repaired":** an instrument exists,
+this project has not run it, and three commitments are owed before it could be
+(`outputs/hystar_aiccp_freeze_v0_1_2026-08-08.md`) — what the control variable `z` is for ESM affect
+data, how a single-outcome model carries a cross-channel operator, and a feasibility check that
+cannot currently be performed. **"Not repaired" is true. "Cannot be repaired" is not.**
+
+**Two operational consequences, recorded before any run:**
+
+- **If HysTAR is ever used, the model-selection criterion must be frozen in advance to AICcp.**
+  In the authors' no-hysteresis cells, BIC selects the *hysteretic* model roughly half to
+  three-quarters of the time. Choosing the criterion after seeing data would let a null be
+  converted into a fold. ✅ **DONE 2026-08-08** — frozen before any run and before any separation
+  estimate existed to check feasibility against: `outputs/hystar_aiccp_freeze_v0_1_2026-08-08.md`.
+  **A run using BIC or a post-hoc criterion has a void verdict**, and a negative result is
+  `INCONCLUSIVE`, not `NO HYSTERESIS`.
+- **A threshold-coverage requirement is needed, not only observations per arm.** One simulation
+  cell returns 0% correct selection because the observed control values never came near the true
+  threshold. D4's "≥50 beeps/arm" gate does not encode this.
+
+~~**Also unresolved, and a theory question rather than a defect:** the authors note that a
+hysteretic HMM with autoregression and the HysTAR model differ *only* in their switching
+mechanism — probabilistic versus **deterministic** — and that theory should decide. This project
+built the probabilistic one (`hmm_gate.py`) while positing a fold, which is deterministic. On the
+authors' own criterion the fold selects HysTAR. **Not corrected here; flagged as owed.**~~
+
+🛑 **WITHDRAWN 2026-08-08/09, and what replaced it is bigger than the question.**
+
+**The inference was invalid.** *"Posits a fold, folds are deterministic, therefore deterministic
+switching"* conflates the **geometry** of the state space with the **mechanism of transition**. The
+standard bistable formulation — the one this project's entire EWS apparatus assumes — is a
+deterministic fold **plus noise**: structure deterministic, switching stochastic, both at once.
+Positing a fold commits the theory to the geometry and says **nothing** about the switching
+mechanism. **So no sibling is selected, and the "decision owed" was not the decision owed.**
+
+**The larger consequence, from the commitment written on 2026-08-09**
+(`vot-theory-stack/docs/TRANSITION_MECHANISM_COMMITMENT_V0_1.md`): this theory commits to
+**`B`-tipping in a stochastically perturbed system** — bifurcation-induced, with stability changing
+before the transition, and noise required as the **probe** rather than the cause, because variance
+and AR(1) are fluctuation statistics and there is nothing to compute them from otherwise.
+
+⚠️ **In HysTAR, critical slowing plays no part — because critical slowing exists only in a
+stochastically perturbed system.** So adopting HysTAR as *the* instrument would not swap an
+implementation. It would **discard the mechanism the one surviving distinctive claim runs on.**
+
+**Where that leaves the two, and this is a scope boundary rather than a preference:**
+**HysTAR can never carry the distinctive claim.** It is a CSD-free **structure** test, and belongs
+**first**, which is the ordering Helmich et al. prescribe (§5 above). `hmm_gate` is the
+**prediction** test, and comes after. They are not competitors, and neither replaces the other.
+
+🔻 **Direction: this runs against the theory on net.** It withdraws an argument that pointed at a
+cleaner instrument, and it removes the hoped-for rescue of the `0/100` persistence result — HysTAR
+is not a persistence-route implementation, so that route is not waiting behind a sibling choice.
+
+---
+
+### 5c. Amendment 1's own rationale rests on two retired numbers (found 2026-08-10)
+
+**§4 above is deposited** as part of `10.5281/zenodo.21694817`. **It is not edited here**, and it
+should not be: a frozen record's value comes from not being rewritten. What follows is the
+disclosure instead.
+
+§4's *Why* section supports the amendment with two measurements, and **both have since been
+retired by this project's own later work**:
+
+- **"median within-person state separation `1.92 SD`"** — retired **2026-07-30**, in both units it
+  had been computed in, and **must not be quoted**. Worse, as of **2026-08-09** the quantity is not
+  merely unmeasured but **not estimable** in this regime.
+- **"a persistence-based method reaches usable power only near `~1,500` observations per person"** —
+  retired **2026-08-08** (`10.5281/zenodo.21845739`). Within the model class the gate assumes, the
+  persistence route returns **0/100 at the observed autocorrelation**, so `~1,500` is not its price
+  and **no `N` is**.
+
+⚠️ **The amendment's disposition survives, and the corrected numbers make its case stronger rather
+than weaker.** The claim §4 needed was that a CSD failure on data of this kind is at least as
+consistent with the instrument not working as with the structure not existing. That still holds, on
+better-derived figures: distributional detection is under **11% powered below 6 SD** on a benchmark
+matched to the data's own autocorrelation, and the persistence alternative is unusable rather than
+expensive. **Nothing downstream of §4 moves.**
+
+**What is owed is a metadata addendum on `21694817`, not a new version** — the precedent used for
+`20689077`, `21599880`, `21205718`, `21589463` and `21767213`. The frozen files stay frozen; what
+changes is the record's `notes`, so that a reader who never opens this file still learns that two
+quoted figures are withdrawn. **Author's browser task; not done at the time of writing.**
+
+🔻 **The pattern, stated because it is the third instance in this corpus:** the numbers were retired
+in the working repository and the *deposit that cites them* was not revisited. A retraction reaches
+the place the work happened and stops there.
+
+Full survey, including the wider catastrophe-flag reading list, in
+`outputs/hysteresis_prior_art_survey_2026-07-30.md`.
