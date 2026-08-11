@@ -133,7 +133,7 @@ Consequences, stated so they are not left to be inferred:
 - **The environment-side option-preservation route may be used, but it cannot be introduced as new.** Any write-up presenting it as a new direction is making a novelty claim this note already refutes.
 - **`Omega` itself is affected, not only this element.** `Omega` is *defined* as trajectory-revision capacity, and the same check found five further published constructs whose stated definitions collide with it — including the **viability kernel** (Aubin's viability theory), which owns the word *viability*, and **psychological flexibility** (Kashdan & Rottenberg 2010), which arrives with validated instruments.
 - **This is a collision of definitions, not a demonstration of redundancy.** Whether `Omega` earns anything over these constructs is an incremental-validity question on data, and it sits behind the same data wall as `D1` and `D4`. Nothing here refutes the theory; it removes a claim of priority the theory had not earned.
-- **Open author decision, not taken here:** whether to add a pathway-diversity baseline to the Required Baselines below, alongside the resilience/adaptability, viability-kernel and psychological-flexibility baselines the same check identified.
+- ✅ **Decided 2026-08-11.** Of the four constructs that check identified, **only psychological flexibility becomes a required baseline** — it is the one with a validated instrument on this population. Pathway diversity is handled here, at the element it actually collides with, by withdrawing the novelty claim rather than by adding a baseline. The viability kernel and resilience/adaptability are recorded as **definitional collisions, not baselines**, because neither has an instrument that runs on this data and **a baseline nobody can compute is not rigour**. Reasoning in *Required Baselines* below.
 
 Verification level: the Lade et al. title, author list and quoted definition were checked against the primary abstract on 2026-08-09; the full *Ecology and Society* article was not read. Full check, including all six colliding constructs and what the check does **not** establish: `omega_ov_construct_redundancy_check_v0_1.md` (workbench).
 
@@ -199,9 +199,31 @@ Candidate 2 must be compared against simpler alternatives:
 - mean reversion;
 - persistence-only or recovery-only models;
 - domain-standard predictors;
-- rival theory models where available.
+- rival theory models where available;
+- **psychological flexibility** (Kashdan & Rottenberg 2010), measured with a validated instrument.
 
 Candidate 2 is not supported if it merely detects amplitude, non-collapse, persistence, or recovery.
+
+**Why psychological flexibility is named specifically, and why the other collisions are not baselines
+(added 2026-08-11).** A construct check on 2026-08-09 found six published constructs whose stated
+definitions collide with `Omega`'s. They do not all get the same treatment, and the dividing line is
+whether a baseline can actually be computed on the target data:
+
+- **Psychological flexibility is a required baseline** because it is the one that can be run. It is a
+  four-part human construct on the same population, and it **arrives with validated instruments**. If
+  `Omega` does not beat it, the vector is a redescription — which is exactly the fate the retracted
+  `O/M/A` layer met against Sense of Coherence, one construct over.
+- **Pathway diversity** (Lade, Walker & Haider 2020) collides with the *Future Option Preservation*
+  element rather than with `Omega` as a whole, and is disclosed there. **No baseline is added**; what
+  was owed was the withdrawal of a novelty claim, and that is recorded at the element.
+- **The viability kernel** (Aubin) and **resilience / adaptability** (Walker et al. 2004) are declared
+  **definitional collisions, not baselines**. Neither has an instrument that runs on intensive
+  longitudinal data for one person, so requiring them would make this specification unrunnable for a
+  reason that has nothing to do with the theory. **Adding a baseline nobody can compute is not rigour.**
+
+⚠️ **A definitional collision is not absorbed variance.** None of this shows `Omega` is redundant. It
+withdraws a claim of priority, and it says which rival has to be beaten on data — behind the same
+access wall as `D1` and `D4`.
 
 ## Negative Controls
 
