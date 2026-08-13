@@ -358,3 +358,108 @@ the place the work happened and stops there.
 
 Full survey, including the wider catastrophe-flag reading list, in
 `outputs/hysteresis_prior_art_survey_2026-07-30.md`.
+
+---
+
+### 5d. "Priced, not absent" is withdrawn — the repair path has no price (found 2026-08-13)
+
+🛑 **Read this before §5b. §5b's conclusion is the one being corrected, and the correction runs
+against the theory even though it partly vindicates the frozen §4 it was written to criticise.**
+
+§5b closes with *"The repair path exists; it is **priced, not absent.**"* The same sentence is in the
+`notes` field of the deposit `10.5281/zenodo.21694817` (published 2026-08-11) and in this
+repository's `ZENODO_RECORDS.md`. §5b also states that *"three commitments are owed before it could
+be [run]."*
+
+**All three commitments have now been discharged, and the test still cannot be run.**
+
+| | Resolution |
+|---|---|
+| **B-1** — what the control variable `z` is for ESM affect data | **`NO CANDIDATE IN THE ACQUIRED DATA`** (2026-08-13) |
+| **B-2** — how a single-outcome model carries a cross-channel operator | **Resolved: the cross-channel instrument exists** (2026-08-13) |
+| **B-3** — the feasibility check | `NOT CHECKABLE — the quantity is not identified in this regime` (2026-08-09) |
+
+#### What was found
+
+Every column of all four acquired ESM datasets — **165 columns** — was screened against a rule
+frozen and committed before execution, each column carrying its exogeneity judgement and the reason
+for it.
+
+- 🔴 **Three of the four datasets contain no exogenous per-beep variable at all.** In two of them
+  *every* substantive column is an affect, symptom or appraisal item; the third has one two-level
+  design flag. **For three of the four there was never a candidate to fail.** This is a property of
+  the instrument class: an ESM protocol of this design **measures the state, not the driver.**
+- 🔴 **The one designed control parameter fails on bidirectionality.** The best-behaved variable in
+  the entire screen — ten levels, 1,476 observations, no missing — is a monotone taper: **nine
+  decreases, zero increases.** One sustained descent identifies **one** threshold, which is TAR and
+  not HysTAR. That is **the recovery arm**, the same blocker as D1, D4 and the animal track, arriving
+  for the fourth time from the instrument side.
+- **B-2 resolved *positively* and moved nothing.** A hysteretic model with a vector outcome driven by
+  a single hysteresis variable has existed since 2019 (Chen, Than-Thi & So, *J. Stat. Comput. Simul.*
+  **89**(2), 191–210). It still needs the `z` that B-1 has just shown is absent. **A model taking `k`
+  channels and one `z` is blocked by a missing `z` exactly as hard as one taking a single channel.**
+
+#### What is withdrawn, and what survives
+
+- 🛑 **WITHDRAWN: *"priced, not absent"*, and *"three commitments are owed"*.** There is **no price**.
+  The blocker is a **variable that was never collected**, in datasets whose design does not collect
+  one. *"Acquire a longer or larger ESM dataset"* is not a route to it.
+- ✅ **SURVIVES, and is stronger than when §5b was written: an instrument exists.** §4's stated reason
+  — that no CSD-free instrument for the fold is in hand — is still **factually wrong**, and B-2 makes
+  it more wrong, since even the cross-channel version exists.
+- ⚠️ **The direction is uncomfortable and is stated rather than left implicit.** §5b was written to
+  show that §4's *"cannot be repaired"* overstates the case. On today's evidence **§4's conclusion is
+  closer to right than §5b allowed — for a reason §4 did not give.** Not *no instrument*: **no
+  control variable.** §5b overcorrected in the theory's favour, and this is the second time a
+  correction notice in this corpus has done that.
+- 🛑 **Do not read "all three discharged" as `SPECIFIABLE`.** Nothing is owed, and the test is now
+  **specified enough to see that it has no data** — a different and worse position than being
+  un-specified.
+- **Unchanged:** AICcp stays frozen for any future run; a negative result stays `INCONCLUSIVE`, not
+  `NO HYSTERESIS`; **HysTAR is still not D4**; and the 2026-08-09 scope boundary — that this model
+  class can never carry the distinctive claim, because critical slowing plays no part in it — binds
+  the 2019/2021 successors exactly as it binds HysTAR.
+
+#### A second public surface, stale for longer, found in the same pass
+
+⚠️ **The note.com article of 2026-07-31 — the public downgrade — states the price as `~1,500`
+observations per person.** That figure was **retired on 2026-08-08** by this project's own
+re-derivation, and the retirement reached the deposit `10.5281/zenodo.21845739` and the `notes` of
+`21767213` **on the same day**. It never reached the article.
+
+🔻 **So a public article has been carrying a withdrawn specification for five days, and today's
+finding adds a second withdrawn claim to the same article** (*"the repair path is not absent, it has
+a price"*). **Both run in the theory's favour**, because a route with a price reads as reachable.
+**This is the documented failure mode reaching a public surface rather than an internal one.**
+
+#### What is owed
+
+1. ✅ **DONE AND VERIFIED 2026-08-13 — a metadata addendum on `21694817`.** `notes` **2,933 → 6,470
+   chars**, the pre-existing 2,933 preserved byte-for-byte and the new `SECOND CORRECTION NOTICE`
+   appended. **DOI, version (`v0.2 + Amendment 1`), publication date (2026-07-30), title, the
+   5,653-char description and all three file md5s verified unchanged** — snapshotted before the write
+   and **re-read from the API after publication rather than trusting the publish response**, with the
+   edit gated to abort if anything but `notes` had moved. **No leftover draft and no unpublished edit
+   state.** No new version was cut. Precedent: `20689077`, `21599880`, `21205718`, `21589463`,
+   `21767213`, and this record on 2026-08-11.
+   - ⚠️ **The old closing pointer (*"section 5, 5b and 5c"*) was deliberately NOT rewritten.** Every
+     correction in this corpus preserves the existing characters and appends — and a correction record
+     that can be edited is one a reader cannot trust, which is why the 2026-08-03 defect in an errata
+     field was fixed by publishing a further paragraph rather than by rewriting it. **The cost is one
+     incomplete enumeration; the URL it carries is this same file**, which now contains §5d.
+2. ✅ **DONE AND VERIFIED 2026-08-13 — the note.com article carries both withdrawals.** A dated block
+   at the head plus **ten in-place corrections collected as an erratum list at the foot**, verified
+   against the live page: the two headline retractions, the `~1,500` sites, and the closing sentence
+   (which changes the article's landing point — *"what was learned is that it cannot be run on data of
+   this shape"*, not *"the price is now known"*). **The original 22,565-character body is untouched**,
+   confirmed by the absence of any paste damage in it.
+   - ⚠️ **One defect was introduced and repaired the same hour, and it is worth keeping because it is
+     this corpus's recurring shape: the correction block asserted a property of itself that was false.**
+     It read *"I have put the corrections at the relevant places"* while all ten sat at the foot. **A
+     document claiming a property it does not have** — the same defect as a frozen rule asserting it had
+     been committed while untracked, twice in one day. Repaired by correcting the sentence rather than
+     by moving ten blocks, because moving them would have risked the paste damage the body had escaped.
+   - **Known and accepted, not a defect to re-open:** markdown emphasis in the added text renders as
+     literal `**`, since note does not parse markdown on paste. **Author's call, cosmetic, and confined
+     to the added text.**
+3. This section. **§5b is not edited**, per disclose-don't-patch.
