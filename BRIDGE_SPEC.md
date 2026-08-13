@@ -200,7 +200,7 @@ Candidate 2 must be compared against simpler alternatives:
 - persistence-only or recovery-only models;
 - domain-standard predictors;
 - rival theory models where available;
-- **psychological flexibility** (Kashdan & Rottenberg 2010), measured with a validated instrument.
+- **psychological flexibility** (Kashdan & Rottenberg 2010), ~~measured with a validated instrument~~ — **measurement form is NOT YET SPECIFIED; see the caveat added 2026-08-13 below.**
 
 Candidate 2 is not supported if it merely detects amplitude, non-collapse, persistence, or recovery.
 
@@ -213,6 +213,29 @@ whether a baseline can actually be computed on the target data:
   four-part human construct on the same population, and it **arrives with validated instruments**. If
   `Omega` does not beat it, the vector is a redescription — which is exactly the fate the retracted
   `O/M/A` layer met against Sense of Coherence, one construct over.
+  - 🛑 **CAVEAT ADDED 2026-08-13, on reading the primary. The requirement stands; the sentence
+    "arrives with validated instruments" does not carry what it was asked to carry.**
+    **The four-part definition is verbatim-exact** — checked against the full text, no drift, so *"a
+    four-part human construct"* is sourced. **But Kashdan & Rottenberg disown the static instruments
+    for this construct.** They *"strongly recommend that assessments of psychological flexibility
+    explicitly incorporate temporality and person-situation interactions"*, on the ground that
+    *"dynamic constructs require dynamic approaches"*, and prescribe **experience-sampling designs**
+    instead of single-occasion self-report.
+    - 🟢 **The dividing line used on 2026-08-11 survives**: the instruments *can* be administered, so
+      this is not the viability kernel's problem, and *"a baseline nobody can compute is not rigour"*
+      still separates the cases.
+    - 🔴 **And the collision is deeper than this section records.** What the authors prescribe is
+      **experience sampling — the method this project itself uses.** So the overlap is not only
+      definitional; it reaches the measurement approach.
+    - 🛑 **Consequence, stated so it is not discovered late: measuring `B-flex` from the same ESM
+      stream as the `BridgeVector` risks the exact failure that killed `O/M/A`** — there, *"the
+      `O/M/A` **are** the SOC-13 subscales … there is nothing disjoint left to separate them."*
+      🟢 **Unlike that case, this one is still upstream: Candidate 2's data does not exist yet, so
+      disjoint measurement can be designed in — and only before collection.**
+    - **The measurement form is therefore an open author decision, not a detail**, and it must be
+      settled **before any collection is designed**. Options and a recommendation:
+      `vot-empirical-workbench/outputs/bflex_disjoint_measurement_materials_2026-08-13.md`.
+      **What is excluded in advance: both measures from the same ESM items with different aggregation.**
 - **Pathway diversity** (Lade, Walker & Haider 2020) collides with the *Future Option Preservation*
   element rather than with `Omega` as a whole, and is disclosed there. **No baseline is added**; what
   was owed was the withdrawal of a novelty claim, and that is recorded at the element.
