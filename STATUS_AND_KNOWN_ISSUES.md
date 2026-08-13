@@ -434,8 +434,19 @@ a price"*). **Both run in the theory's favour**, because a route with a price re
 
 #### What is owed
 
-1. **A metadata addendum on `21694817`** — `notes` only, DOI, version and files unchanged; the
-   precedent used for `20689077`, `21599880`, `21205718`, `21589463`, `21767213` and this record
-   itself on 2026-08-11.
-2. **A correction on the note.com article**, covering both withdrawn claims.
+1. ✅ **DONE AND VERIFIED 2026-08-13 — a metadata addendum on `21694817`.** `notes` **2,933 → 6,470
+   chars**, the pre-existing 2,933 preserved byte-for-byte and the new `SECOND CORRECTION NOTICE`
+   appended. **DOI, version (`v0.2 + Amendment 1`), publication date (2026-07-30), title, the
+   5,653-char description and all three file md5s verified unchanged** — snapshotted before the write
+   and **re-read from the API after publication rather than trusting the publish response**, with the
+   edit gated to abort if anything but `notes` had moved. **No leftover draft and no unpublished edit
+   state.** No new version was cut. Precedent: `20689077`, `21599880`, `21205718`, `21589463`,
+   `21767213`, and this record on 2026-08-11.
+   - ⚠️ **The old closing pointer (*"section 5, 5b and 5c"*) was deliberately NOT rewritten.** Every
+     correction in this corpus preserves the existing characters and appends — and a correction record
+     that can be edited is one a reader cannot trust, which is why the 2026-08-03 defect in an errata
+     field was fixed by publishing a further paragraph rather than by rewriting it. **The cost is one
+     incomplete enumeration; the URL it carries is this same file**, which now contains §5d.
+2. **A correction on the note.com article**, covering both withdrawn claims. **Still owed** — the
+   author's to publish.
 3. This section. **§5b is not edited**, per disclose-don't-patch.
