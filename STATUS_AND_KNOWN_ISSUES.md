@@ -447,6 +447,19 @@ a price"*). **Both run in the theory's favour**, because a route with a price re
      that can be edited is one a reader cannot trust, which is why the 2026-08-03 defect in an errata
      field was fixed by publishing a further paragraph rather than by rewriting it. **The cost is one
      incomplete enumeration; the URL it carries is this same file**, which now contains §5d.
-2. **A correction on the note.com article**, covering both withdrawn claims. **Still owed** — the
-   author's to publish.
+2. ✅ **DONE AND VERIFIED 2026-08-13 — the note.com article carries both withdrawals.** A dated block
+   at the head plus **ten in-place corrections collected as an erratum list at the foot**, verified
+   against the live page: the two headline retractions, the `~1,500` sites, and the closing sentence
+   (which changes the article's landing point — *"what was learned is that it cannot be run on data of
+   this shape"*, not *"the price is now known"*). **The original 22,565-character body is untouched**,
+   confirmed by the absence of any paste damage in it.
+   - ⚠️ **One defect was introduced and repaired the same hour, and it is worth keeping because it is
+     this corpus's recurring shape: the correction block asserted a property of itself that was false.**
+     It read *"I have put the corrections at the relevant places"* while all ten sat at the foot. **A
+     document claiming a property it does not have** — the same defect as a frozen rule asserting it had
+     been committed while untracked, twice in one day. Repaired by correcting the sentence rather than
+     by moving ten blocks, because moving them would have risked the paste damage the body had escaped.
+   - **Known and accepted, not a defect to re-open:** markdown emphasis in the added text renders as
+     literal `**`, since note does not parse markdown on paste. **Author's call, cosmetic, and confined
+     to the added text.**
 3. This section. **§5b is not edited**, per disclose-don't-patch.
