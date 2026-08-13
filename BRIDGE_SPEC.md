@@ -200,7 +200,7 @@ Candidate 2 must be compared against simpler alternatives:
 - persistence-only or recovery-only models;
 - domain-standard predictors;
 - rival theory models where available;
-- **psychological flexibility** (Kashdan & Rottenberg 2010), measured with a validated instrument.
+- **psychological flexibility** (Kashdan & Rottenberg 2010), ~~measured with a validated instrument~~ — **measured PRIMARILY from the ESM stream under a frozen item allocation, with a static validated instrument as a SECONDARY baseline (decided 2026-08-13; see below).**
 
 Candidate 2 is not supported if it merely detects amplitude, non-collapse, persistence, or recovery.
 
@@ -213,6 +213,54 @@ whether a baseline can actually be computed on the target data:
   four-part human construct on the same population, and it **arrives with validated instruments**. If
   `Omega` does not beat it, the vector is a redescription — which is exactly the fate the retracted
   `O/M/A` layer met against Sense of Coherence, one construct over.
+  - 🛑 **CAVEAT ADDED 2026-08-13, on reading the primary. The requirement stands; the sentence
+    "arrives with validated instruments" does not carry what it was asked to carry.**
+    **The four-part definition is verbatim-exact** — checked against the full text, no drift, so *"a
+    four-part human construct"* is sourced. **But Kashdan & Rottenberg disown the static instruments
+    for this construct.** They *"strongly recommend that assessments of psychological flexibility
+    explicitly incorporate temporality and person-situation interactions"*, on the ground that
+    *"dynamic constructs require dynamic approaches"*, and prescribe **experience-sampling designs**
+    instead of single-occasion self-report.
+    - 🟢 **The dividing line used on 2026-08-11 survives**: the instruments *can* be administered, so
+      this is not the viability kernel's problem, and *"a baseline nobody can compute is not rigour"*
+      still separates the cases.
+    - 🔴 **And the collision is deeper than this section records.** What the authors prescribe is
+      **experience sampling — the method this project itself uses.** So the overlap is not only
+      definitional; it reaches the measurement approach.
+    - 🛑 **Consequence, stated so it is not discovered late: measuring `B-flex` from the same ESM
+      stream as the `BridgeVector` risks the exact failure that killed `O/M/A`** — there, *"the
+      `O/M/A` **are** the SOC-13 subscales … there is nothing disjoint left to separate them."*
+      🟢 **Unlike that case, this one is still upstream: Candidate 2's data does not exist yet, so
+      disjoint measurement can be designed in — and only before collection.**
+    - ✅ **DECIDED 2026-08-13 — `B-flex` is measured in two forms, and the ordering matters more than
+      either.** Options and reasoning:
+      `vot-empirical-workbench/outputs/bflex_disjoint_measurement_materials_2026-08-13.md`.
+
+      **① PRIMARY — ESM-derived, under an item allocation frozen before collection.** This is the form
+      the construct's own authors prescribe, and it puts `B-flex` and the `BridgeVector` at the same
+      measurement grain, so a win for `Omega` cannot be a win for having measured itself better.
+      🛑 **The allocation of ESM items between `B-flex` and the `BridgeVector` must be frozen and
+      recorded BEFORE any data exists.** Allocating after the data is seen is a forking path, and this
+      is the only window in which the allocation can be made at all.
+
+      **② SECONDARY — a static validated instrument** (AAQ-family or equivalent), administered off the
+      beep schedule. It is **not** the primary because its own authors disown it for this construct;
+      it is retained because **a baseline's job is to be the rival a sceptic would demand**, and the
+      field-standard instrument is what a sceptic would reach for.
+
+      🟢 **The disagreement rule is declared here, in advance, because it is where the information is.**
+      If `Omega` beats **only** the static baseline and not the ESM-derived one, **that is a win on
+      measurement grain and not on construct**, and it may not be reported as incremental validity.
+      Beating both is the only result that carries the claim.
+
+      🛑 **EXCLUDED IN ADVANCE: both measures computed from the same ESM items with different
+      aggregation.** This is the exact configuration that killed `O/M/A` — *"the `O/M/A` **are** the
+      SOC-13 subscales … there is nothing disjoint left to separate them"* — and it is named because
+      it is the cheapest path at implementation time, not because anyone has proposed it.
+
+      ⚠️ **Nothing here is evidence.** This fixes how a baseline would be measured if the study is ever
+      run; the study is on hold, and `Candidate 2` remains **a preregisterable specification, not a
+      validated bridge**.
 - **Pathway diversity** (Lade, Walker & Haider 2020) collides with the *Future Option Preservation*
   element rather than with `Omega` as a whole, and is disclosed there. **No baseline is added**; what
   was owed was the withdrawal of a novelty claim, and that is recorded at the element.
