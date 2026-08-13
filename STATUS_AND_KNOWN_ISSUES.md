@@ -190,8 +190,39 @@ that CSD is measurable", and treats that as half a repair. Helmich et al.'s *Mov
 section argues the opposite ordering: establish the structure by CSD-free means **first**,
 because otherwise absent EWS can always be attributed to system misspecification — which is
 exactly what §4's own routing does. On that reading the pre-gate is not half a repair; it is
-the whole prescribed route, and this preregistration has it as a corroborator. Full argument in
+the whole prescribed route, ~~and this preregistration has it as a corroborator~~. Full argument in
 `outputs/ews_critique_helmich_2024_assessment.md`, second reading.
+
+> 🛑 **CORRECTED 2026-08-13 — the struck clause is factually wrong, and correcting it makes the
+> criticism sharper rather than softer.** **This preregistration does not have the pre-gate as a
+> corroborator. It does not place it at all.**
+>
+> - The frozen spec's *"corroborating, never load-bearing"* is a note on **D3**, the
+>   critical-slowing scaling-signature test — the **opposite kind of instrument** from a CSD-free
+>   pre-gate. The phrase was read off D3 and attached to the pre-gate.
+> - And it could not have been placed there: **the frozen spec is dated 2026-07-04 and the pre-gate
+>   was built 2026-07-26.** Searching the spec for a structure-gate provision returns only the
+>   *collapse-gate* (the mechanism the theory posits) and §4.5's *data-quality gates* (missingness
+>   and series length). Neither is this instrument.
+> - **§4 above does mention it** — *"A CSD-free pre-gate was built … and establishes only that two
+>   states exist — not that CSD is measurable"* — but that is a **scope statement about a different
+>   half of the problem**, not a demotion to corroborator.
+>
+> 🔴 **Why this is worse, not better.** *"The preregistration demoted the prescribed route"* would at
+> least be a deliberate choice on the record. What actually happened is that the project **built the
+> prescribed route and never gave it a status in the frozen specification** — and an instrument with
+> no declared status can be used or ignored *after* results are seen, which is a forking path.
+>
+> ✅ **The mitigating fact, stated precisely:** a status **does** exist, and it was committed **before
+> the gate was run** — in its own build note: *"PASS → a null D4 is interpretable as negative;
+> AMBIGUOUS → a null is not decisive alone; **FAIL → a null D4 must not be read as evidence against
+> the theory**"*, together with *"the gate cannot support the theory."* **So the pre-gate is not
+> non-decisive: it is asymmetric by design — it cannot support the theory and it can void a reading
+> that runs against it.** That asymmetry binds the author's own hand. **It is the frozen spec that is
+> silent, not the project.**
+>
+> **Everything else in this paragraph stands**, including its conclusion that on Helmich et al.'s
+> ordering the pre-gate is the whole prescribed route rather than half a repair.
 
 > 🛑 **CORRECTED 2026-08-10.** This paragraph originally priced the cost as *"the pre-gate is blind
 > below ~6 SD separation; measured separation is 1.92 SD median, so promotion is not currently
