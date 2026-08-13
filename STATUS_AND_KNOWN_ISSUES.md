@@ -354,6 +354,46 @@ is not a persistence-route implementation, so that route is not waiting behind a
 
 ---
 
+### 5e. The pre-gate's status, declared (2026-08-13)
+
+§5 above records that this project built the route Helmich et al. prescribe and **never gave it a
+status in the frozen specification** — the specification is dated 2026-07-04 and the instrument was
+built 2026-07-26, so it could not have been placed there. A status is declared here rather than left
+to be inferred from a build note.
+
+**The pre-gate is a parallel interpretive instrument. It is not a precondition for running D4.**
+
+Its rule, committed before it was ever run and **unchanged by this declaration**: `PASS` → a null D4
+is interpretable as negative; `AMBIGUOUS` → a null is not decisive alone; **`FAIL` → a null D4 must
+not be read as evidence against the theory**; and **the gate cannot support the theory.**
+
+⚠️ **This is not "non-decisive."** The gate is **asymmetric by design**: it cannot help the theory and
+it can void a reading that would hurt it. That asymmetry binds the author's own hand, and it is the
+reason the instrument is worth having.
+
+🛑 **What this declaration concedes.** Helmich et al.'s remedy is an **ordering** — establish the
+structure by CSD-free means *first*. **This project is not adopting that ordering, and the reason is
+that it cannot afford to.** Making a `PASS` a precondition would, at **under 11% power below 6 SD** on
+a benchmark matched to the data's own autocorrelation, let the instrument's weakness suppress
+disconfirmation — the same structure Amendment 1 was already criticised for (§5). The repair that
+would fix it, splitting `FAIL` from `UNDERPOWERED`, needs a separation estimate that the 2026-08-09
+run found **not estimable in this regime**.
+
+**So the honest statement is not that the pre-gate is corroborating. It is: the prescribed ordering is
+right, this project owns the instrument it requires, and it cannot power it. The route is declined on
+capability, not on disagreement.**
+
+🔻 **And the pre-gate is now alone in that slot.** The 2026-08-09 transition-mechanism commitment put
+HysTAR in the CSD-free-structure-first role; the 2026-08-13 screen established that HysTAR has **no
+control variable in any acquired dataset**, so it cannot occupy it. ⚠️ **Passing the pre-gate would
+still establish two states and never a fold** — `hmm_gate` is `N`-tipping-shaped as a generator — so
+even a powered pass would not carry the distinctive claim.
+
+**Reopens if** an estimator separates `FAIL` from `UNDERPOWERED` at the observed autocorrelation, **or**
+data arrives at a separation where the gate has power. **No timer.**
+
+---
+
 ### 5c. Amendment 1's own rationale rests on two retired numbers (found 2026-08-10)
 
 **§4 above is deposited** as part of `10.5281/zenodo.21694817`. **It is not edited here**, and it
