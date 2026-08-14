@@ -213,7 +213,7 @@ addictive or agitated capture:
 
 Appearance-channel amplitude alone cannot distinguish these cases. Omega and C require independent measurement or defensible proxies.
 
-A caution about what "independent" can mean here. Internal configural consonance -- how tightly the appearance channels agree at a moment (call it C1) -- is measurable without Omega-hat. But the *distinctive* order property, the anti-rigidity or harmful-coherence gate that turns C down when a state is internally consistent yet brittle (call it C2), is Omega-aligned by construction: it is defined through future-option preservation. C2 is therefore not independent of Omega. This is not a defect to hide; it is why the theory keeps requiring an independent Omega-hat, and why rigid certainty scores high on C1 but low on C2 and on Omega. Only C1 and felt-consonance (p_loc) are independently measurable; the order that would make VOT distinctive is not.
+A caution about what "independent" can mean here. Internal configural consonance -- how tightly the appearance channels agree at a moment (call it C1) -- is defined without Omega-hat and can therefore, in principle, be operationalized without using the outcome construct. **Candidate 2L selects its change, `DeltaC1_lag = C1(T1) - C1(T0)`, as an input construct; it does not yet provide a C1 channel set, agreement/composition function, or estimator.** But the *distinctive* order property, the anti-rigidity or harmful-coherence gate that turns C down when a state is internally consistent yet brittle (call it C2), is Omega-aligned by construction: it is defined through future-option preservation. C2 is therefore not independent of Omega. This is not a defect to hide; it is why the theory keeps requiring an independent Omega-hat, and why rigid certainty can score high on C1 but low on C2 and on Omega. C1 and felt-consonance (p_loc) need not be Ω-defined, but their actual measures must still be independently specified; the order that would make VOT distinctive is not independent of Ω.
 
 ## Divergence Cases
 
@@ -295,7 +295,7 @@ This appendix also leaves several structural gaps open:
 
 - how the three-layer discipline (world / subject / analyst) should be applied to C and Act in every measurement design;
 - how horizon and scope (L, H) enter Omega, C, Act, and the divergence cases;
-- how the release-mode engagement axis relates, if at all, to Candidate 2's separately frozen Ω-related outcome (level, change, or rate);
+- how the release-mode engagement axis relates, if at all, to Candidate 2L's selected-but-unoperationalized external Ω-related **level** outcome; any Ω-rate outcome remains a separately preregistered Candidate 2R question;
 - where suffering sits in the coordinate model, given that suffering is not simply negative pleasure or -dC/dt;
 - what dynamics move a system across the manifold toward dynamic release, static release, collapse, or recovery;
 - how the Omega-C-Act coordinates differ from nearby models such as affect circumplex, free-energy / predictive processing, allostasis, viability, SOC, SDT, and appraisal;

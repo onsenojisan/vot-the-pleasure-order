@@ -1,6 +1,6 @@
 # Candidate 2 Bridge Specification — selected local input → independent Ω-related outcome
 
-Status: public-facing candidate **design-incomplete** specification; not yet preregisterable
+Status: **Candidate 2L selected** (ΔC1 → external Ω-related level); design-incomplete and not yet preregisterable
 Date: 2026-06-19  
 Claim level: unvalidated bridge hypothesis  
 
@@ -54,12 +54,14 @@ Candidate 2 states:
 
 > One selected lagged local input contributes to a predeclared later Ω-related outcome only when it is independently anchored by persistence, corrective update, continuity, and future option preservation, and when harmful rigid order is excluded.
 
+> **Author selection (2026-08-14): Candidate 2L.** The input construct is the change in internal configural consonance, `ΔC1_lag`; the endpoint form is the independently operationalized external Ω-related **level** `Y_Omega^L = OmegaHat(T3)`. This is a prospective level-prediction study, not an Ω-rate study. `p_loc`, undifferentiated structural `C`, change, and rate are not Candidate 2L inputs/outcomes. A future rate study, if independently designed, is **Candidate 2R** and requires a separate preregistration.
+
 Compact form:
 
 ```text
 BridgeScore_C2
   = Bridge(
-      dC_dt_lag,
+      DeltaC1_lag,
       persistence,
       corrective_update,
       continuity,
@@ -98,13 +100,13 @@ If these rules fail, the result is exploratory and cannot validate the bridge.
 
 | Chosen estimand | Minimum independent observation requirement | Permitted conclusion |
 |---|---|---|
-| **Level**: `Y_Omega = Omega_hat(T3)` | one independently operationalized external endpoint at `T3` | predicts an external Ω-related **level**; no `dOmega/dt` wording |
+| **Level**: `Y_Omega^L = Omega_hat(T3)` | one independently operationalized external endpoint at `T3` | **SELECTED for Candidate 2L.** Predicts an external Ω-related **level**; no `dOmega/dt` wording |
 | **Change**: `Y_Omega = Omega_hat(T3) - Omega_hat(T2*)` | two independently operationalized external endpoints at frozen times `T2*` and `T3` | predicts an external Ω-related **change** |
 | **Rate**: `Y_Omega = d Omega_hat / d tau` over a declared interval | enough independently operationalized external observations to estimate the rate, plus declared time unit and slope estimator | predicts an external Ω-related **rate** |
 
-`T2*` denotes an external outcome occasion and need not reuse the support-variable stream. The construct-role contract below still prohibits reuse of items or features. **No option is selected in this document.** Until one is selected and frozen, the dependent variable is `Y_Omega` only, Candidate 2 is not preregisterable, and neither the score nor a `T3` label may be called `dOmega/dt`.
+`T2*` denotes an external outcome occasion and need not reuse the support-variable stream. The construct-role contract below still prohibits reuse of items or features. **Candidate 2L selects the level option only.** Its endpoint source, `(L,H,P)`, units, aggregation, and missing-data rule are not yet frozen, so it remains not preregisterable. Change and rate are excluded from Candidate 2L. Neither the score nor a `T3` label may be called `dOmega/dt`.
 
-> **Decision record.** Complete [Candidate 2 — Freeze Decision Sheet](CANDIDATE2_FREEZE_DECISION_SHEET.md) before collection or analysis. The sheet fixes the required decision order and item/feature ownership; it does not itself make a selection.
+> **Decision record.** [Candidate 2 — Freeze Decision Sheet](CANDIDATE2_FREEZE_DECISION_SHEET.md) records the Candidate 2L selections and the remaining endpoint, input-estimator, and item-ownership gates. Complete its remaining fields before collection or analysis.
 
 ## Construct Role Allocation (contract; frozen before collection)
 
@@ -135,19 +137,13 @@ look smaller.
 
 ## Bridge Support Variables
 
-### `dC_dt_lag` — unresolved placeholder, not yet an analysis variable
+### `DeltaC1_lag` — selected input construct, operationalization incomplete
 
-`dC_dt_lag` is a label for the pre-endpoint input slot, **not** a frozen measurement variable. The corpus now distinguishes felt-consonance `p_loc` from structural `C`; consequently, “local coherence flux” alone does not specify which quantity drives the bridge.
+**Selected for Candidate 2L (2026-08-14):** `DeltaC1_lag = C1(T1) - C1(T0)`, where `C1` is internal configural consonance — how tightly the appearance channels agree at a moment. C1 is selected because it is defined without `OmegaHat` and can therefore be operationalized without using the outcome construct; felt-consonance `p_loc` and the Ω-aligned harmful-coherence property C2 are not Candidate 2L inputs.
 
-**Blocking input decision — freeze exactly one before collection or analysis:**
+The C1 score itself has no frozen composition or estimator in the corpus. Before collection, the decision record must give its channel set, agreement/composition function, scale, sign convention, input window, missing-data rule, and proof that its items/features are disjoint from every support variable, gate, external endpoint, and baseline. It may not change C1 after observing `T2` or `T3`. Until those fields are frozen, `DeltaC1_lag` is **SELECTED BUT UNOPERATIONALIZED**, and Candidate 2L is **UN-RUNNABLE**.
 
-- a felt-consonance flux (for example, a predeclared change in `p_loc`);
-- a structural-`C` flux; or
-- one named structural subcomponent flux, with its composition rule.
-
-The decision record must give the construct, estimator, scale, sign convention, input window, missing-data rule, and whether its items/features are disjoint from every support variable, gate, endpoint, and baseline. It may not select a flux after observing `T2` or `T3`. Until this record exists, `dC_dt_lag` remains **UNRESOLVED**, Candidate 2 is **UN-RUNNABLE**, and phrases such as “the `dC/dt` bridge” are shorthand for an unchosen design slot rather than a preregistered test.
-
-Allowed estimator forms **after the blocking input decision is closed**:
+Allowed C1 change forms **after the C1 composition is frozen**:
 
 - slope of the selected input across `T1`;
 - signed change in the selected input from `T0` to `T1`;
@@ -211,7 +207,7 @@ Early tests should prefer the vector form because it is less likely to smuggle t
 ```text
 BridgeVector =
   [
-    z(dC_dt_lag),
+    z(DeltaC1_lag),
     z(persistence),
     z(corrective_update),
     z(continuity),
@@ -236,7 +232,7 @@ support_mean =
 if harmful_order_gate == 1:
     BridgeScore_C2 = gate-active / no positive bridge prediction
 else:
-    BridgeScore_C2 = z(dC_dt_lag) * max(0, support_mean)
+    BridgeScore_C2 = z(DeltaC1_lag) * max(0, support_mean)
 ```
 
 The gate's numerical handling, if one is used, must be frozen before testing. `BridgeScore_C2` remains a predictor even when its sign is negative; it is never relabelled as observed `dOmega/dt`. Equal weights are the default. Any unequal weights must be frozen before testing.
@@ -245,7 +241,7 @@ The gate's numerical handling, if one is used, must be frozen before testing. `B
 
 Candidate 2 must be compared against simpler alternatives:
 
-- `dC_dt_lag` alone;
+- `DeltaC1_lag` alone;
 - `future_option_preservation` alone;
 - `C` level alone;
 - generic trend or slope;
@@ -358,7 +354,7 @@ Allowed wording after a pass:
 
 Candidate 2 fails if:
 
-- `dC_dt_lag` alone performs as well as the bridge;
+- `DeltaC1_lag` alone performs as well as the bridge;
 - `future_option_preservation` alone performs as well as the bridge;
 - generic trend, amplitude, persistence, or recovery explains the result;
 - endpoint labels leak into predictors;
@@ -375,7 +371,7 @@ Required conclusion after a fail:
 
 Safe:
 
-> VOT distinguishes local coherence dynamics from long-term directionality claims. Candidate 2 is a design-incomplete proposal for testing whether one **selected** lagged input plus persistence, corrective update, continuity, and future-option variables predicts a predeclared independent external endpoint. It does not yet specify an Ω rate test.
+> VOT distinguishes local coherence dynamics from long-term directionality claims. Candidate 2L is a design-incomplete proposal for testing whether selected `DeltaC1_lag` plus persistence, corrective update, continuity, and future-option variables predict a predeclared independent external Ω-related **level**. It does not test an Ω rate.
 
 Forbidden:
 
@@ -393,7 +389,7 @@ Forbidden:
 
 The conservative current status is:
 
-> Candidate 2 is a **design-incomplete bridge specification, not yet preregisterable and not a validated bridge**. Neither its input flux (`p_loc`, structural `C`, or a named subcomponent) nor its external outcome type (Ω-related level, change, or rate) has been selected and operationalized. Its `BridgeScore_C2` is not `dOmega/dt`; an endpoint and construct-separation contract must be frozen before a bridge test can exist.
+> **Candidate 2L is selected but design-incomplete, not yet preregisterable and not a validated bridge.** It fixes `DeltaC1_lag` as the input construct and an external Ω-related level at `T3` as the endpoint form. The C1 estimator and the external endpoint source/definition remain unfrozen. Its `BridgeScore_C2` is not `dOmega/dt`; rate wording is reserved for a separately preregistered Candidate 2R.
 
 Until a frozen bridge test passes, VOT should be presented as a two-layer framework:
 
