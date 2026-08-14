@@ -28,8 +28,13 @@ was true at freeze time and is now out of date:
   recovery arm; a bipolar early-warning dataset) **did not yield access** — the
   data holders could not share within available capacity and governance, and this
   project has no institutional home to provide the required ethical oversight.
-- An exhaustive scan of the open ESM landscape found **no dataset that meets D4**
+- A documented scan of the open ESM landscape found **no dataset that meets D4**
   (within-person decline *and* recovery, intensive, >= 50 beeps per arm).
+  ⚠️ **Corrected 2026-08-14: this read "exhaustive".** The word was withdrawn
+  **document-wide** from the co-measurement note before its v1.2 deposit
+  (`21767213`, 2026-08-03) — coverage is a re-runnable census of the openESM
+  catalogue, **screening was never recorded**, so the judgement is not re-runnable.
+  Second of two live carriers found today; the other was `CURRENT_STATUS.md`.
 - Therefore, on the preregistration's own terms, the make-or-break test is
   **un-run**.
 
