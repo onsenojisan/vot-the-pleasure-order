@@ -30,7 +30,7 @@ was true at freeze time and is now out of date:
   project has no institutional home to provide the required ethical oversight.
 - A documented scan of the open ESM landscape found **no dataset that meets D4**
   (within-person decline *and* recovery, intensive, >= 50 beeps per arm).
-  ⚠️ **Corrected 2026-08-13: this read "exhaustive".** The word was withdrawn
+  ⚠️ **Corrected 2026-08-14: this read "exhaustive".** The word was withdrawn
   **document-wide** from the co-measurement note before its v1.2 deposit
   (`21767213`, 2026-08-03) — coverage is a re-runnable census of the openESM
   catalogue, **screening was never recorded**, so the judgement is not re-runnable.

@@ -1,6 +1,6 @@
 # Valence Order Theory / The Pleasure Order: Current Status
 
-Date: 2026-08-13 *(was `2026-07-14`; the file carried content dated 2026-08-08 and 2026-08-10 under that header)*  
+Date: 2026-08-14 *(was `2026-07-14`; the file carried content dated 2026-08-08 and 2026-08-10 under that header)*  
 Status: public-facing boundary summary  
 Last verified: 2026-08-08 — **internal-consistency check only.** No external sweep, no content re-read.
 `status_consistency.ps1` returned **9 unanchored state claims, 0 superseded pointers, 0 contradicted
@@ -224,7 +224,7 @@ VOT should be downgraded if:
 > The strike-through treatment was applied to *What Would Strengthen* above and **not here**, so for
 > twenty-five days this section offered two downgrade conditions that **can no longer fire** — a retracted
 > construct cannot fail a future test. ⚠️ **Read the direction: an unfireable downgrade condition makes the theory
-> look less disconfirmed than it is.** Found 2026-08-13 by an external review reading the public files
+> look less disconfirmed than it is.** Found 2026-08-14 by an external review reading the public files
 > cold. The disposition that *did* fire is recorded below (*"synthesis / redescription"*).
 
 - ~~direct O/M/A fails repeatedly with purpose-built items~~ — **lapsed (retracted construct)**;
@@ -323,7 +323,7 @@ Its decisive discriminator is **D4** (decline→recovery hysteresis parsimony): 
 
 Status of execution:
 
-- A documented scan of the open ESM landscape found **no dataset that meets D4** (within-person decline *and* recovery, intensive, >= 50 beeps/arm). ⚠️ **Corrected 2026-08-13: this line said "exhaustive".** That word was withdrawn **document-wide** from the co-measurement note before its v1.2 deposit (`21767213`, 2026-08-03) — the *coverage* is a census of the openESM catalogue that anyone can re-run, but **the screening procedure was never recorded**, so the judgement is not re-runnable. `ZENODO_RECORDS.md` already carried the rule (*do not cite it as an established absence*); this file did not. **The strongest claim was resting on the least-documented method**, and it ran in the theory's favour, since a confirmed absence excuses an un-run test.
+- A documented scan of the open ESM landscape found **no dataset that meets D4** (within-person decline *and* recovery, intensive, >= 50 beeps/arm). ⚠️ **Corrected 2026-08-14: this line said "exhaustive".** That word was withdrawn **document-wide** from the co-measurement note before its v1.2 deposit (`21767213`, 2026-08-03) — the *coverage* is a census of the openESM catalogue that anyone can re-run, but **the screening procedure was never recorded**, so the judgement is not re-runnable. `ZENODO_RECORDS.md` already carried the rule (*do not cite it as an established absence*); this file did not. **The strongest claim was resting on the least-documented method**, and it ran in the theory's favour, since a confirmed absence excuses an un-run test.
 - The **on-request routes** to the identified recovery-arm datasets (a TRANS-ID recovery arm; a bipolar early-warning dataset) **did not yield access** — the data holders could not share within available capacity and governance, and the project has no institutional home to provide the required ethical oversight.
 - Therefore, on the preregistration's own terms, the make-or-break test is **un-run**.
 
