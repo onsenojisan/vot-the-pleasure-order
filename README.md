@@ -89,7 +89,7 @@ The current public record does not support claims that:
 **pre-registered and frozen**, and **un-run**, because it needs within-person decline **and** recovery arms
 that no accessible dataset provides. Everything else below is secondary to it.
 
-⚠️ **Secondary to it, but not settled by it — added 2026-08-13.** *Decisive* here means **highest
+⚠️ **Secondary to it, but not settled by it — added 2026-08-14.** *Decisive* here means **highest
 priority**, not *sufficient on its own*. D4 can supply discriminating evidence only under adequate
 power, an independent endpoint, and pre-fixed structure screening, and **Amendment 1 routes a
 critical-slowing failure to `INCONCLUSIVE`** rather than to evidence against the gate — so **it
