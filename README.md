@@ -89,6 +89,15 @@ The current public record does not support claims that:
 **pre-registered and frozen**, and **un-run**, because it needs within-person decline **and** recovery arms
 that no accessible dataset provides. Everything else below is secondary to it.
 
+⚠️ **Secondary to it, but not settled by it — added 2026-08-14.** *Decisive* here means **highest
+priority**, not *sufficient on its own*. D4 can supply discriminating evidence only under adequate
+power, an independent endpoint, and pre-fixed structure screening, and **Amendment 1 routes a
+critical-slowing failure to `INCONCLUSIVE`** rather than to evidence against the gate — so **it
+raises validity more easily than it lowers it.** That cost is stated in full, not hidden, in the
+claim-boundary column of [Zenodo Records](ZENODO_RECORDS.md): *a test that can confirm but cannot
+cleanly disconfirm is a worse position for a theory than a clean negative, because it approaches
+unfalsifiability.*
+
 1. ~~Direct D3 measurement: direct O/M/A + Anchor measurement…~~ — **retracted 2026-07-19 (Option A).**
    O/M/A came out item-identical to Sense of Coherence, so this is not a pending test. See
    [Empirical Frontier](EMPIRICAL_FRONTIER.md) for the narrow conditional under which it could reopen.
