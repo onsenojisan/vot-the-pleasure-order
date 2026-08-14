@@ -90,6 +90,23 @@ Rules:
 
 If these rules fail, the result is exploratory and cannot validate the bridge.
 
+## Construct Role Allocation (contract; frozen before collection)
+
+The window rules above are necessary and **not sufficient**. The independence requirement stated at *Future Option Preservation* below is not satisfied by the window split alone: while the predictor and the endpoint come off the same self-report stream, the construct overlap survives `T2`/`T3` separation. This section states what would satisfy it.
+
+**Contract — all six clauses, frozen and recorded before any data exists:**
+
+1. **The `Omega` endpoint is an external viability or functional endpoint, independent of the self-report stream.** Not a self-report aggregate under a different name.
+2. **An external endpoint does not by itself discharge clause 1.** It must not reuse *Future Option Preservation*'s items, its composite score, or any subjective encoding of future option availability. Independence has to be checkable at the item level, not asserted at the label level.
+3. **Each item or feature carries exactly one role** — `p_loc`, structural `C`, bridge predictor, `Omega` endpoint, or rival baseline. No item appears twice, and the allocation records, per item, why it is not the neighbouring role.
+4. **Reuse under a different aggregation function is prohibited.** This is the configuration that killed `O/M/A`, where the measures *were* the rival's subscales under another name.
+5. **Endpoint items are claimed first**; predictors are built from what remains. In the reverse order the endpoint becomes the leftovers.
+6. **If no external endpoint is available, the row stays empty and `Candidate 2` is reported as UN-TESTED and, on currently accessible data, UN-RUNNABLE.** An empty endpoint row is the data wall made visible: it must not be filled with a self-report proxy, and its emptiness must not be recorded as a completed allocation.
+
+⚠️ **This contract makes the problem checkable; it does not solve it.** Satisfying clause 1 requires the configuration that the co-measurement gap note ([21427129](https://doi.org/10.5281/zenodo.21427129), current version `21767213`) records as assembled by no adjacent paradigm — the same wall that leaves D4 un-run. **Two readings must be kept apart: *"solvable given an independent endpoint"* is not *"there is no endpoint."***
+
+**Ordering.** Like the `B-flex` item allocation in *Required Baselines*, this can only be fixed **before** collection is designed. Acquisition is on hold, so there is no deadline — but after the hold lifts is too late, because an allocation made once the data is visible is a forking path.
+
 ## Bridge Support Variables
 
 ### `dC_dt_lag`
