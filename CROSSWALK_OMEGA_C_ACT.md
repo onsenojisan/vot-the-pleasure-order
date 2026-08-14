@@ -1,6 +1,6 @@
 # Crosswalk: Omega-C-Act Coordinate Model <-> v1.3 Appearance/Measurement Apparatus
 
-Status: conceptual desk note, reconciliation map
+Status: conceptual desk note, reconciliation map; **BXKZ adoption recorded (2026-08-14)**
 Date: 2026-06-23
 Claim level: conceptual clarification only; adds no empirical claim and upgrades no evidence
 
@@ -14,6 +14,8 @@ determined / partial / undetermined, and records the naming reconciliation
 around dynamic release, static release, near-cessation, and deprecated terms.
 It does not weld claims
 that are not yet warranted.
+
+> **BXKZ ADOPTION / BYXCZ RETIREMENT (2026-08-14; correcting the prior compatibility hold).** The final structural-track decision (`the_pleasure_order_bxkz_layer_scheme_decision_v0.1.md`, 2026-07-25; amended 2026-08-03) adopts `BXKZ` as the individual-level carving and retires `BYXCZ` as a load-bearing five-symbol architecture. `Y` is meaning-as-appearance; `Cs` is carried by bidirectional affiliation axis `K`. This is not a mapping of two concurrently valid measured schemas and does not validate BXKZ. β-dependent work remains un-run until the independent BXKZ battery, legacy-protocol re-indexing, and the relevant endpoint conditions are completed.
 
 ## The Two Descriptions
 
@@ -33,9 +35,9 @@ that are not yet warranted.
 | C vs Gap_c | Gap_c = A_c - Omega-hat | partial | Distinct constructs. The apparent tension "addiction feels coherent" is resolved by the p_loc/C split above: addiction is high felt-consonance (high p_loc) but low structural C, hence a high-\|Gap_c\| cell. Exact functional relation still to be specified. |
 | Act (activation coordinate) | magnitude/aggregation of the A vector | partial | A is the content (which channels, what values); Act is the amount. Which aggregation (sum / norm / per-channel intensity) is undetermined. |
 | Act layer | A (appearance) vs R (report) | undetermined | Whether Act is appearance-side (A) or report-side (R) must be fixed; reported Act inherits mood/memory/response-style/method. |
-| dC/dt (consonance dynamics) | dC/dt -> dOmega/dt bridge (Candidate 2) | partial | Same dC/dt. Read as a pleasure signal this is p_loc (felt-consonance flux), not the flux of the structural coordinate C. Which flux feeds the bridge is open now that felt-consonance and structural C are separated. |
+| dC/dt (consonance dynamics) | Candidate 2 bridge proposal | **blocked** | `dC_dt_lag` is an unresolved input slot, not a frozen variable. Felt `p_loc`, structural `C`, and any C-subcomponent must not be silently substituted. Candidate 2's `BridgeScore_C2` is a predictor, not `dOmega/dt`; a distinct external outcome type (level, change, or rate) must also be selected. Until both locks are frozen, the bridge is not preregisterable. |
 | manifold Omega ~ f(C, Act) | (no direct canon twin) | partial | Possibly the static shadow of the dynamic bridge; reconcile levels-vs-flux. |
-| beta (BXKZ) | B layer / subject lens; A = F(W, beta) | partial | beta is a parameter that deforms C, Act, Gap and the manifold per subject; it is not a coordinate. trait-beta = manifold shape; act-beta(a) = current state. |
+| beta (BXKZ) | B layer / subject lens; A = F(W, beta) | **adopted, unvalidated** | BXKZ is the current structural carving: B drive/stake, X observer/attention, K bidirectional affiliation, Z self-reference. BYXCZ is historical; `Y` is an appearance and `Cs` is carried by K. Trait-beta may describe manifold shape and act-beta(a) current state only if independently measured and empirically supported. |
 | appearance channels (pleasure, meaning, agency, ...) | components of the A vector | determined | The coordinate model's "channels" are the canon A vector. |
 | divergence cases (addiction, effort, numbness, flow) | high-magnitude Gap_c cases | determined | The dissociations are exactly the high-\|Gap_c\| cells; this is the shared discriminant-validity engine. |
 | O / M / A (dissolved in v1.3) | O ~ C-fit; M and agency = A channels | partial | O (comprehensibility) maps toward C-fit; M (meaning) and agency map to A channels. Not a clean three-factor object. |
@@ -96,16 +98,18 @@ These are logged, not solved here:
    dissonance and the appearance-Omega mismatch: they may be independent,
    nested, or partially shared.
 2. Act aggregation rule, and whether Act is A-side or R-side.
-3. Which C-subcomponent flux drives the dC/dt -> dOmega/dt bridge.
-4. Whether the manifold Omega ~ f(C, Act) is the static form of the bridge.
-5. How beta deforms the manifold (trait) versus sets the current state (act).
-6. How to import (L, H) into the coordinate definitions.
+3. Which one input flux drives Candidate 2 — felt `p_loc`, structural `C`, or a named C-subcomponent — and its estimator, scale, sign, window, and disjoint allocation. This blocks preregistration; it is not a choice to defer until analysis.
+4. Which external outcome Candidate 2 predicts — Ω-related level, change, or rate — with independent endpoint, units, horizon, and estimator. `T3` alone does not define a rate.
+5. Whether the manifold Omega ~ f(C, Act) is the static form of the bridge.
+6. How to operationalize independently measured BXKZ trait-beta and act-beta(a), and how to re-index legacy Y/Cs interactions without building a hybrid.
+7. How the adopted BXKZ beta deforms the manifold (trait) versus sets the current state (act).
+8. How to import (L, H) into the coordinate definitions.
 
 ## What This Note Does Not Do
 
 It does not validate the manifold, the bridge, Gap_c compressibility, the
 channel grouping, or any coordinate. Those remain the standing empirical
-program (BXKZ battery + independent Omega-hat + Gap survey). This note only
+program (an **unvalidated BXKZ** battery + independent Omega-hat + Gap survey). This note only
 aligns vocabularies and records the naming reconciliation.
 
 ## 日本語の要点
