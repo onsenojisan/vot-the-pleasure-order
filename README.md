@@ -89,14 +89,25 @@ The current public record does not support claims that:
 **pre-registered and frozen**, and **un-run**, because it needs within-person decline **and** recovery arms
 that no accessible dataset provides. Everything else below is secondary to it.
 
-⚠️ **Secondary to it, but not settled by it — added 2026-08-14.** *Decisive* here means **highest
-priority**, not *sufficient on its own*. D4 can supply discriminating evidence only under adequate
-power, an independent endpoint, and pre-fixed structure screening, and **Amendment 1 routes a
-critical-slowing failure to `INCONCLUSIVE`** rather than to evidence against the gate — so **it
-raises validity more easily than it lowers it.** That cost is stated in full, not hidden, in the
-claim-boundary column of [Zenodo Records](ZENODO_RECORDS.md): *a test that can confirm but cannot
-cleanly disconfirm is a worse position for a theory than a clean negative, because it approaches
-unfalsifiability.*
+⚠️ **Secondary to it, but not settled by it — added 2026-08-14, corrected the same day.** *Decisive*
+here means **highest priority**, not *sufficient on its own*. **Amendment 1 routes a critical-slowing
+failure to `INCONCLUSIVE`** rather than to evidence against the gate — so **it raises validity more
+easily than it lowers it.** That cost is stated in full, not hidden, in the claim-boundary column of
+[Zenodo Records](ZENODO_RECORDS.md): *a test that can confirm but cannot cleanly disconfirm is a worse
+position for a theory than a clean negative, because it approaches unfalsifiability.*
+
+🛑 **Two things are being asked of D4, and they have different prerequisites. Keep them apart.**
+
+| | What it decides | What it needs | Status |
+|---|---|---|---|
+| **`D4-dynamics`** | whether a fold / hysteresis structure beats the free-energy family on the decline→recovery dynamics | within-person decline **and** recovery arms, ≥50 obs per arm, adequate power, pre-fixed structure screening. **It does not need an external Ω endpoint** | **un-run** — no accessible dataset has both arms |
+| **`D4 + P3`** | whether that structure licenses an upgrade to VOT's **Ω / directionality** claims | all of the above **plus** an external viability endpoint, independent of self-report (`P3`, Ω̂ non-circularity) | **un-runnable** on accessible data — that endpoint is the co-measurement gap |
+
+⚠️ **Corrected the same day.** The first version of this note required an independent endpoint for D4 to
+give discriminating evidence at all. That **contradicts the frozen preregistration**, whose §7 states
+plainly: *"H2/D4 adjudication does **NOT** wait on P3."* The spec is not being changed — the error was in
+this file, and the two-row split above is the repair. **The endpoint wall blocks the upgrade, not the
+dynamics comparison.**
 
 1. ~~Direct D3 measurement: direct O/M/A + Anchor measurement…~~ — **retracted 2026-07-19 (Option A).**
    O/M/A came out item-identical to Sense of Coherence, so this is not a pending test. See

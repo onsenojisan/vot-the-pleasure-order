@@ -103,7 +103,16 @@ The window rules above are necessary and **not sufficient**. The independence re
 5. **Endpoint items are claimed first**; predictors are built from what remains. In the reverse order the endpoint becomes the leftovers.
 6. **If no external endpoint is available, the row stays empty and `Candidate 2` is reported as UN-TESTED and, on currently accessible data, UN-RUNNABLE.** An empty endpoint row is the data wall made visible: it must not be filled with a self-report proxy, and its emptiness must not be recorded as a completed allocation.
 
-⚠️ **This contract makes the problem checkable; it does not solve it.** Satisfying clause 1 requires the configuration that the co-measurement gap note ([21427129](https://doi.org/10.5281/zenodo.21427129), current version `21767213`) records as assembled by no adjacent paradigm — the same wall that leaves D4 un-run. **Two readings must be kept apart: *"solvable given an independent endpoint"* is not *"there is no endpoint."***
+⚠️ **This contract makes the problem checkable; it does not solve it.** Satisfying clause 1 requires the configuration that the co-measurement gap note ([21427129](https://doi.org/10.5281/zenodo.21427129), current version `21767213`) records as assembled by no adjacent paradigm. **Two readings must be kept apart: *"solvable given an independent endpoint"* is not *"there is no endpoint."***
+
+🛑 **Corrected 2026-08-14: this said "the same wall that leaves D4 un-run", and that conflates two walls.**
+`D4` is un-run because **no accessible dataset carries both a decline and a recovery arm** — a data-shape
+problem, and the frozen preregistration's §7 states that *"H2/D4 adjudication does **NOT** wait on P3"*, i.e.
+the D4 dynamics comparison does **not** require the external Ω̂ endpoint. **Candidate 2 is blocked by the
+endpoint wall; D4 is blocked by the arms wall.** They coincide only in the *upgrade* case (`D4 + P3`, see
+[README](README.md)), where an external endpoint is required to move VOT's Ω claims rather than the dynamics
+comparison. Writing them as one wall makes the endpoint problem look bigger than it is and the arms problem
+look smaller.
 
 **Ordering.** Like the `B-flex` item allocation in *Required Baselines*, this can only be fixed **before** collection is designed. Acquisition is on hold, so there is no deadline — but after the hold lifts is too late, because an allocation made once the data is visible is a forking path.
 
