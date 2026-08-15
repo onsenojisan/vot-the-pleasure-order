@@ -94,6 +94,11 @@ The minimum acceptable two-sided power and error rates are numeric ratification
 fields. They must be frozen and published before real-outcome inspection. A gate
 that has power only to confirm a fold is not adequate for adjudication.
 
+The numbers must be produced under the [Two-Sided Calibration Protocol](AMENDMENT2_SIMULATION_PROTOCOL.md).
+Conventional defaults or a pooled simulation average do not populate the
+ratification block. Every locked validation scenario must pass its Wilson-bound
+and Monte Carlo precision targets.
+
 ### B2. Independent Structure Models
 
 The structure stage compares at least:
@@ -141,6 +146,8 @@ false-non-fold ceiling:
 primary scoring rule:
 meaningful win/tie margin:
 immutable deposit or commit:
+simulation protocol version:
+locked validation result identifier:
 ```
 
 Until every field is filled and published, this document is a remediation draft
