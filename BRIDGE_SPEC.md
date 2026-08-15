@@ -1,6 +1,6 @@
-# dC/dt -> dOmega/dt Bridge Specification
+# Candidate 2 Bridge Specification — selected local input → independent Ω-related outcome
 
-Status: public-facing candidate specification  
+Status: **Candidate 2L selected** (ΔC1 → external Ω-related level); design-incomplete and not yet preregisterable
 Date: 2026-06-19  
 Claim level: unvalidated bridge hypothesis  
 
@@ -52,23 +52,27 @@ Therefore a positive local `dC/dt` is not by itself evidence of positive `dOmega
 
 Candidate 2 states:
 
-> Lagged local coherence flux contributes to later directionality only when it is independently anchored by persistence, corrective update, continuity, and future option preservation, and when harmful rigid order is excluded.
+> One selected lagged local input contributes to a predeclared later Ω-related outcome only when it is independently anchored by persistence, corrective update, continuity, and future option preservation, and when harmful rigid order is excluded.
+
+> **Author selection (2026-08-14): Candidate 2L.** The input construct is the change in internal configural consonance, `ΔC1_lag`; the endpoint form is the independently operationalized external Ω-related **level** `Y_Omega^L = OmegaHat(T3)`. This is a prospective level-prediction study, not an Ω-rate study. `p_loc`, undifferentiated structural `C`, change, and rate are not Candidate 2L inputs/outcomes. A future rate study, if independently designed, is **Candidate 2R** and requires a separate preregistration.
 
 Compact form:
 
 ```text
-dOmega_dt_C2(t + h)
+BridgeScore_C2
   = Bridge(
-      dC_dt_lag,
+      DeltaC1_lag,
       persistence,
       corrective_update,
       continuity,
       future_option_preservation,
       harmful_order_gate
     )
+
+BridgeScore_C2  predicts  Y_Omega  under one frozen outcome definition
 ```
 
-This is a testable hypothesis, not a validated result.
+`BridgeScore_C2` is a predictor / decision statistic. It is **not** an observed `dOmega/dt`, an estimator of `dOmega/dt`, or the endpoint it is asked to predict. This is a design-incomplete hypothesis, not a validated result.
 
 ## Required Windows
 
@@ -90,18 +94,33 @@ Rules:
 
 If these rules fail, the result is exploratory and cannot validate the bridge.
 
+## Outcome Definition — blocking decision before a `dOmega/dt` claim
+
+`T3` by itself names a future measurement occasion, not an estimand. A single external `T3` observation can support a **level** prediction, but cannot by itself establish a **change** or a **rate**. Before data exist, the protocol must select exactly one of the following and name the external outcome, units, horizon, aggregation rule, and missing-data rule:
+
+| Chosen estimand | Minimum independent observation requirement | Permitted conclusion |
+|---|---|---|
+| **Level**: `Y_Omega^L = Omega_hat(T3)` | one independently operationalized external endpoint at `T3` | **SELECTED for Candidate 2L.** Predicts an external Ω-related **level**; no `dOmega/dt` wording |
+| **Change**: `Y_Omega = Omega_hat(T3) - Omega_hat(T2*)` | two independently operationalized external endpoints at frozen times `T2*` and `T3` | predicts an external Ω-related **change** |
+| **Rate**: `Y_Omega = d Omega_hat / d tau` over a declared interval | enough independently operationalized external observations to estimate the rate, plus declared time unit and slope estimator | predicts an external Ω-related **rate** |
+
+`T2*` denotes an external outcome occasion and need not reuse the support-variable stream. The construct-role contract below still prohibits reuse of items or features. **Candidate 2L selects the level option only.** Its endpoint source, `(L,H,P)`, units, aggregation, and missing-data rule are not yet frozen, so it remains not preregisterable. Change and rate are excluded from Candidate 2L. Neither the score nor a `T3` label may be called `dOmega/dt`.
+
+> **Decision record.** [Candidate 2 — Freeze Decision Sheet](CANDIDATE2_FREEZE_DECISION_SHEET.md) records the Candidate 2L selections and the remaining endpoint, input-estimator, and item-ownership gates. Complete its remaining fields before collection or analysis.
+
 ## Construct Role Allocation (contract; frozen before collection)
 
 The window rules above are necessary and **not sufficient**. The independence requirement stated at *Future Option Preservation* below is not satisfied by the window split alone: while the predictor and the endpoint come off the same self-report stream, the construct overlap survives `T2`/`T3` separation. This section states what would satisfy it.
 
-**Contract — all six clauses, frozen and recorded before any data exists:**
+**Contract — all seven clauses, frozen and recorded before any data exists:**
 
-1. **The `Omega` endpoint is an external viability or functional endpoint, independent of the self-report stream.** Not a self-report aggregate under a different name.
-2. **An external endpoint does not by itself discharge clause 1.** It must not reuse *Future Option Preservation*'s items, its composite score, or any subjective encoding of future option availability. Independence has to be checkable at the item level, not asserted at the label level.
-3. **Each item or feature carries exactly one role** — `p_loc`, structural `C`, bridge predictor, `Omega` endpoint, or rival baseline. No item appears twice, and the allocation records, per item, why it is not the neighbouring role.
-4. **Reuse under a different aggregation function is prohibited.** This is the configuration that killed `O/M/A`, where the measures *were* the rival's subscales under another name.
-5. **Endpoint items are claimed first**; predictors are built from what remains. In the reverse order the endpoint becomes the leftovers.
-6. **If no external endpoint is available, the row stays empty and `Candidate 2` is reported as UN-TESTED and, on currently accessible data, UN-RUNNABLE.** An empty endpoint row is the data wall made visible: it must not be filled with a self-report proxy, and its emptiness must not be recorded as a completed allocation.
+1. **The `Y_Omega` endpoint is an external viability or functional endpoint, independent of the self-report stream.** Not a self-report aggregate under a different name.
+2. **An external endpoint does not by itself discharge clause 1.** It must not reuse *Future Option Preservation*'s items, its composite score, the harmful-order gate, or any subjective encoding of future option availability. Independence has to be checkable at the item/feature level, not asserted at the label level.
+3. **Item disjointness is necessary but not sufficient.** Future Option Preservation and the harmful-order gate are Ω-aligned by construction: they may be explanatory predictors, but cannot also define what counts as success. The selected endpoint must state a distal functional consequence without defining it as option preservation, reversibility, anti-rigidity, or harmful order; the test must include `future_option_preservation` alone as a required baseline. Otherwise the result is at most a construct restatement, not evidence for an Ω bridge.
+4. **Each item or feature carries exactly one role** — `p_loc`, structural `C`, bridge predictor, `Y_Omega` endpoint, or rival baseline. No item appears twice, and the allocation records, per item, why it is not the neighbouring role.
+5. **Reuse under a different aggregation function is prohibited.** This is the configuration that killed `O/M/A`, where the measures *were* the rival's subscales under another name.
+6. **Endpoint items are claimed first**; predictors are built from what remains. In the reverse order the endpoint becomes the leftovers.
+7. **If no external endpoint is available, the row stays empty and `Candidate 2` is reported as UN-TESTED and, on currently accessible data, UN-RUNNABLE.** An empty endpoint row is the data wall made visible: it must not be filled with a self-report proxy, and its emptiness must not be recorded as a completed allocation.
 
 ⚠️ **This contract makes the problem checkable; it does not solve it.** Satisfying clause 1 requires the configuration that the co-measurement gap note ([21427129](https://doi.org/10.5281/zenodo.21427129), current version `21767213`) records as assembled by no adjacent paradigm. **Two readings must be kept apart: *"solvable given an independent endpoint"* is not *"there is no endpoint."***
 
@@ -118,17 +137,19 @@ look smaller.
 
 ## Bridge Support Variables
 
-### `dC_dt_lag`
+### `DeltaC1_lag` — selected input construct, operationalization incomplete
 
-Pre-endpoint local coherence flux over the frozen input window.
+**Selected for Candidate 2L (2026-08-14):** `DeltaC1_lag = C1(T1) - C1(T0)`, where `C1` is internal configural consonance — how tightly the appearance channels agree at a moment. C1 is selected because it is defined without `OmegaHat` and can therefore be operationalized without using the outcome construct; felt-consonance `p_loc` and the Ω-aligned harmful-coherence property C2 are not Candidate 2L inputs.
 
-Allowed examples:
+The C1 score itself has no frozen composition or estimator in the corpus. Before collection, the decision record must give its channel set, agreement/composition function, scale, sign convention, input window, missing-data rule, and proof that its items/features are disjoint from every support variable, gate, external endpoint, and baseline. It may not change C1 after observing `T2` or `T3`. Until those fields are frozen, `DeltaC1_lag` is **SELECTED BUT UNOPERATIONALIZED**, and Candidate 2L is **UN-RUNNABLE**.
 
-- slope of local coherence across `T1`;
-- signed change from `T0` to `T1`;
-- windowed positive and negative coherence-change terms.
+Allowed C1 change forms **after the C1 composition is frozen**:
 
-Forbidden examples:
+- slope of the selected input across `T1`;
+- signed change in the selected input from `T0` to `T1`;
+- windowed positive and negative change terms for the selected input.
+
+Forbidden forms:
 
 - same-window outcome proxy;
 - post-event improvement;
@@ -186,7 +207,7 @@ Early tests should prefer the vector form because it is less likely to smuggle t
 ```text
 BridgeVector =
   [
-    z(dC_dt_lag),
+    z(DeltaC1_lag),
     z(persistence),
     z(corrective_update),
     z(continuity),
@@ -195,7 +216,7 @@ BridgeVector =
   ]
 ```
 
-Evidence is evaluated by whether this vector predicts independent directionality endpoints beyond simpler baselines.
+Evidence is evaluated by whether this vector predicts the selected independent `Y_Omega` endpoint beyond simpler baselines. The vector is not itself an Ω rate.
 
 If a scalar score is required, the default is:
 
@@ -209,18 +230,19 @@ support_mean =
   )
 
 if harmful_order_gate == 1:
-    dOmega_dt_C2 = 0 or negative-channel-only
+    BridgeScore_C2 = gate-active / no positive bridge prediction
 else:
-    dOmega_dt_C2 = z(dC_dt_lag) * max(0, support_mean)
+    BridgeScore_C2 = z(DeltaC1_lag) * max(0, support_mean)
 ```
 
-Equal weights are the default. Any unequal weights must be frozen before testing.
+The gate's numerical handling, if one is used, must be frozen before testing. `BridgeScore_C2` remains a predictor even when its sign is negative; it is never relabelled as observed `dOmega/dt`. Equal weights are the default. Any unequal weights must be frozen before testing.
 
 ## Required Baselines
 
 Candidate 2 must be compared against simpler alternatives:
 
-- `dC_dt_lag` alone;
+- `DeltaC1_lag` alone;
+- `future_option_preservation` alone;
 - `C` level alone;
 - generic trend or slope;
 - generic volatility or amplitude;
@@ -287,8 +309,8 @@ whether a baseline can actually be computed on the target data:
       it is the cheapest path at implementation time, not because anyone has proposed it.
 
       ⚠️ **Nothing here is evidence.** This fixes how a baseline would be measured if the study is ever
-      run; the study is on hold, and `Candidate 2` remains **a preregisterable specification, not a
-      validated bridge**.
+      run; the study is on hold, and `Candidate 2` remains **a design-incomplete specification — not yet
+      preregisterable and not a validated bridge**.
 - **Pathway diversity** (Lade, Walker & Haider 2020) collides with the *Future Option Preservation*
   element rather than with `Omega` as a whole, and is disclosed there. **No baseline is added**; what
   was owed was the withdrawal of a novelty claim, and that is recorded at the element.
@@ -315,22 +337,25 @@ Required negative controls include:
 
 Candidate 2 earns bounded bridge support only if all are true:
 
-1. mapping, windows, variables, thresholds, exclusions, and baselines were frozen before testing;
-2. endpoint construction is independent from predictor construction;
-3. performance reproduces in holdout or preregistered test data;
-4. Candidate 2 beats required baselines by a predeclared margin;
-5. harmful-order cases are not falsely scored as positive directionality;
-6. null result rules were honored.
+1. the input-flux decision above — construct, estimator, scale, sign, window, disjoint allocation, and missing-data rule — was frozen before testing;
+2. one outcome definition (level, change, or rate), external endpoint, units, horizon, and estimator were frozen before testing;
+3. mapping, windows, variables, thresholds, exclusions, and baselines were frozen before testing;
+4. endpoint construction is independent from predictor construction **and** the endpoint is not Ω-aligned by construction with Future Option Preservation or the harmful-order gate;
+5. performance reproduces in holdout or preregistered test data;
+6. Candidate 2 beats required baselines, including `future_option_preservation` alone, by a predeclared margin;
+7. harmful-order cases are not falsely scored as positive directionality;
+8. null result rules were honored.
 
 Allowed wording after a pass:
 
-> In domain X, under frozen measurement rules, lagged local coherence flux plus directionality-support variables predicted independent directionality-relevant endpoints beyond simpler baselines.
+> In domain X, under frozen measurement rules, the selected lagged input plus bridge-support variables predicted the predeclared independent external `Y_Omega` [level/change/rate] endpoint beyond simpler baselines, including Future Option Preservation alone.
 
 ## Fail Conditions
 
 Candidate 2 fails if:
 
-- `dC_dt_lag` alone performs as well as the bridge;
+- `DeltaC1_lag` alone performs as well as the bridge;
+- `future_option_preservation` alone performs as well as the bridge;
 - generic trend, amplitude, persistence, or recovery explains the result;
 - endpoint labels leak into predictors;
 - thresholds are adjusted after inspection;
@@ -346,7 +371,7 @@ Required conclusion after a fail:
 
 Safe:
 
-> VOT distinguishes local coherence flux (`dC/dt`) from directionality flux (`dOmega/dt`). Candidate 2 specifies an unvalidated, testable bridge in which local coherence contributes to directionality only when independently associated with persistence, corrective update, continuity, and future option preservation, and when harmful rigid order is excluded.
+> VOT distinguishes local coherence dynamics from long-term directionality claims. Candidate 2L is a design-incomplete proposal for testing whether selected `DeltaC1_lag` plus persistence, corrective update, continuity, and future-option variables predict a predeclared independent external Ω-related **level**. It does not test an Ω rate.
 
 Forbidden:
 
@@ -364,7 +389,7 @@ Forbidden:
 
 The conservative current status is:
 
-> Candidate 2 is a preregisterable bridge specification, not a validated bridge.
+> **Candidate 2L is selected but design-incomplete, not yet preregisterable and not a validated bridge.** It fixes `DeltaC1_lag` as the input construct and an external Ω-related level at `T3` as the endpoint form. The C1 estimator and the external endpoint source/definition remain unfrozen. Its `BridgeScore_C2` is not `dOmega/dt`; rate wording is reserved for a separately preregistered Candidate 2R.
 
 Until a frozen bridge test passes, VOT should be presented as a two-layer framework:
 
