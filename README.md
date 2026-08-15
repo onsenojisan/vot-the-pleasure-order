@@ -6,7 +6,7 @@ It is not dedicated to a single Zenodo record. It keeps public-facing definition
 
 ## Current Status
 
-Valence Order Theory / The Pleasure Order is a coherent, testable research program, not a validated theory. On current evidence it reads as a structured redescription of nearby frameworks; its one distinctive empirical claim (a collapse-gate / critical-transition wager) is pre-registered and frozen but, as of 2026-07-14, un-run — the intensive decline->recovery data it requires is not accessible. See [Current Status](CURRENT_STATUS.md) for the dated details.
+Valence Order Theory / The Pleasure Order is a coherent, testable research program, not a validated theory. On current evidence it reads as a structured redescription of nearby frameworks. Its remaining collapse-gate wager is preregistered and frozen but, as of 2026-08-15, un-run; even a positive D4 result would be structural evidence only, not sufficient support for the core claim. Start with [Current Canon](CURRENT_CANON.md).
 
 Current claim level:
 
@@ -14,29 +14,33 @@ Current claim level:
 - L4 structural work: rule-conditional structural-proxy evidence only.
 - Direct channel-vector validation with disjoint instruments: not yet established.
 - Omega measurement: not established.
-- `dC/dt -> dOmega/dt` bridge: specified but untested.
+- directional bridge: Candidate 2L is an auxiliary future-level design; Candidate 2R separately specifies change/rate and is untested.
 - Distinctiveness from free-energy, viability, capability, SDT, SOC, and appraisal theories: not established; the currently-measurable order operator is, across four EMA datasets, absorbed by free-energy.
 
 ## Minimal Current Claim
 
 The current bounded claim is not that pleasure proves order.
 
-The current claim is:
+The current heuristic is:
 
 > Local pleasure or coherence change is not identical to long-term value or directionality. It may support directionality only when anchored to repairability, corrective update, continuity, and future option preservation. Pleasure and suffering should therefore be tested asymmetrically rather than treated as mirror images on one valence scale.
 
-The theory currently distinguishes:
+The current empirical terminology distinguishes:
 
 - `C`: local coherence.
-- `dC/dt`: local coherence flux, a qualified local pleasure signal.
+- `p_loc`: felt-consonance appearance channel.
+- `r_C+` / `r_C-`: structural formation/collapse rates, not definitions of felt pleasure/suffering.
 - `Omega`: directionality potential, the capacity to revise, repair, reverse, and reorganize future trajectories.
-- `dOmega/dt`: long-term directionality flux.
+- Ω-related level, change, and rate estimands, which must not be conflated.
 
-The theory does not currently identify `dC/dt` with `dOmega/dt`. It also distinguishes *felt* consonance (`p_loc`, the "local pleasure signal" reading of `dC/dt`, an appearance channel) from the *structural* consonance coordinate `C`; the two can diverge (addiction feels coherent yet is poorly integrated). See the [Structural Appendix](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md).
+The theory does not currently identify felt consonance, a structural C-rate, or an Ω-related rate. See the [Terminology Contract](TERMINOLOGY_CONTRACT.md) and [Structural Appendix](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md).
 
 ## Start Here
 
 - [Reader Guide](READER_GUIDE.md)
+- [Current Canon](CURRENT_CANON.md)
+- [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md)
+- [Terminology Contract](TERMINOLOGY_CONTRACT.md)
 - [Current Status](CURRENT_STATUS.md)
 - [Bridge Specification](BRIDGE_SPEC.md)
 - [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
@@ -83,11 +87,11 @@ The current public record does not support claims that:
 > retracted, one was run and lost. The list below marks both rather than deleting them, and names what
 > the decisive test actually is now.
 
-**The decisive test is a single un-run one:** the **Generic-Tipping Discriminator**
+**The highest-priority dynamics test is a single un-run one:** the **Generic-Tipping Discriminator**
 ([10.5281/zenodo.21366131](https://doi.org/10.5281/zenodo.21366131)) — whether the collapse gate operates
 *generically*, transferring without per-case tuning and constraining decline and recovery jointly. It is
 **pre-registered and frozen**, and **un-run**, because it needs within-person decline **and** recovery arms
-that no accessible dataset provides. Everything else below is secondary to it.
+that no accessible dataset provides. It is necessary for S1 but not sufficient for the central claim, which requires S1 + S2 + S3 under the [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md).
 
 ⚠️ **Secondary to it, but not settled by it — added 2026-08-14, corrected the same day.** *Decisive*
 here means **highest priority**, not *sufficient on its own*. **Amendment 1 routes a critical-slowing
@@ -102,6 +106,8 @@ position for a theory than a clean negative, because it approaches unfalsifiabil
 |---|---|---|---|
 | **`D4-dynamics`** | whether a fold / hysteresis structure beats the free-energy family on the decline→recovery dynamics | within-person decline **and** recovery arms, ≥50 obs per arm, adequate power, pre-fixed structure screening. **It does not need an external Ω endpoint** | **un-run** — no accessible dataset has both arms |
 | **`D4 + P3`** | whether that structure licenses an upgrade to VOT's **Ω / directionality** claims | all of the above **plus** an external viability endpoint, independent of self-report (`P3`, Ω̂ non-circularity) | **un-runnable** on accessible data — that endpoint is the co-measurement gap |
+
+Even `D4 + P3` is insufficient for distinctiveness unless it also passes the explicit-rival D5 contract. [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md) supplies that repair and a symmetric `UNDERPOWERED` / `NO_STRUCTURE` disposition, but remains an author-ratification draft and is not yet in force.
 
 ⚠️ **Corrected the same day.** The first version of this note required an independent endpoint for D4 to
 give discriminating evidence at all. That **contradicts the frozen preregistration**, whose §7 states

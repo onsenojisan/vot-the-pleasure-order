@@ -1,33 +1,33 @@
 # Reader Guide
 
 Status: public routing guide  
-Date: 2026-07-14  
+Date: 2026-08-15
 Purpose: help readers choose the right document without upgrading any claim  
 
 ## Shortest Route
 
 If you read only three files, read these in order:
 
-1. [Current Status](CURRENT_STATUS.md)
-2. [Bridge Specification](BRIDGE_SPEC.md)
-3. [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
+1. [Current Canon](CURRENT_CANON.md)
+2. [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md)
+3. [Claim Boundary](CLAIM_BOUNDARY.md)
 
 These three files state the current public boundary:
 
 - VOT / The Pleasure Order is a coherent and testable research program, not a validated theory.
-- `dC/dt` and `dOmega/dt` are distinct.
-- the bridge between local pleasure/coherence and long-term directionality is specified but untested.
-- distinctiveness from nearby theories is not established.
+- felt consonance, structural C-rates, and Ω-related estimands are distinct.
+- Candidate 2L is an auxiliary future-level design; Candidate 2R separately specifies change/rate.
+- the core claim requires S1 + S2 + S3 and is not currently supported.
 
 ## If You Are A First-Time Reader
 
 Read:
 
 1. [README](README.md) for the repository role.
-2. [Current Status](CURRENT_STATUS.md) for the current claim boundary.
-3. [Working Definitions](WORKING_DEFINITIONS.md) for minimal terms.
-4. [Bridge Specification](BRIDGE_SPEC.md) for the `dC/dt -> dOmega/dt` candidate bridge.
-5. [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) for the anti-redundancy comparison.
+2. [Current Canon](CURRENT_CANON.md) for the current claim boundary.
+3. [Terminology Contract](TERMINOLOGY_CONTRACT.md) for minimal current terms.
+4. [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md) for the central estimand and support conditions.
+5. [Bridge Specification](BRIDGE_SPEC.md) and [Candidate 2R](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md) for the distinct level and change/rate studies.
 
 Do not start from older Omega-facing records if your goal is to understand the current status.
 
@@ -35,17 +35,18 @@ Do not start from older Omega-facing records if your goal is to understand the c
 
 Read:
 
-1. [Current Status](CURRENT_STATUS.md)
-2. [Claim Boundary](CLAIM_BOUNDARY.md)
-3. [Bridge Specification](BRIDGE_SPEC.md)
-4. [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
-5. [Empirical Readiness](EMPIRICAL_READINESS.md)
-6. [Zenodo Records](ZENODO_RECORDS.md)
+1. [Current Canon](CURRENT_CANON.md)
+2. [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md)
+3. [Terminology Contract](TERMINOLOGY_CONTRACT.md)
+4. [Claim Boundary](CLAIM_BOUNDARY.md)
+5. [Bridge Specification](BRIDGE_SPEC.md) and [Candidate 2R](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md)
+6. [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md)
+7. [Zenodo Records](ZENODO_RECORDS.md)
 
 Review priority:
 
 - ~~whether direct O/M/A validation is still missing~~ — **superseded 2026-07-19.** This asked the wrong question. O/M/A is not awaiting validation; it is **retracted** (Option A), having come out item-identical to Antonovsky's Sense of Coherence. Read the retraction instead of looking for the missing validation;
-- whether `dC/dt` and `dOmega/dt` are kept distinct;
+- whether felt consonance, structural C-rates, and Ω-related estimands are kept distinct;
 - whether the bridge has failure conditions;
 - ~~whether free-energy, viability, capability, SDT, SOC, and appraisal theories could absorb VOT~~ — **partly answered 2026-07-18.** Free energy *did* absorb the measurable order operator on four open EMA datasets ([21422215](https://doi.org/10.5281/zenodo.21422215)). The open form of this question is now narrower: whether the **un-run** generic-tipping structure survives the same contest ([21366131](https://doi.org/10.5281/zenodo.21366131), concept — current version `21694817`).
 
@@ -77,7 +78,8 @@ Read:
 
 Useful data would need at least one of:
 
-- **a within-person decline arm *and* recovery arm** in the same series (≈50 observations per arm), with an **independent** viability or functional endpoint not derived from self-report. **This is the one that matters** — it is what the frozen preregistration needs, and its absence is why that test is un-run. The structural reason no field produces it is documented separately ([21427129](https://doi.org/10.5281/zenodo.21427129));
+- **for D4-dynamics:** a within-person decline arm *and* recovery arm in the same series (≈50 observations per arm). The frozen dynamics adjudication does not require an external endpoint;
+- **for the core D4 + P3 + D5 test:** those arms plus an independent viability/functional endpoint and the variables needed to estimate the prospectively declared strong FEP/active-inference rivals. This stronger co-measurement design is what could support S1 + S2 + S3;
 - longitudinal or EMA structure with lagged windows;
 - independent directionality or repairability endpoints;
 - strong competitor measures such as SDT, SOC, PANAS, perceived control, meaning, appraisal, free-energy/prediction-error proxies, viability, capability, or resilience variables.
@@ -101,8 +103,13 @@ Do not cite any record as proving VOT, proving The Pleasure Order, directly meas
 | File | Role |
 |---|---|
 | [README](README.md) | Public landing page and short repository orientation. |
+| [Current Canon](CURRENT_CANON.md) | Current-only verdict, live claim matrix, terminology, and reading order. |
+| [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md) | Central estimand, S1–S4 claim units, and allowed evidence dispositions. |
+| [Terminology Contract](TERMINOLOGY_CONTRACT.md) | Current separation of appearance, structure, Ω estimands, and value. |
 | [Current Status](CURRENT_STATUS.md) | Current public status, strongest safe claim, and next decisive tests. |
-| [Bridge Specification](BRIDGE_SPEC.md) | Candidate 2 bridge from local coherence flux to later directionality; unvalidated. |
+| [Bridge Specification](BRIDGE_SPEC.md) | Auxiliary Candidate 2L future-level prediction design; unvalidated. |
+| [Candidate 2R](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md) | Separate change/rate directional-bridge design contract. |
+| [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md) | Draft explicit-rival and symmetric-falsifier repair; not in force until ratified. |
 | [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) | Anti-redundancy plan against nearby theories. |
 | [Structural Appendix: Omega-C-Act](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md) | Post-v1.3 coordinate model (Omega, C, Act); felt-consonance (`p_loc`) vs structural consonance (`C`); release modes. Conceptual clarification only. |
 | [Crosswalk: Omega-C-Act](CROSSWALK_OMEGA_C_ACT.md) | Desk mapping between the coordinate model and the v1.3 appearance/measurement apparatus. |
@@ -118,9 +125,9 @@ Do not cite any record as proving VOT, proving The Pleasure Order, directly meas
 
 When documents differ in scope, read them in this order:
 
-1. [Current Status](CURRENT_STATUS.md) gives the current global public boundary.
-2. [Bridge Specification](BRIDGE_SPEC.md) and [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) specify current open tests.
-3. [Claim Boundary](CLAIM_BOUNDARY.md) and [Empirical Readiness](EMPIRICAL_READINESS.md) state evidence discipline.
+1. [Current Canon](CURRENT_CANON.md) gives the current global public boundary.
+2. [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md) governs what would support, absorb, downgrade, or leave the claim inconclusive.
+3. Current specifications govern their own bounded tests; drafts do not alter frozen registrations until ratified.
 4. [Zenodo Records](ZENODO_RECORDS.md) indexes archival records.
 5. older Omega-facing materials are historical unless explicitly reauthorized.
 
