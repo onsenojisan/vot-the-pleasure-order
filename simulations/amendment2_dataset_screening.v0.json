@@ -71,21 +71,38 @@
     {
       "candidate_id": "openesm_0014_habets",
       "catalogue_record_id": "0014",
-      "evidence_urls": ["https://openesmdata.org/datasets/0014_habets/"],
+      "evidence_urls": [
+        "https://openesmdata.org/datasets/0014_habets/",
+        "https://mhealth.jmir.org/2020/5/e15628"
+      ],
       "access": "open",
-      "status": "UNRESOLVED_METADATA",
+      "status": "BLOCKED_D4",
       "facts": {
-        "same_person_decline_recovery": "unknown",
-        "minimum_50_each_arm": "unknown",
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "no",
         "observed_state": "yes",
         "agent_action": "unknown",
-        "external_forcing": "unknown",
-        "action_forcing_distinct": "unknown",
-        "bidirectional_forcing": "unknown",
+        "external_forcing": "no",
+        "action_forcing_distinct": "no",
+        "bidirectional_forcing": "no",
         "independent_p3": "unknown"
       },
-      "blockers": ["D4_UNESTABLISHED", "D5_UNESTABLISHED", "STRUCTURE_UNESTABLISHED"],
-      "rationale": "Medication, activity and Parkinson ON/OFF state are recorded, but the metadata does not establish D4 arms or a defensible separation of selected action from exogenous forcing."
+      "blockers": ["D4", "D5_UNESTABLISHED", "STRUCTURE", "CORE_UNESTABLISHED"],
+      "target_blind_review": {
+        "review_date": "2026-08-15",
+        "participant_level_outcome_values_inspected": false,
+        "published_aggregate_results_used_for_disposition": false,
+        "materials": [
+          "https://openesmdata.org/datasets/0014_habets/",
+          "https://mhealth.jmir.org/2020/5/e15628"
+        ],
+        "design_findings": [
+          "The protocol schedules seven semi-random beeps per day for 14 days, for 98 planned beeps total.",
+          "Medication intake and self-reported ON/OFF state are observed during ordinary free-living care, not assigned decline and recovery arms.",
+          "The design declares no separate exogenous bidirectional forcing variable."
+        ]
+      },
+      "rationale": "The target-blind methods review establishes no labelled decline/recovery arms, only 98 planned beeps total, and no separate exogenous forcing; the frozen D4 design cannot be met."
     },
     {
       "candidate_id": "openesm_0022_menghini",
@@ -185,21 +202,40 @@
     {
       "candidate_id": "openesm_0060_beck",
       "catalogue_record_id": "0060",
-      "evidence_urls": ["https://openesmdata.org/datasets/0060_beck/"],
+      "evidence_urls": [
+        "https://openesmdata.org/datasets/0060_beck/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9793429/",
+        "https://github.com/emoriebeck/behavior-prediction/tree/main/01-codebooks"
+      ],
       "access": "open",
-      "status": "UNRESOLVED_METADATA",
+      "status": "BLOCKED_D4",
       "facts": {
-        "same_person_decline_recovery": "unknown",
+        "same_person_decline_recovery": "no",
         "minimum_50_each_arm": "unknown",
         "observed_state": "yes",
         "agent_action": "unknown",
-        "external_forcing": "unknown",
-        "action_forcing_distinct": "unknown",
-        "bidirectional_forcing": "unknown",
-        "independent_p3": "unknown"
+        "external_forcing": "no",
+        "action_forcing_distinct": "no",
+        "bidirectional_forcing": "no",
+        "independent_p3": "no"
       },
-      "blockers": ["D4_UNESTABLISHED", "D5_UNESTABLISHED", "STRUCTURE_UNESTABLISHED"],
-      "rationale": "The data belong to a larger personality intervention study, but the catalogue metadata declares no paired decline/recovery arms or causal-role mappings."
+      "blockers": ["D4", "D5_UNESTABLISHED", "STRUCTURE", "CORE"],
+      "target_blind_review": {
+        "review_date": "2026-08-15",
+        "participant_level_outcome_values_inspected": false,
+        "published_aggregate_results_used_for_disposition": false,
+        "materials": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9793429/",
+          "https://github.com/emoriebeck/behavior-prediction/tree/main/01-codebooks"
+        ],
+        "source_snapshot": "emoriebeck/behavior-prediction@24ab1c080faa691fccf9192b7dd87e6b8fdda7f6",
+        "design_findings": [
+          "The analysed design is a naturalistic trait-plus-state ESM prediction study, not a decline/recovery intervention.",
+          "The codebooks group variables as psychological, situational and time features and declare no treatment, condition, phase or arm variable.",
+          "The study declares no passive sensor endpoint or separate exogenous forcing variable."
+        ]
+      },
+      "rationale": "The target-blind methods and codebook review establishes a naturalistic prediction design with no decline/recovery arms and no separate exogenous forcing; the catalogue's larger-study note does not make this target an intervention dataset."
     },
     {
       "candidate_id": "openesm_0061_merolla",

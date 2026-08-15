@@ -18,6 +18,7 @@ class DatasetScreeningValidationTests(unittest.TestCase):
         self.assertEqual(report["catalogue_record_count"], 62)
         self.assertEqual(report["shortlist_count"], 11)
         self.assertEqual(report["candidate_count"], 14)
+        self.assertEqual(report["target_blind_review_count"], 2)
         self.assertEqual(report["ready_for_blinded_preflight_count"], 0)
 
     def test_declared_count_must_match_enumeration(self):
@@ -55,6 +56,32 @@ class DatasetScreeningValidationTests(unittest.TestCase):
         candidate = broken["candidates"][1]
         candidate["status"] = "READY_FOR_BLINDED_PREFLIGHT"
         broken["status"] = "BOUNDED_SEARCH_COMPLETE_PREFLIGHT_CANDIDATE_IDENTIFIED"
+        with self.assertRaises(ScreeningError):
+            validate_screening(broken)
+
+    def test_target_blind_review_cannot_inspect_participant_level_outcome_values(self):
+        broken = copy.deepcopy(load_screening(REGISTRY))
+        candidate = next(
+            item
+            for item in broken["candidates"]
+            if item["candidate_id"] == "openesm_0014_habets"
+        )
+        candidate["target_blind_review"][
+            "participant_level_outcome_values_inspected"
+        ] = True
+        with self.assertRaises(ScreeningError):
+            validate_screening(broken)
+
+    def test_target_blind_review_cannot_use_published_results_for_disposition(self):
+        broken = copy.deepcopy(load_screening(REGISTRY))
+        candidate = next(
+            item
+            for item in broken["candidates"]
+            if item["candidate_id"] == "openesm_0060_beck"
+        )
+        candidate["target_blind_review"][
+            "published_aggregate_results_used_for_disposition"
+        ] = True
         with self.assertRaises(ScreeningError):
             validate_screening(broken)
 

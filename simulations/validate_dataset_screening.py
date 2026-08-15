@@ -165,6 +165,43 @@ def validate_screening(data: dict[str, Any]) -> dict[str, Any]:
         if not candidate.get("rationale"):
             errors.append(f"{location}.rationale must be recorded")
 
+        review = candidate.get("target_blind_review")
+        if review is not None:
+            if not isinstance(review, dict):
+                errors.append(f"{location}.target_blind_review must be an object")
+            else:
+                if review.get("participant_level_outcome_values_inspected") is not False:
+                    errors.append(
+                        f"{location}.target_blind_review must affirm that participant-level outcome values were not inspected"
+                    )
+                if review.get("published_aggregate_results_used_for_disposition") is not False:
+                    errors.append(
+                        f"{location}.target_blind_review must affirm that published aggregate results were not used for disposition"
+                    )
+                if not review.get("review_date"):
+                    errors.append(f"{location}.target_blind_review.review_date is required")
+                materials = review.get("materials")
+                if (
+                    not isinstance(materials, list)
+                    or not materials
+                    or any(
+                        not isinstance(url, str) or not url.startswith("https://")
+                        for url in materials
+                    )
+                ):
+                    errors.append(
+                        f"{location}.target_blind_review.materials must contain HTTPS URLs"
+                    )
+                findings = review.get("design_findings")
+                if (
+                    not isinstance(findings, list)
+                    or not findings
+                    or any(not isinstance(item, str) or not item for item in findings)
+                ):
+                    errors.append(
+                        f"{location}.target_blind_review.design_findings must be non-empty strings"
+                    )
+
     if reviewed_catalogue_ids != set(shortlist_ids):
         missing = sorted(set(shortlist_ids) - reviewed_catalogue_ids)
         extra = sorted(reviewed_catalogue_ids - set(shortlist_ids))
@@ -199,6 +236,10 @@ def validate_screening(data: dict[str, Any]) -> dict[str, Any]:
         "shortlist_count": len(shortlist_ids),
         "external_route_count": len(external_routes),
         "candidate_count": len(candidates),
+        "target_blind_review_count": sum(
+            isinstance(candidate, dict) and "target_blind_review" in candidate
+            for candidate in candidates
+        ),
         "ready_for_blinded_preflight_count": ready_count,
         "status": expected_status,
     }

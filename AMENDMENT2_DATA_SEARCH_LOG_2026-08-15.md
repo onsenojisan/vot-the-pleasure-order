@@ -49,21 +49,48 @@ the data can never be shared.
 | ID | Why shortlisted | Disposition from metadata |
 |---|---|---|
 | `0010_geschwind` | baseline/post-baseline mindfulness periods | two periods, but not labelled decline and recovery; no separate action and bidirectional forcing mapping |
-| `0014_habets` | medication plus Parkinson ON/OFF state | scientifically interesting; 98 total observations and recorded activity/medication, but no D4 arm labels or defensible `a_t`/`u_t` separation is established |
+| `0014_habets` | medication plus Parkinson ON/OFF state | target-blind methods review closes the lead: 98 planned beeps total, no labelled decline/recovery arms and no separate exogenous forcing |
 | `0022_menghini` | `survey_type` baseline/work | 21 total time points; cannot supply >=50 observations in each of two arms |
 | `0024_hasselhorn` | two phases and `treatment` field | phases manipulate beep frequency (3 then 9 or 9 then 3), not decline/recovery dynamics; 84 total time points |
 | `0033_fisher` | “randomized” | refers to randomized item order; no decline/recovery design |
 | `0036_bosley` | “randomized” | refers to randomized item order; 45 total time points |
 | `0058_gainey` | baseline/treatment terms | metadata says some participants completed baseline but not ESM; 42 total time points and no paired arms |
-| `0060_beck` | larger intervention project | 109 total time points, but catalogue metadata declares no paired decline/recovery arms; unresolved rather than proven absent |
+| `0060_beck` | larger intervention project | target-blind paper/codebook review closes the lead: the analysed target is naturalistic trait-plus-state ESM with no treatment, condition, phase or arm variable |
 | `0061_merolla` | intervention project | 60 total time points, so two >=50-observation arms are impossible |
 | `0062_neubauer` | randomized | refers to quasi-randomized prompts; 84 total time points and no paired arms |
 | `0075_ballou` | baseline-day variables | 30 daily time points and no paired arms |
 
-The two closest open leads are therefore `0014_habets`, for its medication,
-activity and ON/OFF variables, and `0060_beck`, because it belongs to a larger
-intervention study. Neither advances to preflight from the public catalogue
-metadata.
+## Target-Blind Design Follow-Up
+
+The two closest open leads were reviewed on 2026-08-15 without inspecting
+participant-level outcome values. Public paper pages contain aggregate results,
+but those results were not used for these dispositions; only methods,
+questionnaire definitions and codebook structure were used.
+
+### `0014_habets`
+
+- Sources: <https://openesmdata.org/datasets/0014_habets/> and the paper's
+  Methods/Questionnaire sections at <https://mhealth.jmir.org/2020/5/e15628>
+- Design: seven semi-random prompts per day for 14 days, for 98 planned prompts
+  total; ordinary free-living medication intake and self-reported ON/OFF state
+- Disposition: `BLOCKED_D4`. Two arms of at least 50 observations are impossible
+  under the planned schedule, no decline/recovery arms are assigned, and no
+  separate exogenous bidirectional forcing variable is declared.
+
+### `0060_beck`
+
+- Sources: <https://pmc.ncbi.nlm.nih.gov/articles/PMC9793429/> and the official
+  codebooks at
+  <https://github.com/emoriebeck/behavior-prediction/tree/main/01-codebooks>
+- Codebook snapshot:
+  `emoriebeck/behavior-prediction@24ab1c080faa691fccf9192b7dd87e6b8fdda7f6`
+- Design: naturalistic trait and state ESM for idiographic prediction. The
+  codebooks group psychological, situational and time variables and contain no
+  treatment, condition, phase or arm variable.
+- Disposition: `BLOCKED_D4`. The note that this dataset came from a larger
+  intervention project does not create decline/recovery arms in the analysed
+  target. No separate exogenous forcing or independent non-self-report endpoint
+  is declared.
 
 ## Result
 
@@ -73,9 +100,9 @@ established absence from the wider data landscape.
 
 The next legitimate empirical move is one of:
 
-1. obtain a target-blind schema/codebook clarification for `0014_habets` or
-   `0060_beck` that establishes the missing design and causal-role mappings;
-2. obtain governed participant-level access to a transition-enriched route;
+1. obtain governed participant-level access to a transition-enriched route;
+2. extend the same recorded screening procedure to another declared catalogue
+   or registry;
 3. prospectively collect the decline/recovery, action, forcing and endpoint
    measurements together.
 
