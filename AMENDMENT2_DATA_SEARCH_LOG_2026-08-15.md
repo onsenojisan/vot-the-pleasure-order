@@ -30,6 +30,34 @@ Reproduction command (from this repository):
 python simulations/reproduce_openesm_screen.py path/to/openesm simulations/amendment2_dataset_screening.v0.json
 ```
 
+### Zenodo targeted query set
+
+- API: <https://zenodo.org/api/records>
+- API documentation: <https://developers.zenodo.org/>
+- Search syntax guide: <https://help.zenodo.org/guides/search/>
+- Search date: 2026-08-15
+- Fixed request parameters: `size=25`, `sort=bestmatch`
+
+The following queries were run exactly as recorded. The union contained five
+Zenodo records representing four study concepts.
+
+| ID | Exact `q` value | Total | Record IDs |
+|---|---|---:|---|
+| Z1 | `resource_type.type:dataset AND ("experience sampling" OR "ecological momentary assessment") AND (recovery OR tapering OR transition)` | 1 | `6640290` |
+| Z2 | `resource_type.type:dataset AND ("experience sampling" OR "ecological momentary assessment") AND (relapse OR remission OR deterioration OR improvement OR "critical transition")` | 1 | `6640290` |
+| Z3 | `resource_type.type:dataset AND ("experience sampling" OR "ecological momentary assessment") AND (intervention OR treatment) AND (longitudinal OR daily OR intensive)` | 4 | `6640290`, `8186103`, `17243648`, `17249917` |
+| Z4 | `resource_type.type:dataset AND ("experience sampling" OR "ecological momentary assessment") AND ("pre post" OR "pre-post" OR "before and after")` | 1 | `14999348` |
+
+Reproduction command:
+
+```powershell
+python simulations/reproduce_zenodo_screen.py simulations/amendment2_dataset_screening.v0.json
+```
+
+The command compares the live totals and record-ID sets with the dated result
+and fails on drift. This is a targeted query set, not a complete Zenodo census;
+the frozen IDs preserve what was reviewed even if the live index changes.
+
 ### Known transition-enriched routes
 
 - TRANS-ID Tapering and TRANS-ID Recovery:
@@ -92,17 +120,36 @@ questionnaire definitions and codebook structure were used.
   target. No separate exogenous forcing or independent non-self-report endpoint
   is declared.
 
+## Target-Blind Review Of Zenodo Hits
+
+No participant-level outcome values or published aggregate results were used
+for these dispositions. Reviews were limited to public record descriptions,
+protocol/design materials and schema-level repository descriptions.
+
+| Record | Design-only finding | Disposition |
+|---|---|---|
+| [ADARP `6640290`](https://zenodo.org/records/6640290) | four EMA prompts/day for up to 14 days (at most 56 total); outpatient recovery is context, not paired decline/recovery arms | `BLOCKED_D4` |
+| [DIAPASON `8186103`](https://zenodo.org/records/8186103) | patients versus matched healthy controls; no same-person decline/recovery arms; participant files restricted | `BLOCKED_D4` plus access blocker |
+| [Soundscape pilot `14999348`](https://zenodo.org/records/14999348) and [protocol `14946672`](https://zenodo.org/records/14946672) | baseline/endline surveys and participatory activities are not intensive decline/recovery arms | `BLOCKED_D4` |
+| LIFETRACE [`17243648`](https://zenodo.org/records/17243648), [`17249917`](https://zenodo.org/records/17249917), and [analysis repository](https://github.com/USI-PCC/LIFETRACE) | 59 adults in a daily walking protocol versus 29 controls; one-direction intervention exposure, not same-person decline/recovery or bidirectional forcing | `BLOCKED_D4` plus access blocker |
+
+The LIFETRACE records have separate Zenodo concept identifiers, so no formal
+version relationship is asserted. They have the same title and describe the
+same 14-week study; both search records are retained while the study is counted
+once for eligibility review.
+
 ## Result
 
 No dataset eligible for the blinded Amendment 2 preflight was identified in
-the declared 2026-08-15 scope. This is a snapshot-bounded search result, not an
-established absence from the wider data landscape.
+the declared 2026-08-15 openESM census, Zenodo query set and known external
+routes. This is a snapshot-bounded search result, not an established absence
+from the wider data landscape.
 
 The next legitimate empirical move is one of:
 
 1. obtain governed participant-level access to a transition-enriched route;
 2. extend the same recorded screening procedure to another declared catalogue
-   or registry;
+   or registry, with exact queries and immutable result identifiers;
 3. prospectively collect the decline/recovery, action, forcing and endpoint
    measurements together.
 

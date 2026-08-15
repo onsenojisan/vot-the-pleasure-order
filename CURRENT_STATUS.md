@@ -340,8 +340,9 @@ Status of execution:
   **Superseded for current interpretation 2026-08-15:** the procedure and all
   62 record IDs are now fixed in the
   [Dataset Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md). Its result is
-  only that no eligible target was identified in that declared snapshot and
-  set of external routes.
+  only that no eligible target was identified in that declared snapshot, the
+  four-query Zenodo extension (five records, four study concepts), and the set
+  of external routes. Neither search supports a universal-absence claim.
 - The **on-request routes** to the identified recovery-arm datasets (a TRANS-ID recovery arm; a bipolar early-warning dataset) **did not yield access** — the data holders could not share within available capacity and governance, and the project has no institutional home to provide the required ethical oversight.
 - Therefore, on the preregistration's own terms, the make-or-break test is **un-run**.
 

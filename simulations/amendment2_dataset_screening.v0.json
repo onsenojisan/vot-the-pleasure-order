@@ -42,6 +42,96 @@
     "non_shortlisted_disposition": "NOT_SHORTLISTED_METADATA",
     "non_shortlisted_interpretation": "No phase/intervention term was declared in the screened metadata fields; this does not prove ineligibility."
   },
+  "additional_catalogue_searches": [
+    {
+      "source_id": "zenodo",
+      "api_url": "https://zenodo.org/api/records",
+      "developer_docs_url": "https://developers.zenodo.org/",
+      "search_guide_url": "https://help.zenodo.org/guides/search/",
+      "search_date": "2026-08-15",
+      "request_parameters": {
+        "size": 25,
+        "sort": "bestmatch"
+      },
+      "queries": [
+        {
+          "query_id": "Z1",
+          "q": "resource_type.type:dataset AND (\"experience sampling\" OR \"ecological momentary assessment\") AND (recovery OR tapering OR transition)",
+          "declared_total": 1,
+          "record_ids": ["6640290"]
+        },
+        {
+          "query_id": "Z2",
+          "q": "resource_type.type:dataset AND (\"experience sampling\" OR \"ecological momentary assessment\") AND (relapse OR remission OR deterioration OR improvement OR \"critical transition\")",
+          "declared_total": 1,
+          "record_ids": ["6640290"]
+        },
+        {
+          "query_id": "Z3",
+          "q": "resource_type.type:dataset AND (\"experience sampling\" OR \"ecological momentary assessment\") AND (intervention OR treatment) AND (longitudinal OR daily OR intensive)",
+          "declared_total": 4,
+          "record_ids": ["6640290", "8186103", "17243648", "17249917"]
+        },
+        {
+          "query_id": "Z4",
+          "q": "resource_type.type:dataset AND (\"experience sampling\" OR \"ecological momentary assessment\") AND (\"pre post\" OR \"pre-post\" OR \"before and after\")",
+          "declared_total": 1,
+          "record_ids": ["14999348"]
+        }
+      ],
+      "declared_union_record_count": 5,
+      "union_record_ids": ["6640290", "8186103", "14999348", "17243648", "17249917"],
+      "record_dispositions": [
+        {
+          "record_id": "6640290",
+          "doi": "10.5281/zenodo.6640290",
+          "title": "Alcohol and Drug Abuse Research Program (ADARP) Dataset",
+          "access": "open",
+          "disposition": "CANDIDATE_RECORD",
+          "candidate_id": "zenodo_6640290_adarp"
+        },
+        {
+          "record_id": "8186103",
+          "doi": "10.5281/zenodo.8186103",
+          "title": "DIAPASON Project- Datasets of the three AIMS",
+          "access": "restricted",
+          "disposition": "CANDIDATE_RECORD",
+          "candidate_id": "zenodo_8186103_diapason"
+        },
+        {
+          "record_id": "14999348",
+          "doi": "10.5281/zenodo.14999348",
+          "title": "Soundscape Experience Mapping Pilot Data",
+          "access": "open",
+          "disposition": "CANDIDATE_RECORD",
+          "candidate_id": "zenodo_14999348_soundscape"
+        },
+        {
+          "record_id": "17243648",
+          "doi": "10.5281/zenodo.17243648",
+          "title": "Data from \"LIFETRACE: A Longitudinal Multimodal Dataset on Daily Physical Activity, Well-Being, and Habits\"",
+          "access": "open",
+          "participant_data_access": "request",
+          "disposition": "SAME_STUDY_RECORD",
+          "candidate_id": "zenodo_lifetrace"
+        },
+        {
+          "record_id": "17249917",
+          "doi": "10.5281/zenodo.17249917",
+          "title": "Data from \"LIFETRACE: A Longitudinal Multimodal Dataset on Daily Physical Activity, Well-Being, and Habits\"",
+          "access": "open",
+          "participant_data_access": "request",
+          "disposition": "CANDIDATE_RECORD",
+          "candidate_id": "zenodo_lifetrace"
+        }
+      ],
+      "limitations": [
+        "The four exact queries are a targeted search, not a census of all Zenodo records.",
+        "Zenodo's live search index can change; the dated totals and record-ID sets are the frozen result to be compared for drift.",
+        "The two LIFETRACE deposits have separate Zenodo concept identifiers but describe the same titled study and are reviewed once without claiming a formal version relationship."
+      ]
+    }
+  ],
   "known_external_routes": [
     "transid_tapering",
     "transid_recovery",
@@ -293,6 +383,148 @@
       },
       "blockers": ["D4"],
       "rationale": "Baseline-day fields are not decline/recovery phases and there are only 30 daily time points."
+    },
+    {
+      "candidate_id": "zenodo_6640290_adarp",
+      "catalogue_record_id": null,
+      "source_id": "zenodo",
+      "source_record_ids": ["6640290"],
+      "evidence_urls": ["https://zenodo.org/records/6640290"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "no",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "no",
+        "action_forcing_distinct": "no",
+        "bidirectional_forcing": "no",
+        "independent_p3": "yes"
+      },
+      "blockers": ["D4", "D5_UNESTABLISHED", "STRUCTURE"],
+      "target_blind_review": {
+        "review_date": "2026-08-15",
+        "participant_level_outcome_values_inspected": false,
+        "published_aggregate_results_used_for_disposition": false,
+        "materials": ["https://zenodo.org/records/6640290"],
+        "design_findings": [
+          "The protocol schedules four EMA prompts per day for up to 14 days, at most 56 planned EMA observations in total.",
+          "Participants were already receiving outpatient treatment; the study observes free-living emotions, craving, stress and physiology rather than assigning decline and recovery arms.",
+          "No separate exogenous bidirectional forcing variable is declared, although independent wearable physiology is present."
+        ]
+      },
+      "rationale": "Recovery and relapse are the clinical context, not two labelled same-person arms; at most 56 planned EMA observations cannot supply two arms of at least 50."
+    },
+    {
+      "candidate_id": "zenodo_8186103_diapason",
+      "catalogue_record_id": null,
+      "source_id": "zenodo",
+      "source_record_ids": ["8186103"],
+      "evidence_urls": ["https://zenodo.org/records/8186103"],
+      "access": "restricted",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "no",
+        "action_forcing_distinct": "no",
+        "bidirectional_forcing": "no",
+        "independent_p3": "yes"
+      },
+      "blockers": ["D4", "ACCESS", "D5_UNESTABLISHED", "STRUCTURE"],
+      "target_blind_review": {
+        "review_date": "2026-08-15",
+        "participant_level_outcome_values_inspected": false,
+        "published_aggregate_results_used_for_disposition": false,
+        "materials": ["https://zenodo.org/records/8186103"],
+        "design_findings": [
+          "The ESM aim compares daily activities and mood in schizophrenia-spectrum patients and age- and gender-matched healthy controls.",
+          "The public design describes no same-person labelled decline and recovery arms or separate exogenous bidirectional forcing.",
+          "Participant files are restricted; wrist accelerometry provides an independent non-self-report modality."
+        ]
+      },
+      "rationale": "The declared comparison is patients versus healthy controls, not same-person decline and recovery arms; restricted access is an additional blocker but is not needed for the D4 disposition."
+    },
+    {
+      "candidate_id": "zenodo_14999348_soundscape",
+      "catalogue_record_id": null,
+      "source_id": "zenodo",
+      "source_record_ids": ["14999348"],
+      "evidence_urls": [
+        "https://zenodo.org/records/14999348",
+        "https://zenodo.org/records/14946672"
+      ],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "no",
+        "action_forcing_distinct": "no",
+        "bidirectional_forcing": "no",
+        "independent_p3": "no"
+      },
+      "blockers": ["D4", "D5_UNESTABLISHED", "STRUCTURE", "CORE"],
+      "target_blind_review": {
+        "review_date": "2026-08-15",
+        "participant_level_outcome_values_inspected": false,
+        "published_aggregate_results_used_for_disposition": false,
+        "materials": [
+          "https://zenodo.org/records/14999348",
+          "https://zenodo.org/records/14946672"
+        ],
+        "design_findings": [
+          "The pilot combines self-initiated cultural-probe tasks, EMA, day reconstruction, focus groups and co-creative workshops around sound, memory and well-being.",
+          "Baseline and endline well-being surveys are not two intensive labelled decline and recovery arms.",
+          "The protocol declares no separate exogenous bidirectional forcing or independent non-self-report endpoint."
+        ]
+      },
+      "rationale": "The search hit comes from baseline/endline materials in a soundscape pilot; the protocol does not define same-person decline and recovery arms."
+    },
+    {
+      "candidate_id": "zenodo_lifetrace",
+      "catalogue_record_id": null,
+      "source_id": "zenodo",
+      "source_record_ids": ["17243648", "17249917"],
+      "evidence_urls": [
+        "https://zenodo.org/records/17243648",
+        "https://zenodo.org/records/17249917",
+        "https://github.com/USI-PCC/LIFETRACE"
+      ],
+      "access": "metadata_open_participant_data_request",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "yes",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "no",
+        "independent_p3": "yes"
+      },
+      "blockers": ["D4", "ACCESS", "D5_UNESTABLISHED", "STRUCTURE"],
+      "target_blind_review": {
+        "review_date": "2026-08-15",
+        "participant_level_outcome_values_inspected": false,
+        "published_aggregate_results_used_for_disposition": false,
+        "materials": [
+          "https://zenodo.org/records/17243648",
+          "https://zenodo.org/records/17249917",
+          "https://github.com/USI-PCC/LIFETRACE"
+        ],
+        "design_findings": [
+          "The 14-week study enrolled 88 adults: 59 in a daily walking protocol and 29 controls, with daily EMA and wearable activity.",
+          "Walking prompts constitute one-direction intervention exposure, not same-person labelled decline and recovery arms or bidirectional forcing.",
+          "Anthropometric and blood measurements were collected at baseline, mid-study and post-study, while participant-level files require a data request."
+        ]
+      },
+      "rationale": "This is an intervention-versus-control study rather than a same-person decline/recovery design. The two same-titled Zenodo deposits are retained as search records but reviewed as one study."
     },
     {
       "candidate_id": "transid_tapering",
