@@ -115,6 +115,8 @@ Do not cite any record as proving VOT, proving The Pleasure Order, directly meas
 | [Candidate 2R](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md) | Separate change/rate directional-bridge design contract. |
 | [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) | Author-approved prospective governance for explicit-rival and symmetric-disposition tests. |
 | [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md) | Target-specific execution template; not in force for any dataset. |
+| [Amendment 2 Readiness Audit](AMENDMENT2_READINESS_AUDIT_2026-08-15.md) | Verifies that 2A is operative and identifies what is still missing before any 2B can be approved. |
+| [Prospective Study Protocol](AMENDMENT2_PROSPECTIVE_STUDY_PROTOCOL.md) | Safe nonclinical and naturalistic-clinical development routes; no recruitment authorization. |
 | [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md) | Prospective candidate-screening and bounded-search rules. |
 | [Metadata-Only Access Gate](AMENDMENT2_METADATA_ONLY_ACCESS_GATE.md) | No-data-transfer intake and stop rules for request-only candidates. |
 | [2026-08-15 Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md) | Re-runnable openESM/Zenodo search and known-route dispositions; no eligible target identified in its declared scope. |

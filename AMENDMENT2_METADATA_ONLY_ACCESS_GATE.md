@@ -96,6 +96,7 @@ for either disposition.
 There is no currently identified request-only route that should advance to a
 participant-data request for the frozen D4 purpose. The next empirical route is
 therefore either a newly identified study that clears this metadata gate or
-prospective collection of the required paired arms and variables. Amendment 2B
-remains a template, and the only permitted disposition is
+prospective collection under the
+[Prospective Study Protocol](AMENDMENT2_PROSPECTIVE_STUDY_PROTOCOL.md).
+Amendment 2B remains a template, and the only permitted disposition is
 `NO AMENDMENT 2 VERDICT`.

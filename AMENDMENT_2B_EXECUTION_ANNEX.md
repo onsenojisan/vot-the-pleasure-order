@@ -14,6 +14,11 @@ or a copy published after target-outcome inspection is not operative.
 Until every activation field is complete, the only permitted status is
 `NO AMENDMENT 2 VERDICT`.
 
+The current distinction between an operative 2A and an unfilled 2B is audited
+in the [2026-08-15 Readiness Audit](AMENDMENT2_READINESS_AUDIT_2026-08-15.md).
+The [Prospective Study Protocol](AMENDMENT2_PROSPECTIVE_STUDY_PROTOCOL.md) is a
+development route only and does not activate this annex.
+
 ## 1. Study Identity And Prospective Status
 
 ```text

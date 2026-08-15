@@ -113,6 +113,13 @@ position for a theory than a clean negative, because it approaches unfalsifiabil
 
 Even `D4 + P3` is insufficient for distinctiveness unless it also passes the explicit-rival D5 contract. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) supplies the prospective fairness, identifiability and symmetric-disposition rules without changing the frozen v0.2 test or Amendment 1. It authorizes no empirical verdict alone: each future target needs a complete, prospectively frozen [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md).
 
+The exact readiness boundary is in the
+[Amendment 2 Readiness Audit](AMENDMENT2_READINESS_AUDIT_2026-08-15.md): 2A is
+already ratified and operative, while no target-specific 2B is in force. The
+[Prospective Study Protocol](AMENDMENT2_PROSPECTIVE_STUDY_PROTOCOL.md) defines
+how a future target could be developed without treating the draft as approval
+to recruit or inspect outcomes.
+
 Its candidate R3–R6 equations and machine-readable scenario registry are now
 specified in the [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md).
 Before any target dataset is treated as eligible, the
