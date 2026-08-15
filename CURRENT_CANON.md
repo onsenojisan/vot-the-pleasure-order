@@ -55,6 +55,11 @@ It does not alter the frozen v0.2 test or Amendment 1 and authorizes no empirica
 verdict by itself. Every future target requires a complete, prospectively frozen
 [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md); otherwise the result is
 `NO AMENDMENT 2 VERDICT`.
+The [Amendment 2 Readiness Audit](AMENDMENT2_READINESS_AUDIT_2026-08-15.md)
+records the precise distinction: 2A is operative, while no target-specific 2B
+yet exists in an approvable form. The
+[Prospective Study Protocol](AMENDMENT2_PROSPECTIVE_STUDY_PROTOCOL.md) defines a
+safe development route without activating 2B or authorizing recruitment.
 
 ## Reading Order
 
@@ -64,6 +69,8 @@ verdict by itself. Every future target requires a complete, prospectively frozen
 4. [Bridge Specification](BRIDGE_SPEC.md) and [Candidate 2R](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md);
 5. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md), the
    [Amendment 2B template](AMENDMENT_2B_EXECUTION_ANNEX.md), the
+   [Amendment 2 Readiness Audit](AMENDMENT2_READINESS_AUDIT_2026-08-15.md), the
+   [Prospective Study Protocol](AMENDMENT2_PROSPECTIVE_STUDY_PROTOCOL.md), the
    [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md), and the
    [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md),
    [dated Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md), and

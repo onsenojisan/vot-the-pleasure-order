@@ -11,6 +11,14 @@ is run.)*
 
 🟢 **Current-only routing (2026-08-15).** This file is an append-heavy status history. For the clean current verdict use [Current Canon](CURRENT_CANON.md); for the central estimand and S1–S4 units use the [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md); for appearance/structure/Ω/value terms use the [Terminology Contract](TERMINOLOGY_CONTRACT.md). Frozen registrations are unchanged. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) supplies prospective governance only; no future target receives an Amendment 2 verdict without a complete [2B execution annex](AMENDMENT_2B_EXECUTION_ANNEX.md).
 
+🟢 **Amendment 2 approval boundary (2026-08-15).** Amendment 2A is already
+author-approved, ratified and operative. What is absent is an approvable
+target-specific 2B: no eligible target, fitting implementation, calibrated
+margin or locked validation exists. The
+[Readiness Audit](AMENDMENT2_READINESS_AUDIT_2026-08-15.md) records this
+distinction. `NO AMENDMENT 2 VERDICT` means “no operative 2B,” not “2A is still
+waiting for author approval.”
+
 🟢 **Dataset-search repair (2026-08-15).** The undocumented earlier openESM
 screen has been replaced by a prospective
 [eligibility protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md), a

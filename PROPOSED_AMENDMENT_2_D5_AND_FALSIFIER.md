@@ -22,3 +22,6 @@ record does not modify the frozen Generic-Tipping Discriminator v0.2,
 Amendment 1, archived deposits or past results. Amendment 2A alone authorizes no
 empirical verdict; without an operative 2B the required report is
 `NO AMENDMENT 2 VERDICT`.
+
+Current readiness and the exact approval boundary are recorded in the
+[2026-08-15 Amendment 2 Readiness Audit](AMENDMENT2_READINESS_AUDIT_2026-08-15.md).

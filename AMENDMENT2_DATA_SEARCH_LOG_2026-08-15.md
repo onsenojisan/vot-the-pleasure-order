@@ -174,7 +174,8 @@ The next legitimate empirical move is one of:
 2. extend the same recorded screening procedure to another declared catalogue
    or registry, with exact queries and immutable result identifiers;
 3. prospectively collect the decline/recovery, action, forcing and endpoint
-   measurements together.
+   measurements together under the
+   [Prospective Study Protocol](AMENDMENT2_PROSPECTIVE_STUDY_PROTOCOL.md).
 
 Until one route clears the protocol, Amendment 2B remains a template and the
 only permitted outcome is `NO AMENDMENT 2 VERDICT`.
