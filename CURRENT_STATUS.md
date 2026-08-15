@@ -11,11 +11,22 @@ is run.)*
 
 🟢 **Current-only routing (2026-08-15).** This file is an append-heavy status history. For the clean current verdict use [Current Canon](CURRENT_CANON.md); for the central estimand and S1–S4 units use the [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md); for appearance/structure/Ω/value terms use the [Terminology Contract](TERMINOLOGY_CONTRACT.md). Frozen registrations are unchanged. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) supplies prospective governance only; no future target receives an Amendment 2 verdict without a complete [2B execution annex](AMENDMENT_2B_EXECUTION_ANNEX.md).
 
+🟢 **Dataset-search repair (2026-08-15).** The undocumented earlier openESM
+screen has been replaced by a prospective
+[eligibility protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md), a
+[dated search log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md), and a validated
+machine-readable census. All 62 metadata records at openESM commit
+`4dcff8ec5598e7a5828efe971122050f451443d1` were enumerated; 11 deterministic
+shortlist hits and three known external routes were manually disposed. No
+eligible target was identified in that declared scope. This supersedes any
+current reading of the historical phrase “no accessible dataset” as an
+established or exhaustive absence claim.
+
 For navigation across public documents, see [Reader Guide](READER_GUIDE.md).
 
 ## One-Sentence Status
 
-Valence Order Theory is a coherent, testable research program, not a validated theory. On current evidence its distinctive content is not yet demonstrated: it presently reads as a structured redescription of nearby frameworks (sense of coherence, appraisal, free-energy / predictive processing, viability), with its one distinctive empirical claim — a generic collapse-gate / critical-transition wager — pre-registered and frozen but, as of 2026-07-14, **un-run** because the intensive decline→recovery data it requires is not accessible (see the 2026-07-14 update below).
+Valence Order Theory is a coherent, testable research program, not a validated theory. On current evidence its distinctive content is not yet demonstrated: it presently reads as a structured redescription of nearby frameworks (sense of coherence, appraisal, free-energy / predictive processing, viability), with its one distinctive empirical claim — a generic collapse-gate / critical-transition wager — pre-registered and frozen but **un-run** because no eligible intensive decline→recovery target was identified in the declared 2026-08-15 search scope.
 
 ## Minimal Current Claim
 
@@ -326,6 +337,11 @@ Its decisive discriminator is **D4** (decline→recovery hysteresis parsimony): 
 Status of execution:
 
 - A documented scan of the open ESM landscape found **no dataset that meets D4** (within-person decline *and* recovery, intensive, >= 50 beeps/arm). ⚠️ **Corrected 2026-08-14: this line said "exhaustive".** That word was withdrawn **document-wide** from the co-measurement note before its v1.2 deposit (`21767213`, 2026-08-03) — the *coverage* is a census of the openESM catalogue that anyone can re-run, but **the screening procedure was never recorded**, so the judgement is not re-runnable. `ZENODO_RECORDS.md` already carried the rule (*do not cite it as an established absence*); this file did not. **The strongest claim was resting on the least-documented method**, and it ran in the theory's favour, since a confirmed absence excuses an un-run test.
+  **Superseded for current interpretation 2026-08-15:** the procedure and all
+  62 record IDs are now fixed in the
+  [Dataset Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md). Its result is
+  only that no eligible target was identified in that declared snapshot and
+  set of external routes.
 - The **on-request routes** to the identified recovery-arm datasets (a TRANS-ID recovery arm; a bipolar early-warning dataset) **did not yield access** — the data holders could not share within available capacity and governance, and the project has no institutional home to provide the required ethical oversight.
 - Therefore, on the preregistration's own terms, the make-or-break test is **un-run**.
 

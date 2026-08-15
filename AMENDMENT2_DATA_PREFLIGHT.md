@@ -12,6 +12,11 @@ mistaken for a runnable empirical study. It checks whether a proposed dataset
 declares the observations and prospective commitments that Amendment 2 needs
 before fitting begins.
 
+Candidates reach this document only through the prospective
+[Dataset Eligibility And Search Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md).
+The latest bounded census is recorded in the
+[2026-08-15 Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md).
+
 Passing this check never returns `RUNNABLE`. The strongest result is
 `NECESSARY_CONDITIONS_MET_NOT_SUFFICIENT`, because sample-size adequacy,
 parameter identifiability, calibration power and model convergence still have

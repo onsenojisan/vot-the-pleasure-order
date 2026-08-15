@@ -127,8 +127,10 @@ The window rules above are necessary and **not sufficient**. The independence re
 ⚠️ **This contract makes the problem checkable; it does not solve it.** Satisfying clause 1 requires the configuration that the co-measurement gap note ([21427129](https://doi.org/10.5281/zenodo.21427129), current version `21767213`) records as assembled by no adjacent paradigm. **Two readings must be kept apart: *"solvable given an independent endpoint"* is not *"there is no endpoint."***
 
 🛑 **Corrected 2026-08-14: this said "the same wall that leaves D4 un-run", and that conflates two walls.**
-`D4` is un-run because **no accessible dataset carries both a decline and a recovery arm** — a data-shape
-problem, and the frozen preregistration's §7 states that *"H2/D4 adjudication does **NOT** wait on P3"*, i.e.
+`D4` is un-run because **no eligible dataset carrying both a decline and a recovery arm was identified in
+the declared 2026-08-15 search scope** — a bounded data-shape result, not a universal absence claim. See the
+[dated search log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md). The frozen preregistration's §7 states that
+*"H2/D4 adjudication does **NOT** wait on P3"*, i.e.
 the D4 dynamics comparison does **not** require the external Ω̂ endpoint. **Candidate 2 is blocked by the
 endpoint wall; D4 is blocked by the arms wall.** They coincide only in the *upgrade* case (`D4 + P3`, see
 [README](README.md)), where an external endpoint is required to move VOT's Ω claims rather than the dynamics

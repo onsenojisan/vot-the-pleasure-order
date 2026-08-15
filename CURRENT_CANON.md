@@ -15,7 +15,7 @@ VOT / The Pleasure Order is a testable research program, not a validated distinc
 |---|---|---|
 | `O/M/A` | retracted as a proprietary measurement layer | historical context only, except its narrow preregistered reopening condition |
 | measurable order operator | tested and absorbed by the comparator used | evidence against current distinctiveness, not proof that every FEP model absorbs VOT |
-| `D4-dynamics` | frozen and un-run | S1 structural evidence only if it passes |
+| `D4-dynamics` | frozen and un-run; no eligible target identified in the declared 2026-08-15 search scope | S1 structural evidence only if it passes |
 | `P3` external Ω-related endpoint | not assembled | S2 external alignment only |
 | explicit strong FEP rivals (`D5`) | 2A governance author-approved; R3–R6 implementation, scenario registry and target-specific 2B remain unfrozen | S3 rival separation only after an operative 2B and a pass |
 | Candidate 2L | auxiliary, design-incomplete, un-runnable | baseline-adjusted future-level prediction only |
@@ -42,6 +42,9 @@ See the [Terminology Contract](TERMINOLOGY_CONTRACT.md). Earlier `pleasure = dC/
 - VOT must beat explicit, estimable strong FEP/active-inference rivals, not only a generic prediction-error proxy.
 - If a declared strong rival is not identifiable on the acquired data, the distinctiveness result is inconclusive rather than a VOT win.
 - Agent action and external forcing must be separately observed and mapped. The
+  [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md) and
+  [2026-08-15 Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md) govern the
+  bounded candidate search. The
   [Amendment 2 Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md) checks these and
   other necessary conditions but does not certify runnability.
 
@@ -62,5 +65,7 @@ verdict by itself. Every future target requires a complete, prospectively frozen
 5. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md), the
    [Amendment 2B template](AMENDMENT_2B_EXECUTION_ANNEX.md), the
    [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md), and the
+   [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md),
+   [dated Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md), and
    [Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md);
 6. the frozen [Generic-Tipping Preregistration](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md), read with its amendments and present limitations.

@@ -40,7 +40,9 @@ Read:
 3. [Terminology Contract](TERMINOLOGY_CONTRACT.md)
 4. [Claim Boundary](CLAIM_BOUNDARY.md)
 5. [Bridge Specification](BRIDGE_SPEC.md) and [Candidate 2R](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md)
-6. [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md)
+6. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md), the
+   [2B template](AMENDMENT_2B_EXECUTION_ANNEX.md), and the
+   [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md)
 7. [Zenodo Records](ZENODO_RECORDS.md)
 
 Review priority:
@@ -75,6 +77,8 @@ Read:
 3. [Bridge Specification](BRIDGE_SPEC.md)
 4. [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md)
 5. [Make-or-Break Preregistration](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md) — the frozen test your data could run
+6. [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md) and
+   [2026-08-15 Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md)
 
 Useful data would need at least one of:
 
@@ -109,7 +113,10 @@ Do not cite any record as proving VOT, proving The Pleasure Order, directly meas
 | [Current Status](CURRENT_STATUS.md) | Current public status, strongest safe claim, and next decisive tests. |
 | [Bridge Specification](BRIDGE_SPEC.md) | Auxiliary Candidate 2L future-level prediction design; unvalidated. |
 | [Candidate 2R](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md) | Separate change/rate directional-bridge design contract. |
-| [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md) | Draft explicit-rival and symmetric-falsifier repair; not in force until ratified. |
+| [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) | Author-approved prospective governance for explicit-rival and symmetric-disposition tests. |
+| [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md) | Target-specific execution template; not in force for any dataset. |
+| [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md) | Prospective candidate-screening and bounded-search rules. |
+| [2026-08-15 Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md) | Re-runnable openESM census and known-route dispositions; no eligible target identified in its declared scope. |
 | [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) | Anti-redundancy plan against nearby theories. |
 | [Structural Appendix: Omega-C-Act](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md) | Post-v1.3 coordinate model (Omega, C, Act); felt-consonance (`p_loc`) vs structural consonance (`C`); release modes. Conceptual clarification only. |
 | [Crosswalk: Omega-C-Act](CROSSWALK_OMEGA_C_ACT.md) | Desk mapping between the coordinate model and the v1.3 appearance/measurement apparatus. |
