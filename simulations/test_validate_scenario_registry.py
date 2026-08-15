@@ -32,6 +32,14 @@ class RegistryValidationTests(unittest.TestCase):
         with self.assertRaises(RegistryError):
             validate_registry(broken)
 
+    def test_r0_is_required_as_a_fitted_baseline_but_not_a_generator(self):
+        data = load_registry(REGISTRY)
+        self.assertNotIn("R0", {item["generator"] for item in data["calibration_scenarios"]})
+        broken = copy.deepcopy(data)
+        del broken["models"]["R0"]
+        with self.assertRaises(RegistryError):
+            validate_registry(broken)
+
 
 if __name__ == "__main__":
     unittest.main()

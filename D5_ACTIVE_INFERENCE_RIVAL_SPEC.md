@@ -1,8 +1,9 @@
 # D5 Active-Inference Rival Specification — R3–R6
 
-Status: **author-ratification draft; equations and registry are not frozen**
+Status: **candidate 2B implementation specification; equations and registry are not frozen**
 Date: 2026-08-15
-Applies to: [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md)
+Governed by: [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md)
+To be frozen in: [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md)
 
 ## Purpose
 
@@ -235,4 +236,7 @@ The candidate scenario grid is recorded in
 [`simulations/amendment2_scenarios.v0.json`](simulations/amendment2_scenarios.v0.json).
 It is validated by `simulations/validate_scenario_registry.py`. Locked validation
 seeds remain deliberately unset until the equations, priors, grids and candidate
-acceptance targets receive author ratification.
+acceptance targets are frozen in a target-specific 2B annex.
+
+`R0` is recorded as a fitted baseline suite rather than a data-generating
+scenario. The required generator coverage is `R1`, `R2`, `S0` and `R3–R6`.

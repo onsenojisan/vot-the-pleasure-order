@@ -14,6 +14,11 @@
     "external_forcing_must_be_separate_from_action": true
   },
   "models": {
+    "R0": {
+      "name": "descriptive and generic state-space baseline suite",
+      "truth_family": "BASELINE_ONLY",
+      "dynamics": "intercept, trend, variance, autoregressive and generic state-space baselines"
+    },
     "R1": {
       "name": "smooth changing equilibrium",
       "truth_family": "NON_FOLD",
