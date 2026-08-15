@@ -17,10 +17,15 @@ screen has been replaced by a prospective
 [dated search log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md), and a validated
 machine-readable census. All 62 metadata records at openESM commit
 `4dcff8ec5598e7a5828efe971122050f451443d1` were enumerated; 11 deterministic
-shortlist hits and three known external routes were manually disposed. No
-eligible target was identified in that declared scope. This supersedes any
-current reading of the historical phrase “no accessible dataset” as an
-established or exhaustive absence claim.
+shortlist hits were reviewed, four exact Zenodo queries returned five records,
+and three known external routes were manually disposed. The bipolar request-only
+lead was subsequently closed by a target-blind Methods review: its labelled
+events are symptom increases, not paired decline and recovery arms. No eligible
+target was identified in that declared scope. Future controlled candidates must
+clear the [metadata-only access gate](AMENDMENT2_METADATA_ONLY_ACCESS_GATE.md)
+before participant data are requested. This supersedes any current reading of
+the historical phrase “no accessible dataset” as an established or exhaustive
+absence claim.
 
 For navigation across public documents, see [Reader Guide](READER_GUIDE.md).
 
@@ -344,6 +349,11 @@ Status of execution:
   four-query Zenodo extension (five records, four study concepts), and the set
   of external routes. Neither search supports a universal-absence claim.
 - The **on-request routes** to the identified recovery-arm datasets (a TRANS-ID recovery arm; a bipolar early-warning dataset) **did not yield access** — the data holders could not share within available capacity and governance, and the project has no institutional home to provide the required ethical oversight.
+  **Superseded for current interpretation 2026-08-15:** public design information
+  now establishes that neither route supplies the frozen paired-arm D4 design.
+  TRANS-ID Tapering and Recovery are separate subprojects/populations; the
+  bipolar study labels abrupt symptom increases but no recovery arm. Access is
+  therefore no longer the deciding blocker for either route.
 - Therefore, on the preregistration's own terms, the make-or-break test is **un-run**.
 
 What this does and does not mean:

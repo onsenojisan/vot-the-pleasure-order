@@ -66,11 +66,16 @@ the frozen IDs preserve what was reviewed even if the live index changes.
   <https://research.rug.nl/en/publications/anticipating-manic-and-depressive-transitions-in-patients-with-bi>
 
 The public TRANS-ID description treats tapering and recovery as separate
-subprojects and populations. The Groningen repository describes the linked
-public supplement as analysis R code, not participant-level time-series data.
-Previously attempted request routes did not yield participant-level access;
-that history is evidence about this project's access status, not a claim that
-the data can never be shared.
+subprojects and populations. A target-blind Methods review also closes the
+bipolar lead before access: its protocol labels abrupt increases on manic or
+depressive symptom scales, not a recovery arm. The paper says participant data
+may be available on reasonable request, but access cannot repair this D4 design
+mismatch. The linked public supplement is analysis R code, not participant-level
+time-series data.
+
+Future request-only candidates must use the
+[Metadata-Only Controlled-Access Gate](AMENDMENT2_METADATA_ONLY_ACCESS_GATE.md)
+before any participant-data request.
 
 ## Manual Review Of The openESM Shortlist
 
@@ -120,6 +125,23 @@ questionnaire definitions and codebook structure were used.
   target. No separate exogenous forcing or independent non-self-report endpoint
   is declared.
 
+### `bipolar_early_warning`
+
+- Sources: the paper's Methods and data-availability statement at
+  <https://pmc.ncbi.nlm.nih.gov/articles/PMC8994809/> and the official
+  supplementary-record page at
+  <https://research.rug.nl/en/datasets/additional-file-2-of-anticipating-manic-and-depressive-transition/>
+- Design: five EMA questionnaires per day for four months plus weekly manic and
+  depressive symptom questionnaires. A transition is an abrupt increase of at
+  least six points within one week on either symptom scale.
+- Disposition: `BLOCKED_D4`. The public protocol declares no labelled recovery
+  arm, agent-action stream, exogenous bidirectional forcing or independent
+  non-self-report endpoint. Participant data are request-only, but access is no
+  longer the deciding blocker.
+
+No participant-level outcome values or published aggregate results were used
+for this disposition.
+
 ## Target-Blind Review Of Zenodo Hits
 
 No participant-level outcome values or published aggregate results were used
@@ -147,7 +169,8 @@ from the wider data landscape.
 
 The next legitimate empirical move is one of:
 
-1. obtain governed participant-level access to a transition-enriched route;
+1. identify a new request-only route and clear the metadata-only access gate
+   before seeking participant data;
 2. extend the same recorded screening procedure to another declared catalogue
    or registry, with exact queries and immutable result identifiers;
 3. prospectively collect the decline/recovery, action, forcing and endpoint

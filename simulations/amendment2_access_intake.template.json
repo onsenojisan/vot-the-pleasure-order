@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1-draft",
+  "candidate_id": "UNSET",
+  "review_date": "UNSET",
+  "completed_by_role": "UNSET",
+  "evidence_urls": [],
+  "safeguards": {
+    "participant_level_data_transferred_to_vot_team": false,
+    "participant_level_outcome_values_inspected_by_vot_team": false,
+    "published_aggregate_results_used_for_eligibility": false
+  },
+  "design": {
+    "same_people_in_decline_and_recovery": "unknown",
+    "arm_labels": {
+      "decline": "UNSET",
+      "recovery": "UNSET"
+    },
+    "observations_per_person": {
+      "decline": null,
+      "recovery": null
+    },
+    "time_unit": "UNSET",
+    "arm_boundary_source": "UNSET"
+  },
+  "variables": {
+    "observed_state": "unknown",
+    "agent_action_or_proxy": "unknown",
+    "external_forcing": "unknown",
+    "action_forcing_distinct": "unknown",
+    "bidirectional_forcing": "unknown",
+    "independent_non_self_report_endpoint": "unknown"
+  },
+  "access": {
+    "route": "unknown",
+    "institutional_sponsor_required": "unknown",
+    "ethics_approval_required": "unknown",
+    "data_use_agreement_required": "unknown",
+    "institutional_route_status": "unknown",
+    "local_offline_execution_possible": "unknown",
+    "contact_route": "UNSET"
+  },
+  "notes": "UNSET"
+}

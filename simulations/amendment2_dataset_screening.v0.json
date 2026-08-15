@@ -568,23 +568,38 @@
       "candidate_id": "bipolar_early_warning",
       "catalogue_record_id": null,
       "evidence_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8994809/",
         "https://research.rug.nl/en/publications/anticipating-manic-and-depressive-transitions-in-patients-with-bi",
         "https://research.rug.nl/en/datasets/additional-file-2-of-anticipating-manic-and-depressive-transition/"
       ],
-      "access": "participant_data_not_public_request_not_obtained",
-      "status": "BLOCKED_ACCESS",
+      "access": "reasonable_request_not_obtained",
+      "status": "BLOCKED_D4",
       "facts": {
-        "same_person_decline_recovery": "unknown",
+        "same_person_decline_recovery": "no",
         "minimum_50_each_arm": "unknown",
         "observed_state": "yes",
-        "agent_action": "unknown",
-        "external_forcing": "unknown",
-        "action_forcing_distinct": "unknown",
-        "bidirectional_forcing": "unknown",
-        "independent_p3": "unknown"
+        "agent_action": "no",
+        "external_forcing": "no",
+        "action_forcing_distinct": "no",
+        "bidirectional_forcing": "no",
+        "independent_p3": "no"
       },
-      "blockers": ["ACCESS", "D4_UNESTABLISHED", "D5_UNESTABLISHED", "STRUCTURE_UNESTABLISHED"],
-      "rationale": "The linked public supplement is described as R analysis code, not participant-level time-series data; the prior request route did not yield access."
+      "blockers": ["D4", "ACCESS", "D5", "STRUCTURE", "CORE"],
+      "target_blind_review": {
+        "review_date": "2026-08-15",
+        "participant_level_outcome_values_inspected": false,
+        "published_aggregate_results_used_for_disposition": false,
+        "materials": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8994809/",
+          "https://research.rug.nl/en/datasets/additional-file-2-of-anticipating-manic-and-depressive-transition/"
+        ],
+        "design_findings": [
+          "The protocol schedules five EMA questionnaires per day for four months and weekly manic and depressive symptom questionnaires.",
+          "A transition is defined as an abrupt increase of at least six points within one week on the manic or depressive symptom scale; no labelled recovery arm is declared.",
+          "The public methods declare no agent-action stream, exogenous bidirectional forcing variable or independent non-self-report endpoint; participant data are available only on reasonable request."
+        ]
+      },
+      "rationale": "The target-blind methods review closes the route before access: the study labels abrupt symptom increases toward manic or depressive episodes, not paired same-person decline and recovery arms. The public supplement is analysis code, and participant data remain request-only."
     }
   ]
 }

@@ -20,7 +20,7 @@ class DatasetScreeningValidationTests(unittest.TestCase):
         self.assertEqual(report["additional_catalogue_search_count"], 1)
         self.assertEqual(report["additional_catalogue_record_count"], 5)
         self.assertEqual(report["candidate_count"], 18)
-        self.assertEqual(report["target_blind_review_count"], 6)
+        self.assertEqual(report["target_blind_review_count"], 7)
         self.assertEqual(report["ready_for_blinded_preflight_count"], 0)
 
     def test_declared_count_must_match_enumeration(self):

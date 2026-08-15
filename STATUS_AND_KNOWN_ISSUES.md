@@ -40,7 +40,12 @@ was true at freeze time and is now out of date:
   now recorded in `AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md` and
   `AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md`. The repaired conclusion is bounded
   to the declared snapshot and known external routes; it is not a universal
-  absence claim.
+  absence claim. **Further current clarification 2026-08-15:** target-blind
+  Methods review now closes the bipolar request-only route on D4 design rather
+  than access, while TRANS-ID's tapering and recovery samples remain separate.
+  `AMENDMENT2_METADATA_ONLY_ACCESS_GATE.md` now prevents future participant-data
+  requests until public or custodian-supplied metadata clears the paired-arm
+  design gate.
 - Therefore, on the preregistration's own terms, the make-or-break test is
   **un-run**.
 
