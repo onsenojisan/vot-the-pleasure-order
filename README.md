@@ -91,7 +91,11 @@ The current public record does not support claims that:
 ([10.5281/zenodo.21366131](https://doi.org/10.5281/zenodo.21366131)) — whether the collapse gate operates
 *generically*, transferring without per-case tuning and constraining decline and recovery jointly. It is
 **pre-registered and frozen**, and **un-run**, because it needs within-person decline **and** recovery arms
-that no accessible dataset provides. It is necessary for S1 but not sufficient for the central claim, which requires S1 + S2 + S3 under the [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md).
+for which no eligible target was identified in the declared 2026-08-15 search
+scope. This is a bounded search result, not an established absence. See the
+[search log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md). It is necessary for S1
+but not sufficient for the central claim, which requires S1 + S2 + S3 under
+the [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md).
 
 ⚠️ **Secondary to it, but not settled by it — added 2026-08-14, corrected the same day.** *Decisive*
 here means **highest priority**, not *sufficient on its own*. **Amendment 1 routes a critical-slowing
@@ -104,8 +108,8 @@ position for a theory than a clean negative, because it approaches unfalsifiabil
 
 | | What it decides | What it needs | Status |
 |---|---|---|---|
-| **`D4-dynamics`** | whether a fold / hysteresis structure beats the free-energy family on the decline→recovery dynamics | within-person decline **and** recovery arms, ≥50 obs per arm, adequate power, pre-fixed structure screening. **It does not need an external Ω endpoint** | **un-run** — no accessible dataset has both arms |
-| **`D4 + P3`** | whether that structure licenses an upgrade to VOT's **Ω / directionality** claims | all of the above **plus** an external viability endpoint, independent of self-report (`P3`, Ω̂ non-circularity) | **un-runnable** on accessible data — that endpoint is the co-measurement gap |
+| **`D4-dynamics`** | whether a fold / hysteresis structure beats the free-energy family on the decline→recovery dynamics | within-person decline **and** recovery arms, ≥50 obs per arm, adequate power, pre-fixed structure screening. **It does not need an external Ω endpoint** | **un-run** — no eligible target identified in the declared search scope |
+| **`D4 + P3`** | whether that structure licenses an upgrade to VOT's **Ω / directionality** claims | all of the above **plus** an external viability endpoint, independent of self-report (`P3`, Ω̂ non-circularity) | **not assembled** — the endpoint remains a co-measurement gap in the screened candidates |
 
 Even `D4 + P3` is insufficient for distinctiveness unless it also passes the explicit-rival D5 contract. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) supplies the prospective fairness, identifiability and symmetric-disposition rules without changing the frozen v0.2 test or Amendment 1. It authorizes no empirical verdict alone: each future target needs a complete, prospectively frozen [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md).
 
@@ -115,6 +119,9 @@ Before any target dataset is treated as eligible, the
 [Amendment 2 Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md) requires agent action
 to be separated from bidirectional external forcing. Passing that preflight is
 necessary only; it is not a power, identifiability or runnability result.
+The preceding [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md)
+and [dated search log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md) make candidate
+screening reproducible and keep any absence claim bounded to its declared scope.
 
 ⚠️ **Corrected the same day.** The first version of this note required an independent endpoint for D4 to
 give discriminating evidence at all. That **contradicts the frozen preregistration**, whose §7 states

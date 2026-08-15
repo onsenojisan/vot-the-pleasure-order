@@ -1,0 +1,322 @@
+{
+  "schema_version": "0.1",
+  "status": "BOUNDED_SEARCH_COMPLETE_NO_ELIGIBLE_TARGET_IDENTIFIED",
+  "protocol_version": "0.1",
+  "protocol_path": "AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md",
+  "search_date": "2026-08-15",
+  "conclusion": "No dataset eligible for blinded Amendment 2 preflight was identified in the declared sources and snapshot. This is not a claim of universal absence.",
+  "catalogue_census": {
+    "source_id": "openesm",
+    "repository_url": "https://github.com/openesm-project/openesm",
+    "catalogue_url": "https://openesmdata.org/datasets/",
+    "snapshot_commit": "4dcff8ec5598e7a5828efe971122050f451443d1",
+    "enumeration_glob": "datasets/**/*_metadata.json",
+    "declared_record_count": 62,
+    "record_ids": [
+      "0001", "0002", "0003", "0004", "0005", "0006", "0008", "0010",
+      "0011", "0012", "0013", "0014", "0015", "0017", "0018", "0019",
+      "0021", "0022", "0023", "0024", "0025", "0026", "0027", "0028",
+      "0029", "0031", "0032", "0033", "0034", "0035", "0036", "0037",
+      "0039", "0040", "0041", "0042", "0043", "0044", "0045", "0046",
+      "0049", "0050", "0051", "0052", "0053", "0054", "0055", "0056",
+      "0057", "0058", "0059", "0060", "0061", "0062", "0063", "0064",
+      "0066", "0070", "0071", "0072", "0073", "0075"
+    ],
+    "screened_fields": [
+      "additional_comments",
+      "topics",
+      "participants",
+      "features[].name",
+      "features[].description",
+      "features[].construct",
+      "features[].coding",
+      "features[].comments"
+    ],
+    "shortlist_regex": "\\b(treat(?:ment|ed|ing)?|therap(?:y|ies|eutic)?|intervention|baseline|post[- _]?baseline|taper(?:ing)?|medicat(?:ion|ed)?|recover(?:y|ing)?|randomi(?:s|z)(?:ed|ation)|trial)\\b",
+    "regex_flags": ["IGNORECASE"],
+    "shortlist_ids": [
+      "0010", "0014", "0022", "0024", "0033", "0036", "0058", "0060",
+      "0061", "0062", "0075"
+    ],
+    "non_shortlisted_count": 51,
+    "non_shortlisted_disposition": "NOT_SHORTLISTED_METADATA",
+    "non_shortlisted_interpretation": "No phase/intervention term was declared in the screened metadata fields; this does not prove ineligibility."
+  },
+  "known_external_routes": [
+    "transid_tapering",
+    "transid_recovery",
+    "bipolar_early_warning"
+  ],
+  "allowed_fact_values": ["yes", "no", "unknown"],
+  "candidates": [
+    {
+      "candidate_id": "openesm_0010_geschwind",
+      "catalogue_record_id": "0010",
+      "evidence_urls": ["https://openesmdata.org/datasets/0010_geschwind/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "no",
+        "external_forcing": "no",
+        "action_forcing_distinct": "no",
+        "bidirectional_forcing": "no",
+        "independent_p3": "no"
+      },
+      "blockers": ["D4", "D5", "STRUCTURE", "CORE"],
+      "rationale": "The two periods are baseline and post-baseline after mindfulness therapy, not labelled decline and recovery arms."
+    },
+    {
+      "candidate_id": "openesm_0014_habets",
+      "catalogue_record_id": "0014",
+      "evidence_urls": ["https://openesmdata.org/datasets/0014_habets/"],
+      "access": "open",
+      "status": "UNRESOLVED_METADATA",
+      "facts": {
+        "same_person_decline_recovery": "unknown",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "unknown"
+      },
+      "blockers": ["D4_UNESTABLISHED", "D5_UNESTABLISHED", "STRUCTURE_UNESTABLISHED"],
+      "rationale": "Medication, activity and Parkinson ON/OFF state are recorded, but the metadata does not establish D4 arms or a defensible separation of selected action from exogenous forcing."
+    },
+    {
+      "candidate_id": "openesm_0022_menghini",
+      "catalogue_record_id": "0022",
+      "evidence_urls": ["https://openesmdata.org/datasets/0022_menghini/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "no",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "unknown"
+      },
+      "blockers": ["D4"],
+      "rationale": "Baseline/work is a survey-type code and the dataset has only 21 total time points."
+    },
+    {
+      "candidate_id": "openesm_0024_hasselhorn",
+      "catalogue_record_id": "0024",
+      "evidence_urls": ["https://openesmdata.org/datasets/0024_hasselhorn/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "no",
+        "observed_state": "yes",
+        "agent_action": "no",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "no"
+      },
+      "blockers": ["D4", "D5", "CORE"],
+      "rationale": "The two phases manipulate prompt frequency (3-to-9 or 9-to-3), not decline and recovery; 84 total time points cannot provide 50 per arm."
+    },
+    {
+      "candidate_id": "openesm_0033_fisher",
+      "catalogue_record_id": "0033",
+      "evidence_urls": ["https://openesmdata.org/datasets/0033_fisher/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "no",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "no",
+        "independent_p3": "no"
+      },
+      "blockers": ["D4", "STRUCTURE", "CORE"],
+      "rationale": "The shortlist hit is randomized item order; no decline/recovery design is declared."
+    },
+    {
+      "candidate_id": "openesm_0036_bosley",
+      "catalogue_record_id": "0036",
+      "evidence_urls": ["https://openesmdata.org/datasets/0036_bosley/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "no",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "no",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "no",
+        "independent_p3": "no"
+      },
+      "blockers": ["D4", "STRUCTURE", "CORE"],
+      "rationale": "The shortlist hit is randomized item order and the dataset has only 45 total time points."
+    },
+    {
+      "candidate_id": "openesm_0058_gainey",
+      "catalogue_record_id": "0058",
+      "evidence_urls": ["https://openesmdata.org/datasets/0058_gainey/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "no",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "no"
+      },
+      "blockers": ["D4", "CORE"],
+      "rationale": "Baseline refers to participation before ESM; there are 42 total time points and no paired arms."
+    },
+    {
+      "candidate_id": "openesm_0060_beck",
+      "catalogue_record_id": "0060",
+      "evidence_urls": ["https://openesmdata.org/datasets/0060_beck/"],
+      "access": "open",
+      "status": "UNRESOLVED_METADATA",
+      "facts": {
+        "same_person_decline_recovery": "unknown",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "unknown"
+      },
+      "blockers": ["D4_UNESTABLISHED", "D5_UNESTABLISHED", "STRUCTURE_UNESTABLISHED"],
+      "rationale": "The data belong to a larger personality intervention study, but the catalogue metadata declares no paired decline/recovery arms or causal-role mappings."
+    },
+    {
+      "candidate_id": "openesm_0061_merolla",
+      "catalogue_record_id": "0061",
+      "evidence_urls": ["https://openesmdata.org/datasets/0061_merolla/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "unknown",
+        "minimum_50_each_arm": "no",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "no"
+      },
+      "blockers": ["D4", "CORE"],
+      "rationale": "The data were collected within an intervention project, but 60 total time points cannot provide two arms of at least 50."
+    },
+    {
+      "candidate_id": "openesm_0062_neubauer",
+      "catalogue_record_id": "0062",
+      "evidence_urls": ["https://openesmdata.org/datasets/0062_neubauer/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "no",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "unknown"
+      },
+      "blockers": ["D4"],
+      "rationale": "Randomized refers to prompt timing; 84 total time points cannot provide two arms of at least 50."
+    },
+    {
+      "candidate_id": "openesm_0075_ballou",
+      "catalogue_record_id": "0075",
+      "evidence_urls": ["https://openesmdata.org/datasets/0075_ballou/"],
+      "access": "open",
+      "status": "BLOCKED_D4",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "no",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "unknown"
+      },
+      "blockers": ["D4"],
+      "rationale": "Baseline-day fields are not decline/recovery phases and there are only 30 daily time points."
+    },
+    {
+      "candidate_id": "transid_tapering",
+      "catalogue_record_id": null,
+      "evidence_urls": ["https://www.transid.nl/?lang=en"],
+      "access": "request_not_obtained",
+      "status": "BLOCKED_ACCESS",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "no",
+        "independent_p3": "unknown"
+      },
+      "blockers": ["ACCESS", "D4", "STRUCTURE"],
+      "rationale": "The public project description covers deterioration during antidepressant tapering; recovery is a separate subproject and population."
+    },
+    {
+      "candidate_id": "transid_recovery",
+      "catalogue_record_id": null,
+      "evidence_urls": ["https://www.transid.nl/?lang=en"],
+      "access": "request_not_obtained",
+      "status": "BLOCKED_ACCESS",
+      "facts": {
+        "same_person_decline_recovery": "no",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "no",
+        "independent_p3": "unknown"
+      },
+      "blockers": ["ACCESS", "D4", "STRUCTURE"],
+      "rationale": "The public project description covers recovery during psychological treatment; tapering is a separate subproject and population."
+    },
+    {
+      "candidate_id": "bipolar_early_warning",
+      "catalogue_record_id": null,
+      "evidence_urls": [
+        "https://research.rug.nl/en/publications/anticipating-manic-and-depressive-transitions-in-patients-with-bi",
+        "https://research.rug.nl/en/datasets/additional-file-2-of-anticipating-manic-and-depressive-transition/"
+      ],
+      "access": "participant_data_not_public_request_not_obtained",
+      "status": "BLOCKED_ACCESS",
+      "facts": {
+        "same_person_decline_recovery": "unknown",
+        "minimum_50_each_arm": "unknown",
+        "observed_state": "yes",
+        "agent_action": "unknown",
+        "external_forcing": "unknown",
+        "action_forcing_distinct": "unknown",
+        "bidirectional_forcing": "unknown",
+        "independent_p3": "unknown"
+      },
+      "blockers": ["ACCESS", "D4_UNESTABLISHED", "D5_UNESTABLISHED", "STRUCTURE_UNESTABLISHED"],
+      "rationale": "The linked public supplement is described as R analysis code, not participant-level time-series data; the prior request route did not yield access."
+    }
+  ]
+}

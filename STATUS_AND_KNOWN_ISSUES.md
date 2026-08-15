@@ -35,6 +35,12 @@ was true at freeze time and is now out of date:
   (`21767213`, 2026-08-03) — coverage is a re-runnable census of the openESM
   catalogue, **screening was never recorded**, so the judgement is not re-runnable.
   Second of two live carriers found today; the other was `CURRENT_STATUS.md`.
+  **Superseded for current interpretation 2026-08-15:** the prospective
+  screening rule, full 62-record enumeration and shortlist dispositions are
+  now recorded in `AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md` and
+  `AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md`. The repaired conclusion is bounded
+  to the declared snapshot and known external routes; it is not a universal
+  absence claim.
 - Therefore, on the preregistration's own terms, the make-or-break test is
   **un-run**.
 
