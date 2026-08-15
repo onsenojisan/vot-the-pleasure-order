@@ -3,7 +3,7 @@
 Status: candidate-route record. This document does **not** report results and does **not** upgrade any claim.
 Date: 2026-06-30
 
-For the current claim boundary see [Current Status](CURRENT_STATUS.md). For readiness conditions see [Empirical Readiness](EMPIRICAL_READINESS.md). This file only records *which empirical domains exist* as candidate routes, so they are not forgotten or rediscovered from scratch.
+For the current claim boundary see [Current Canon](CURRENT_CANON.md). For readiness conditions see [Empirical Readiness](EMPIRICAL_READINESS.md). This file only records *which empirical domains existed as candidate routes*, so they are not forgotten or rediscovered from scratch. The D3/BXKZ, `dC/dt`, direct-Omega, and direct-O/M/A route language below is historical and does not override the [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md), [Terminology Contract](TERMINOLOGY_CONTRACT.md), or current Candidate 2L/2R split.
 
 ## Honest Ceiling First
 

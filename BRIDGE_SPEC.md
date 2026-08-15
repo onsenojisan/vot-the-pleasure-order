@@ -1,8 +1,10 @@
 # Candidate 2 Bridge Specification — selected local input → independent Ω-related outcome
 
-Status: **Candidate 2L selected** (ΔC1 → external Ω-related level); design-incomplete and not yet preregisterable
-Date: 2026-06-19  
+Status: **Candidate 2L auxiliary level study selected** (ΔC1 → external Ω-related future level); design-incomplete, not yet preregisterable, and not the central bridge test
+Date: 2026-08-15
 Claim level: unvalidated bridge hypothesis  
+
+Current contracts: [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md) · [Candidate 2R Directional Bridge](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md) · [Terminology Contract](TERMINOLOGY_CONTRACT.md)
 
 ## Purpose
 
@@ -11,19 +13,19 @@ This document states the current public bridge hypothesis for Valence Order Theo
 The bridge is needed because the theory distinguishes:
 
 - `C`: local coherence.
-- `dC/dt`: local coherence flux, a qualified local pleasure signal — **read the note below before using this line**; the symbol carries two jobs.
+- `r_C+` / `r_C-`: structural formation/collapse rates. These are not definitions of ordinary felt pleasure/suffering.
 - `Omega`: directionality potential, the capacity to revise, repair, reverse, and reorganize future trajectories.
 - `dOmega/dt`: long-term directionality flux.
 
-The theory does not currently identify `dC/dt` with `dOmega/dt`.
+The theory does not currently identify a structural C-rate or felt-consonance signal with an Ω-related change or rate.
 
-Note on `C` vs felt consonance: read as a pleasure signal, `dC/dt` is the felt-consonance proxy `p_loc` (an appearance channel), which is distinct from the structural consonance coordinate `C`. The two can diverge — a state can feel coherent (high `p_loc`) while being poorly integrated with the whole system (low structural `C`) and low on `Omega`, as in addiction. See the [Structural Appendix](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md). This divergence is exactly why a positive local `dC/dt` is not, by itself, evidence of positive `dOmega/dt` (see the Core Guardrail below).
+Note on `C` vs felt consonance: `p_loc` is the felt-consonance appearance channel and is distinct from the structural consonance coordinate `C`. The two can diverge — a state can feel coherent (high `p_loc`) while being poorly integrated with the whole system (low structural `C`) and low on `Omega`, as in addiction. See the [Structural Appendix](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md). This divergence is why neither felt consonance nor a positive structural formation rate is, by itself, evidence of positive Ω-related change.
 
-🟡 **Open (recorded 2026-08-14) — the notation, not the distinction.** The distinction above is settled: `p_loc` is the felt channel, `C` the structural coordinate, and the philosophy core holds pleasure to be a **functional correlate** of `dC/dt` rather than an identity (F8; the identity is retracted at S2). What is unresolved is that **one symbol does two jobs** — the time derivative of a structural coordinate, and an appearance channel. On 2026-08-14 two readers flagged this from the definition line above **without reaching this note six lines below it**, which is why the pointer is now on that line. Giving the structural derivative its own symbol is the minimal fix, and it is **an author decision rather than a repair**: `dC/dt` is the form used in the frozen deposits, the canonical spec, and the public articles, so changing it here alone would create exactly the drift this project's version discipline exists to prevent.
+✅ **Resolved on the current empirical surface (2026-08-15).** The earlier overloaded `dC/dt` language is retained only in frozen or historical artifacts. Current documents use `p_loc` for the felt channel and `r_C+` / `r_C-` for structural formation/collapse rates. This notation change does not alter frozen deposits and does not establish an empirical relation between the appearance channel and the structural rates.
 
 The bridge question is therefore:
 
-> When does local coherence or pleasure flux become evidence for later directionality, and when does it fail to do so?
+> When does a lagged local structural input predict a later external Ω-related outcome, and when does it fail to do so?
 
 ## Core Guardrail
 
@@ -46,15 +48,15 @@ But it may also reflect:
 - avoidance of corrective update;
 - reduced uncertainty by eliminating future options.
 
-Therefore a positive local `dC/dt` is not by itself evidence of positive `dOmega/dt`.
+Therefore a positive local signal or structural formation rate is not by itself evidence of positive Ω-related change.
 
 ## Candidate 2 Bridge Hypothesis
 
 Candidate 2 states:
 
-> One selected lagged local input contributes to a predeclared later Ω-related outcome only when it is independently anchored by persistence, corrective update, continuity, and future option preservation, and when harmful rigid order is excluded.
+> One selected lagged local input predicts a predeclared later Ω-related outcome only when it is independently anchored by persistence, corrective update, continuity, and future option preservation, and when harmful rigid order is excluded.
 
-> **Author selection (2026-08-14): Candidate 2L.** The input construct is the change in internal configural consonance, `ΔC1_lag`; the endpoint form is the independently operationalized external Ω-related **level** `Y_Omega^L = OmegaHat(T3)`. This is a prospective level-prediction study, not an Ω-rate study. `p_loc`, undifferentiated structural `C`, change, and rate are not Candidate 2L inputs/outcomes. A future rate study, if independently designed, is **Candidate 2R** and requires a separate preregistration.
+> **Author selection (2026-08-14; scope corrected 2026-08-15): Candidate 2L.** The input construct is the change in internal configural consonance, `ΔC1_lag`; the endpoint form is the independently operationalized external Ω-related **future level** `Y_Omega^L = OmegaHat(T3)`. Candidate 2L is an auxiliary prospective level-prediction study. It cannot establish change, rate, or the central S1–S3 claim. A separately designed **Candidate 2R** tests change/rate and supplies the directional S4 bridge; see its dedicated specification.
 
 Compact form:
 
@@ -80,7 +82,7 @@ Any empirical bridge test must freeze time windows before testing.
 
 | Window | Role |
 |---|---|
-| `T0` | baseline state |
+| `T0` | baseline state, including the same external endpoint measured before the input window |
 | `T1` | local coherence or pleasure flux input |
 | `T2` | bridge support window |
 | `T3` | independent directionality endpoint |
@@ -100,11 +102,11 @@ If these rules fail, the result is exploratory and cannot validate the bridge.
 
 | Chosen estimand | Minimum independent observation requirement | Permitted conclusion |
 |---|---|---|
-| **Level**: `Y_Omega^L = Omega_hat(T3)` | one independently operationalized external endpoint at `T3` | **SELECTED for Candidate 2L.** Predicts an external Ω-related **level**; no `dOmega/dt` wording |
+| **Future level**: `Y_Omega^L = Omega_hat(T3)` | independently operationalized external endpoint at `T3`, with `Omega_hat(T0)` measured and entered as a mandatory baseline | **SELECTED for Candidate 2L.** Predicts a baseline-adjusted external Ω-related **future level**; no change/rate wording |
 | **Change**: `Y_Omega = Omega_hat(T3) - Omega_hat(T2*)` | two independently operationalized external endpoints at frozen times `T2*` and `T3` | predicts an external Ω-related **change** |
 | **Rate**: `Y_Omega = d Omega_hat / d tau` over a declared interval | enough independently operationalized external observations to estimate the rate, plus declared time unit and slope estimator | predicts an external Ω-related **rate** |
 
-`T2*` denotes an external outcome occasion and need not reuse the support-variable stream. The construct-role contract below still prohibits reuse of items or features. **Candidate 2L selects the level option only.** Its endpoint source, `(L,H,P)`, units, aggregation, and missing-data rule are not yet frozen, so it remains not preregisterable. Change and rate are excluded from Candidate 2L. Neither the score nor a `T3` label may be called `dOmega/dt`.
+`T2*` denotes an external outcome occasion and need not reuse the support-variable stream. The construct-role contract below still prohibits reuse of items or features. **Candidate 2L selects the future-level option only and must adjust for the same endpoint at `T0`.** Without a valid `T0` endpoint, the analysis is exploratory and cannot pass. Its endpoint source, `(L,H,P)`, units, aggregation, and missing-data rule are not yet frozen, so it remains not preregisterable. Change and rate are excluded from Candidate 2L. Neither the score nor a `T3` label may be called an Ω rate.
 
 > **Decision record.** [Candidate 2 — Freeze Decision Sheet](CANDIDATE2_FREEZE_DECISION_SHEET.md) records the Candidate 2L selections and the remaining endpoint, input-estimator, and item-ownership gates. Complete its remaining fields before collection or analysis.
 
@@ -242,6 +244,7 @@ The gate's numerical handling, if one is used, must be frozen before testing. `B
 Candidate 2 must be compared against simpler alternatives:
 
 - `DeltaC1_lag` alone;
+- `Y_Omega^L(T0)` (mandatory baseline outcome for Candidate 2L);
 - `future_option_preservation` alone;
 - `C` level alone;
 - generic trend or slope;
@@ -249,7 +252,7 @@ Candidate 2 must be compared against simpler alternatives:
 - mean reversion;
 - persistence-only or recovery-only models;
 - domain-standard predictors;
-- rival theory models where available;
+- explicit FEP/active-inference rivals appropriate to the domain, with declared generative models, objectives, priors, mappings, and scoring rules;
 - **psychological flexibility** (Kashdan & Rottenberg 2010), ~~measured with a validated instrument~~ — **measured PRIMARILY from the ESM stream under a frozen item allocation, with a static validated instrument as a SECONDARY baseline (decided 2026-08-13; see below).**
 
 Candidate 2 is not supported if it merely detects amplitude, non-collapse, persistence, or recovery.
@@ -337,18 +340,18 @@ Required negative controls include:
 
 Candidate 2 earns bounded bridge support only if all are true:
 
-1. the input-flux decision above — construct, estimator, scale, sign, window, disjoint allocation, and missing-data rule — was frozen before testing;
-2. one outcome definition (level, change, or rate), external endpoint, units, horizon, and estimator were frozen before testing;
+1. the input decision above — construct, estimator, scale, sign, window, disjoint allocation, and missing-data rule — was frozen before testing;
+2. the future-level outcome definition, the same endpoint at `T0`, units, horizon, adjustment model, and estimator were frozen before testing;
 3. mapping, windows, variables, thresholds, exclusions, and baselines were frozen before testing;
 4. endpoint construction is independent from predictor construction **and** the endpoint is not Ω-aligned by construction with Future Option Preservation or the harmful-order gate;
 5. performance reproduces in holdout or preregistered test data;
-6. Candidate 2 beats required baselines, including `future_option_preservation` alone, by a predeclared margin;
+6. Candidate 2 beats required baselines, including the `T0` endpoint, `future_option_preservation` alone, domain standards, and the declared FEP/active-inference rivals, by a predeclared margin;
 7. harmful-order cases are not falsely scored as positive directionality;
 8. null result rules were honored.
 
 Allowed wording after a pass:
 
-> In domain X, under frozen measurement rules, the selected lagged input plus bridge-support variables predicted the predeclared independent external `Y_Omega` [level/change/rate] endpoint beyond simpler baselines, including Future Option Preservation alone.
+> In domain X, under frozen measurement rules, the selected lagged input plus bridge-support variables predicted the predeclared independent external Ω-related future level beyond its baseline level and the other declared rivals. This result does not establish Ω-related change, rate, or the central VOT claim.
 
 ## Fail Conditions
 
@@ -371,7 +374,7 @@ Required conclusion after a fail:
 
 Safe:
 
-> VOT distinguishes local coherence dynamics from long-term directionality claims. Candidate 2L is a design-incomplete proposal for testing whether selected `DeltaC1_lag` plus persistence, corrective update, continuity, and future-option variables predict a predeclared independent external Ω-related **level**. It does not test an Ω rate.
+> VOT distinguishes local coherence dynamics from long-term directionality claims. Candidate 2L is a design-incomplete auxiliary proposal for testing whether selected `DeltaC1_lag` plus persistence, corrective update, continuity, and future-option variables predict a predeclared baseline-adjusted independent external Ω-related **future level**. It does not test Ω-related change or rate.
 
 Forbidden:
 
@@ -389,7 +392,7 @@ Forbidden:
 
 The conservative current status is:
 
-> **Candidate 2L is selected but design-incomplete, not yet preregisterable and not a validated bridge.** It fixes `DeltaC1_lag` as the input construct and an external Ω-related level at `T3` as the endpoint form. The C1 estimator and the external endpoint source/definition remain unfrozen. Its `BridgeScore_C2` is not `dOmega/dt`; rate wording is reserved for a separately preregistered Candidate 2R.
+> **Candidate 2L is selected but design-incomplete, not yet preregisterable, auxiliary, and not a validated directional bridge.** It fixes `DeltaC1_lag` as the input construct and a baseline-adjusted external Ω-related future level at `T3` as the endpoint form. The C1 estimator and the external endpoint source/definition remain unfrozen. Its `BridgeScore_C2` is not an Ω change or rate; those are reserved for the separately specified and separately preregistered Candidate 2R.
 
 Until a frozen bridge test passes, VOT should be presented as a two-layer framework:
 
