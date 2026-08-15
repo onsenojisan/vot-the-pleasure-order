@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1-draft",
+  "status": "author-ratification draft",
+  "generated_on": "2026-08-15",
+  "registry_ready_for_locked_validation": false,
+  "common_contract": {
+    "state_model": "controlled continuous-Gaussian state space",
+    "observation_model": "y_t ~ Normal(H*x_t + d, Sigma_y)",
+    "vfe": "E_q[log q(x_1:T) - log p(y_1:T,x_1:T|a_1:T,u_1:T)]",
+    "efe": "sum_tau KL[Q(y_tau|pi)||P_C(y_tau)] + E_Q H[p(y_tau|x_tau)]",
+    "policy": "p(pi) proportional_to exp(-gamma*G(pi))*P_E(pi)",
+    "primary_score": "held-out joint log predictive density per decision occasion",
+    "action_stream_required_for_d5": true,
+    "external_forcing_must_be_separate_from_action": true
+  },
+  "models": {
+    "R1": {
+      "name": "smooth changing equilibrium",
+      "truth_family": "NON_FOLD",
+      "dynamics": "x_next=b+A*x+B*a+U*u+w"
+    },
+    "R2": {
+      "name": "externally forced jump",
+      "truth_family": "NON_FOLD",
+      "dynamics": "x_next=b+A*x+B*a+U*u+J*I(t>=t_jump)+w"
+    },
+    "S0": {
+      "name": "non-bifurcation state switching",
+      "truth_family": "NON_FOLD",
+      "dynamics": "z_next~Markov(P); x_next=b_z+A_z*x+B_z*a+U_z*u+w"
+    },
+    "R3": {
+      "name": "person-arm-specific active inference",
+      "truth_family": "NON_FOLD",
+      "sharing": "none across people or arms",
+      "dynamics": "x_i,r,t+1=b_i,r+A_i,r*x_i,r,t+B_i,r*a_i,r,t+U_i,r*u_i,r,t+w"
+    },
+    "R4": {
+      "name": "hierarchical active inference",
+      "truth_family": "NON_FOLD",
+      "sharing": "partial pooling learned from training partition",
+      "dynamics": "theta_i,r~Normal(mu_group+Z_i,r*beta,Sigma_group); linear transition"
+    },
+    "R5": {
+      "name": "shared decline-recovery active inference",
+      "truth_family": "NON_FOLD",
+      "sharing": "dynamics, observation, preference and policy parameters shared across arms",
+      "dynamics": "linear transition; arm-specific initial state and observed forcing only"
+    },
+    "R6": {
+      "name": "nonlinear hysteretic active inference",
+      "truth_family": "FOLD",
+      "sharing": "hierarchical across people and shared across arms",
+      "dynamics": "x_next=x+delta*(alpha*x-x^3+beta*u+zeta*a)+w"
+    }
+  },
+  "candidate_targets_not_ratified": {
+    "power_lower_95_floor": 0.8,
+    "opposite_error_upper_95_ceiling": 0.05,
+    "worst_case_mcse_ceiling": 0.01,
+    "recommended_replicates_per_scenario": 5000,
+    "meaningful_elpd_joint_margin": null
+  },
+  "calibration_scenarios": [
+    {
+      "id": "r1_smooth_moderate_noise",
+      "truth": "NON_FOLD",
+      "generator": "R1",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "bidirectional broad range",
+      "process_noise_sd": 0.2,
+      "measurement_noise_sd": 0.3,
+      "missingness_rate": 0.1,
+      "seed": 1101
+    },
+    {
+      "id": "r2_forced_jump_high_noise",
+      "truth": "NON_FOLD",
+      "generator": "R2",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "bidirectional broad range",
+      "process_noise_sd": 0.35,
+      "measurement_noise_sd": 0.5,
+      "missingness_rate": 0.2,
+      "seed": 1201
+    },
+    {
+      "id": "s0_switching_no_bifurcation",
+      "truth": "NON_FOLD",
+      "generator": "S0",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "bidirectional broad range",
+      "process_noise_sd": 0.25,
+      "measurement_noise_sd": 0.3,
+      "missingness_rate": 0.1,
+      "seed": 1301
+    },
+    {
+      "id": "r3_independent_person_arm",
+      "truth": "NON_FOLD",
+      "generator": "R3",
+      "cases": 32,
+      "observations_per_arm": 200,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "bidirectional broad range",
+      "process_noise_sd": 0.2,
+      "measurement_noise_sd": 0.3,
+      "missingness_rate": 0.1,
+      "seed": 1401
+    },
+    {
+      "id": "r4_hierarchical_partial_pool",
+      "truth": "NON_FOLD",
+      "generator": "R4",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "bidirectional broad range",
+      "process_noise_sd": 0.2,
+      "measurement_noise_sd": 0.3,
+      "missingness_rate": 0.1,
+      "seed": 1501
+    },
+    {
+      "id": "r5_shared_decline_recovery",
+      "truth": "NON_FOLD",
+      "generator": "R5",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "bidirectional broad range",
+      "process_noise_sd": 0.2,
+      "measurement_noise_sd": 0.3,
+      "missingness_rate": 0.1,
+      "seed": 1601
+    },
+    {
+      "id": "r6_fold_strong",
+      "truth": "FOLD",
+      "generator": "R6",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "crosses both fold thresholds",
+      "process_noise_sd": 0.15,
+      "measurement_noise_sd": 0.2,
+      "missingness_rate": 0.05,
+      "parameters": {"alpha": 1.0, "beta": 1.0, "zeta": 0.4, "delta": 0.05},
+      "seed": 1701
+    },
+    {
+      "id": "r6_fold_weak_narrow",
+      "truth": "FOLD",
+      "generator": "R6",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "barely crosses both fold thresholds",
+      "process_noise_sd": 0.3,
+      "measurement_noise_sd": 0.5,
+      "missingness_rate": 0.2,
+      "parameters": {"alpha": 0.35, "beta": 0.55, "zeta": 0.2, "delta": 0.05},
+      "seed": 1801
+    }
+  ],
+  "locked_validation_templates": [
+    {
+      "id": "locked_fold_family",
+      "truth": "FOLD",
+      "required_generators": ["R6"],
+      "parameter_grid": "UNSET_BEFORE_RATIFICATION",
+      "seed_commitment": "UNSET_BEFORE_RATIFICATION"
+    },
+    {
+      "id": "locked_non_fold_family",
+      "truth": "NON_FOLD",
+      "required_generators": ["R1", "R2", "S0", "R3", "R4", "R5"],
+      "parameter_grid": "UNSET_BEFORE_RATIFICATION",
+      "seed_commitment": "UNSET_BEFORE_RATIFICATION"
+    }
+  ]
+}

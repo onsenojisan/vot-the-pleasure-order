@@ -43,7 +43,9 @@ worst-case result across the declared validation scenarios.
 
 ## Scenario Registry
 
-Each scenario receives an immutable ID and freezes:
+Each scenario receives an immutable ID and freezes. The current candidate
+registry and R3–R6 equations are in the
+[D5 Active-Inference Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md).
 
 1. truth family and exact data-generating equations;
 2. people/cases, observations per decline and recovery arm, and time unit;

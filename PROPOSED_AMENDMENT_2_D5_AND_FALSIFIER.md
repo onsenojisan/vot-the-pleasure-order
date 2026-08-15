@@ -40,6 +40,12 @@ to call a comparator FEP / active inference.
 
 ### A2. Required Rival Family
 
+The candidate equations, observation requirements, VFE/EFE objectives and
+sharing rules for `R3–R6` are specified in the
+[D5 Active-Inference Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md).
+That file remains an author-ratification draft; its presence does not make this
+amendment operative.
+
 All members receive the same observations, arm labels, endpoint and data budget
 as VOT.
 
