@@ -17,7 +17,7 @@ VOT / The Pleasure Order is a testable research program, not a validated distinc
 | measurable order operator | tested and absorbed by the comparator used | evidence against current distinctiveness, not proof that every FEP model absorbs VOT |
 | `D4-dynamics` | frozen and un-run | S1 structural evidence only if it passes |
 | `P3` external Ω-related endpoint | not assembled | S2 external alignment only |
-| explicit strong FEP rivals (`D5`) | amendment drafted, not ratified | S3 rival separation only after prospective freezing and a pass |
+| explicit strong FEP rivals (`D5`) | amendment, R3–R6 equations, scenario registry and data preflight drafted; not ratified | S3 rival separation only after prospective freezing and a pass |
 | Candidate 2L | auxiliary, design-incomplete, un-runnable | baseline-adjusted future-level prediction only |
 | Candidate 2R | design contract only | S4 change/rate bridge after a separate prospective test |
 
@@ -41,6 +41,9 @@ See the [Terminology Contract](TERMINOLOGY_CONTRACT.md). Earlier `pleasure = dC/
 - A test that cannot distinguish `UNDERPOWERED` from `NO_STRUCTURE` is inconclusive.
 - VOT must beat explicit, estimable strong FEP/active-inference rivals, not only a generic prediction-error proxy.
 - If a declared strong rival is not identifiable on the acquired data, the distinctiveness result is inconclusive rather than a VOT win.
+- Agent action and external forcing must be separately observed and mapped. The
+  [Amendment 2 Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md) checks these and
+  other necessary conditions but does not certify runnability.
 
 The proposed D5 and falsifier repair is in [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md). It is an author-ratification draft and is not in force until its blank fields are prospectively completed.
 
@@ -50,4 +53,7 @@ The proposed D5 and falsifier repair is in [Proposed Amendment 2](PROPOSED_AMEND
 2. [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md);
 3. [Claim Boundary](CLAIM_BOUNDARY.md);
 4. [Bridge Specification](BRIDGE_SPEC.md) and [Candidate 2R](CANDIDATE2R_DIRECTIONAL_BRIDGE_SPEC.md);
-5. the frozen [Generic-Tipping Preregistration](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md), read with its amendments and present limitations.
+5. [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md), its
+   [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md), and its
+   [Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md);
+6. the frozen [Generic-Tipping Preregistration](PREREGISTRATION_TIPPING_DISCRIMINATOR_v0.2.md), read with its amendments and present limitations.

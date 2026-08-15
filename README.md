@@ -109,6 +109,13 @@ position for a theory than a clean negative, because it approaches unfalsifiabil
 
 Even `D4 + P3` is insufficient for distinctiveness unless it also passes the explicit-rival D5 contract. [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md) supplies that repair and a symmetric `UNDERPOWERED` / `NO_STRUCTURE` disposition, but remains an author-ratification draft and is not yet in force.
 
+Its candidate R3–R6 equations and machine-readable scenario registry are now
+specified in the [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md).
+Before any target dataset is treated as eligible, the
+[Amendment 2 Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md) requires agent action
+to be separated from bidirectional external forcing. Passing that preflight is
+necessary only; it is not a power, identifiability or runnability result.
+
 ⚠️ **Corrected the same day.** The first version of this note required an independent endpoint for D4 to
 give discriminating evidence at all. That **contradicts the frozen preregistration**, whose §7 states
 plainly: *"H2/D4 adjudication does **NOT** wait on P3."* The spec is not being changed — the error was in
