@@ -14,6 +14,9 @@ before fitting begins.
 
 Candidates reach this document only through the prospective
 [Dataset Eligibility And Search Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md).
+Request-only candidates must first clear the
+[Metadata-Only Controlled-Access Gate](AMENDMENT2_METADATA_ONLY_ACCESS_GATE.md);
+that gate does not itself authorize access.
 The latest bounded census is recorded in the
 [2026-08-15 Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md).
 

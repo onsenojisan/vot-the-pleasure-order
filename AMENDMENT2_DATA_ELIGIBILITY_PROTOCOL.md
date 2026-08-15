@@ -77,6 +77,10 @@ D4-dynamics or D5.
 
 `unknown` never means `pass`. A metadata-only screen may shortlist a dataset,
 but only a target-blind schema/codebook review may advance it to S6.
+For a request-only candidate, use the
+[Metadata-Only Controlled-Access Gate](AMENDMENT2_METADATA_ONLY_ACCESS_GATE.md)
+before requesting participant data. Design ineligibility stops the route even
+when the paper says data may be available on reasonable request.
 
 ## Search Procedure
 
@@ -115,6 +119,15 @@ python simulations/reproduce_zenodo_screen.py simulations/amendment2_dataset_scr
 This command checks exact totals and record-ID sets and reports search-index
 drift. A later live match does not turn the targeted queries into a complete
 Zenodo census.
+
+For a future request-only candidate, validate the metadata intake with:
+
+```powershell
+python simulations/validate_access_intake.py path/to/intake.json
+```
+
+The strongest output is eligibility for formal governance review. It never
+authorizes participant-data access or an Amendment 2 verdict.
 
 ## Status Vocabulary
 

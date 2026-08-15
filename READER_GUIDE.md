@@ -116,7 +116,8 @@ Do not cite any record as proving VOT, proving The Pleasure Order, directly meas
 | [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) | Author-approved prospective governance for explicit-rival and symmetric-disposition tests. |
 | [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md) | Target-specific execution template; not in force for any dataset. |
 | [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md) | Prospective candidate-screening and bounded-search rules. |
-| [2026-08-15 Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md) | Re-runnable openESM census and known-route dispositions; no eligible target identified in its declared scope. |
+| [Metadata-Only Access Gate](AMENDMENT2_METADATA_ONLY_ACCESS_GATE.md) | No-data-transfer intake and stop rules for request-only candidates. |
+| [2026-08-15 Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md) | Re-runnable openESM/Zenodo search and known-route dispositions; no eligible target identified in its declared scope. |
 | [Distinctiveness Head-to-Head](DISTINCTIVENESS_HEAD_TO_HEAD.md) | Anti-redundancy plan against nearby theories. |
 | [Structural Appendix: Omega-C-Act](STRUCTURAL_APPENDIX_OMEGA_C_ACT.md) | Post-v1.3 coordinate model (Omega, C, Act); felt-consonance (`p_loc`) vs structural consonance (`C`); release modes. Conceptual clarification only. |
 | [Crosswalk: Omega-C-Act](CROSSWALK_OMEGA_C_ACT.md) | Desk mapping between the coordinate model and the v1.3 appearance/measurement apparatus. |

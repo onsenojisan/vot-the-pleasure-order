@@ -122,6 +122,9 @@ necessary only; it is not a power, identifiability or runnability result.
 The preceding [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md)
 and [dated search log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md) make candidate
 screening reproducible and keep any absence claim bounded to its declared scope.
+Request-only candidates must clear the
+[Metadata-Only Controlled-Access Gate](AMENDMENT2_METADATA_ONLY_ACCESS_GATE.md)
+without participant-data transfer before any formal governance or access step.
 
 ⚠️ **Corrected the same day.** The first version of this note required an independent endpoint for D4 to
 give discriminating evidence at all. That **contradicts the frozen preregistration**, whose §7 states
