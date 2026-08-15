@@ -224,6 +224,11 @@ The active-inference family is not adjudicable if any are true:
 
 Any gate failure yields `INCONCLUSIVE` for D5.
 
+The dataset-level declarations for these gates are recorded and checked by the
+[Amendment 2 Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md). Its strongest result
+means only that the necessary observations have been declared; it never certifies
+that the models are identified or that Amendment 2 is runnable.
+
 ## Machine-Readable Registry
 
 The candidate scenario grid is recorded in
