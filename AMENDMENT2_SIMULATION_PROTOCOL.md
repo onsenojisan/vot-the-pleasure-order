@@ -16,6 +16,11 @@ a final numeric commitment. Those equations, priors and fitting programs must
 be frozen first. Until then, this file is a runnable reporting contract, not a
 power result.
 
+Before treating a target dataset as eligible, complete the
+[Amendment 2 Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md). Clearing that check
+establishes necessary observations only; it is not a power or identifiability
+result.
+
 ## Quantities To Estimate
 
 For every frozen data-generating scenario, estimate these unconditional rates:

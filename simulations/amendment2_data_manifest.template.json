@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1-draft",
+  "dataset_id": "UNSET",
+  "prospective_status": {
+    "target_outcomes_inspected_before_freeze": false,
+    "variable_mapping_frozen": false
+  },
+  "design": {
+    "cases": null,
+    "time_unit": "UNSET",
+    "arms": ["decline", "recovery"],
+    "observations_per_arm": {
+      "decline": null,
+      "recovery": null
+    },
+    "missing_data_rule": "UNSET",
+    "irregular_timing_rule": "UNSET"
+  },
+  "variables": {
+    "observed_state": {
+      "names": [],
+      "mapping": "UNSET"
+    },
+    "agent_action": {
+      "status": "UNSET",
+      "name": "UNSET",
+      "prospectively_justified": false,
+      "proxy_justification": "UNSET"
+    },
+    "external_forcing": {
+      "status": "UNSET",
+      "name": "UNSET",
+      "exogenous": false,
+      "bidirectional": false,
+      "coverage": "UNSET"
+    },
+    "endpoint": {
+      "status": "UNSET",
+      "name": "UNSET"
+    }
+  },
+  "separation": {
+    "action_distinct_from_external_forcing": false
+  },
+  "parameterization": {
+    "latent_state_dimension_grid": "UNSET",
+    "action_set": "UNSET",
+    "policy_horizon_grid": "UNSET",
+    "prior_sensitivity_grid": "UNSET"
+  }
+}
