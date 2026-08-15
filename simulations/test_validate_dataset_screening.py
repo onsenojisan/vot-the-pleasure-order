@@ -17,8 +17,10 @@ class DatasetScreeningValidationTests(unittest.TestCase):
         report = validate_screening(load_screening(REGISTRY))
         self.assertEqual(report["catalogue_record_count"], 62)
         self.assertEqual(report["shortlist_count"], 11)
-        self.assertEqual(report["candidate_count"], 14)
-        self.assertEqual(report["target_blind_review_count"], 2)
+        self.assertEqual(report["additional_catalogue_search_count"], 1)
+        self.assertEqual(report["additional_catalogue_record_count"], 5)
+        self.assertEqual(report["candidate_count"], 18)
+        self.assertEqual(report["target_blind_review_count"], 6)
         self.assertEqual(report["ready_for_blinded_preflight_count"], 0)
 
     def test_declared_count_must_match_enumeration(self):
@@ -34,6 +36,23 @@ class DatasetScreeningValidationTests(unittest.TestCase):
             for candidate in broken["candidates"]
             if candidate.get("catalogue_record_id") != "0014"
         ]
+        with self.assertRaises(ScreeningError):
+            validate_screening(broken)
+
+    def test_additional_query_union_and_dispositions_must_match(self):
+        broken = copy.deepcopy(load_screening(REGISTRY))
+        broken["additional_catalogue_searches"][0]["union_record_ids"].pop()
+        with self.assertRaises(ScreeningError):
+            validate_screening(broken)
+
+    def test_same_study_records_must_map_to_the_declared_candidate(self):
+        broken = copy.deepcopy(load_screening(REGISTRY))
+        candidate = next(
+            item
+            for item in broken["candidates"]
+            if item["candidate_id"] == "zenodo_lifetrace"
+        )
+        candidate["source_record_ids"] = ["17249917"]
         with self.assertRaises(ScreeningError):
             validate_screening(broken)
 

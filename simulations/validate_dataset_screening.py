@@ -31,6 +31,7 @@ KNOWN_EXTERNAL_ROUTES = {
     "transid_recovery",
     "bipolar_early_warning",
 }
+ALLOWED_RECORD_DISPOSITIONS = {"CANDIDATE_RECORD", "SAME_STUDY_RECORD"}
 
 
 class ScreeningError(ValueError):
@@ -90,6 +91,110 @@ def validate_screening(data: dict[str, Any]) -> dict[str, Any]:
     if set(external_routes) != KNOWN_EXTERNAL_ROUTES:
         errors.append("known external routes are incomplete or unexpected")
 
+    additional_searches = data.get("additional_catalogue_searches")
+    if not isinstance(additional_searches, list) or not additional_searches:
+        errors.append("additional_catalogue_searches must be a non-empty array")
+        additional_searches = []
+    additional_source_ids: set[str] = set()
+    additional_record_count = 0
+    additional_candidate_records: dict[str, set[str]] = {}
+    for search_index, search in enumerate(additional_searches):
+        location = f"additional_catalogue_searches[{search_index}]"
+        if not isinstance(search, dict):
+            errors.append(f"{location} must be an object")
+            continue
+        source_id = search.get("source_id")
+        if not isinstance(source_id, str) or not source_id:
+            errors.append(f"{location}.source_id must be a non-empty string")
+        elif source_id in additional_source_ids:
+            errors.append(f"duplicate additional source ID: {source_id}")
+        else:
+            additional_source_ids.add(source_id)
+        for url_field in ("api_url", "developer_docs_url", "search_guide_url"):
+            url = search.get(url_field)
+            if not isinstance(url, str) or not url.startswith("https://"):
+                errors.append(f"{location}.{url_field} must be an HTTPS URL")
+
+        parameters = search.get("request_parameters")
+        if not isinstance(parameters, dict):
+            errors.append(f"{location}.request_parameters must be an object")
+            parameters = {}
+        if not isinstance(parameters.get("size"), int) or parameters.get("size", 0) <= 0:
+            errors.append(f"{location}.request_parameters.size must be positive")
+        if not parameters.get("sort"):
+            errors.append(f"{location}.request_parameters.sort must be fixed")
+
+        queries = search.get("queries")
+        if not isinstance(queries, list) or not queries:
+            errors.append(f"{location}.queries must be a non-empty array")
+            queries = []
+        query_ids: set[str] = set()
+        query_union: set[str] = set()
+        for query_index, query in enumerate(queries):
+            query_location = f"{location}.queries[{query_index}]"
+            if not isinstance(query, dict):
+                errors.append(f"{query_location} must be an object")
+                continue
+            query_id = query.get("query_id")
+            if not isinstance(query_id, str) or not query_id:
+                errors.append(f"{query_location}.query_id must be a non-empty string")
+            elif query_id in query_ids:
+                errors.append(f"duplicate query ID in {location}: {query_id}")
+            else:
+                query_ids.add(query_id)
+            if not isinstance(query.get("q"), str) or not query.get("q"):
+                errors.append(f"{query_location}.q must be fixed")
+            query_record_ids = query.get("record_ids")
+            if not isinstance(query_record_ids, list):
+                errors.append(f"{query_location}.record_ids must be an array")
+                query_record_ids = []
+            if len(query_record_ids) != len(set(query_record_ids)):
+                errors.append(f"{query_location}.record_ids must be unique")
+            if query.get("declared_total") != len(query_record_ids):
+                errors.append(f"{query_location}.declared_total must match record_ids")
+            query_union.update(query_record_ids)
+
+        union_record_ids = search.get("union_record_ids")
+        if not isinstance(union_record_ids, list):
+            errors.append(f"{location}.union_record_ids must be an array")
+            union_record_ids = []
+        if len(union_record_ids) != len(set(union_record_ids)):
+            errors.append(f"{location}.union_record_ids must be unique")
+        if set(union_record_ids) != query_union:
+            errors.append(f"{location}.union_record_ids must equal the query union")
+        if search.get("declared_union_record_count") != len(union_record_ids):
+            errors.append(f"{location}.declared_union_record_count must match the union")
+        additional_record_count += len(union_record_ids)
+
+        dispositions = search.get("record_dispositions")
+        if not isinstance(dispositions, list):
+            errors.append(f"{location}.record_dispositions must be an array")
+            dispositions = []
+        disposition_ids: set[str] = set()
+        for disposition_index, disposition in enumerate(dispositions):
+            disposition_location = f"{location}.record_dispositions[{disposition_index}]"
+            if not isinstance(disposition, dict):
+                errors.append(f"{disposition_location} must be an object")
+                continue
+            record_id = disposition.get("record_id")
+            if record_id in disposition_ids:
+                errors.append(f"duplicate disposition record ID: {record_id}")
+            elif isinstance(record_id, str) and record_id:
+                disposition_ids.add(record_id)
+            else:
+                errors.append(f"{disposition_location}.record_id must be a non-empty string")
+            if disposition.get("disposition") not in ALLOWED_RECORD_DISPOSITIONS:
+                errors.append(f"{disposition_location} has an invalid disposition")
+            candidate_id = disposition.get("candidate_id")
+            if not isinstance(candidate_id, str) or not candidate_id:
+                errors.append(f"{disposition_location}.candidate_id must be recorded")
+            elif isinstance(record_id, str):
+                additional_candidate_records.setdefault(candidate_id, set()).add(record_id)
+            if not disposition.get("title") or not disposition.get("doi"):
+                errors.append(f"{disposition_location} must record title and DOI")
+        if disposition_ids != set(union_record_ids):
+            errors.append(f"{location} must dispose every union record exactly once")
+
     candidates = data.get("candidates")
     if not isinstance(candidates, list) or not candidates:
         errors.append("candidates must be a non-empty array")
@@ -116,6 +221,17 @@ def validate_screening(data: dict[str, Any]) -> dict[str, Any]:
             if catalogue_id not in record_ids:
                 errors.append(f"{location} references an unknown catalogue record")
             reviewed_catalogue_ids.add(catalogue_id)
+
+        source_id = candidate.get("source_id")
+        if source_id is not None:
+            if source_id not in additional_source_ids:
+                errors.append(f"{location} references an unknown additional source")
+            source_record_ids = candidate.get("source_record_ids")
+            expected_source_records = additional_candidate_records.get(candidate_id, set())
+            if not isinstance(source_record_ids, list) or set(source_record_ids) != expected_source_records:
+                errors.append(
+                    f"{location}.source_record_ids must match its additional-search dispositions"
+                )
 
         urls = candidate.get("evidence_urls")
         if (
@@ -215,6 +331,12 @@ def validate_screening(data: dict[str, Any]) -> dict[str, Any]:
             "missing external candidate records: "
             + ", ".join(sorted(missing_external_candidates))
         )
+    missing_additional_candidates = set(additional_candidate_records) - candidate_ids
+    if missing_additional_candidates:
+        errors.append(
+            "missing additional-search candidates: "
+            + ", ".join(sorted(missing_additional_candidates))
+        )
 
     expected_status = (
         "BOUNDED_SEARCH_COMPLETE_PREFLIGHT_CANDIDATE_IDENTIFIED"
@@ -235,6 +357,8 @@ def validate_screening(data: dict[str, Any]) -> dict[str, Any]:
         "catalogue_record_count": len(record_ids),
         "shortlist_count": len(shortlist_ids),
         "external_route_count": len(external_routes),
+        "additional_catalogue_search_count": len(additional_searches),
+        "additional_catalogue_record_count": additional_record_count,
         "candidate_count": len(candidates),
         "target_blind_review_count": sum(
             isinstance(candidate, dict) and "target_blind_review" in candidate

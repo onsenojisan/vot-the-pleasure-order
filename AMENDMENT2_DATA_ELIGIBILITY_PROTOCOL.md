@@ -106,6 +106,16 @@ python simulations/reproduce_openesm_screen.py path/to/openesm simulations/amend
 
 The command refuses a checkout whose `HEAD` differs from the recorded commit.
 
+To re-run the dated Zenodo query set against the live public API:
+
+```powershell
+python simulations/reproduce_zenodo_screen.py simulations/amendment2_dataset_screening.v0.json
+```
+
+This command checks exact totals and record-ID sets and reports search-index
+drift. A later live match does not turn the targeted queries into a complete
+Zenodo census.
+
 ## Status Vocabulary
 
 - `NOT_SHORTLISTED_METADATA`: no declared phase/intervention term was found;
