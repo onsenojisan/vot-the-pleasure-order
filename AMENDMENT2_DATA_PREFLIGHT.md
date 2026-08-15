@@ -1,8 +1,9 @@
 # Amendment 2 — Data Preflight
 
-Status: **draft necessary-condition check; not a power or identifiability result**
+Status: **2B necessary-condition check; not a power or identifiability result**
 Date: 2026-08-15
-Applies to: [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md)
+Required by: [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md)
+Recorded in: [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md)
 
 ## Purpose
 

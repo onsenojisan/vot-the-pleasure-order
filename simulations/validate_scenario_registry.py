@@ -9,7 +9,8 @@ from pathlib import Path
 from typing import Any
 
 
-REQUIRED_MODELS = {"R1", "R2", "S0", "R3", "R4", "R5", "R6"}
+REQUIRED_MODELS = {"R0", "R1", "R2", "S0", "R3", "R4", "R5", "R6"}
+REQUIRED_GENERATORS = {"R1", "R2", "S0", "R3", "R4", "R5", "R6"}
 TRUTHS = {"FOLD", "NON_FOLD"}
 REQUIRED_SCENARIO_FIELDS = {
     "id",
@@ -104,7 +105,7 @@ def validate_registry(data: dict[str, Any]) -> dict[str, Any]:
         if not isinstance(scenario["seed"], int):
             errors.append(f"{location} seed must be an integer")
 
-    missing_generators = REQUIRED_MODELS - generators
+    missing_generators = REQUIRED_GENERATORS - generators
     if missing_generators:
         errors.append(f"calibration scenarios omit generators: {', '.join(sorted(missing_generators))}")
     if truths != TRUTHS:

@@ -1,8 +1,9 @@
 # Amendment 2 — Two-Sided Calibration Protocol
 
-Status: **simulation-design draft; no ratification numbers are in force**
+Status: **2B simulation-design draft; no target-specific numbers are in force**
 Date: 2026-08-15
-Applies to: [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md)
+Governed by: [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md)
+To be completed through: [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md)
 
 ## Purpose
 
@@ -65,6 +66,8 @@ registry and R3–R6 equations are in the
 
 The registry must include, at minimum:
 
+- the fitted `R0` baseline suite, which need not be a separate data-generating
+  scenario;
 - multiple fold/hysteresis scenarios, including weak and narrow folds;
 - smooth changing-equilibrium deterioration and recovery;
 - externally forced jumps;
@@ -74,7 +77,7 @@ The registry must include, at minimum:
 
 A label such as “active inference” is inadmissible without the generative
 model, objective, priors, variable mapping and fitting code required by
-Proposed Amendment 2.
+Amendment 2A and frozen in the study's Amendment 2B annex.
 
 ## Calibration And Locked Validation
 

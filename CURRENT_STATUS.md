@@ -9,7 +9,7 @@ claims in it are current. *(This field exists because the file had no freshness 
 staleness check had no date to compare against. Replace this line with a real verification when one
 is run.)*  
 
-🟢 **Current-only routing (2026-08-15).** This file is an append-heavy status history. For the clean current verdict use [Current Canon](CURRENT_CANON.md); for the central estimand and S1–S4 units use the [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md); for appearance/structure/Ω/value terms use the [Terminology Contract](TERMINOLOGY_CONTRACT.md). Frozen registrations are unchanged, and [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md) is not in force until author ratification.
+🟢 **Current-only routing (2026-08-15).** This file is an append-heavy status history. For the clean current verdict use [Current Canon](CURRENT_CANON.md); for the central estimand and S1–S4 units use the [Core Claim Test Contract](CORE_CLAIM_TEST_CONTRACT.md); for appearance/structure/Ω/value terms use the [Terminology Contract](TERMINOLOGY_CONTRACT.md). Frozen registrations are unchanged. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) supplies prospective governance only; no future target receives an Amendment 2 verdict without a complete [2B execution annex](AMENDMENT_2B_EXECUTION_ANNEX.md).
 
 For navigation across public documents, see [Reader Guide](READER_GUIDE.md).
 

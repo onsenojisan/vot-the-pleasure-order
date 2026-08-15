@@ -107,7 +107,7 @@ position for a theory than a clean negative, because it approaches unfalsifiabil
 | **`D4-dynamics`** | whether a fold / hysteresis structure beats the free-energy family on the decline→recovery dynamics | within-person decline **and** recovery arms, ≥50 obs per arm, adequate power, pre-fixed structure screening. **It does not need an external Ω endpoint** | **un-run** — no accessible dataset has both arms |
 | **`D4 + P3`** | whether that structure licenses an upgrade to VOT's **Ω / directionality** claims | all of the above **plus** an external viability endpoint, independent of self-report (`P3`, Ω̂ non-circularity) | **un-runnable** on accessible data — that endpoint is the co-measurement gap |
 
-Even `D4 + P3` is insufficient for distinctiveness unless it also passes the explicit-rival D5 contract. [Proposed Amendment 2](PROPOSED_AMENDMENT_2_D5_AND_FALSIFIER.md) supplies that repair and a symmetric `UNDERPOWERED` / `NO_STRUCTURE` disposition, but remains an author-ratification draft and is not yet in force.
+Even `D4 + P3` is insufficient for distinctiveness unless it also passes the explicit-rival D5 contract. [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md) supplies the prospective fairness, identifiability and symmetric-disposition rules without changing the frozen v0.2 test or Amendment 1. It authorizes no empirical verdict alone: each future target needs a complete, prospectively frozen [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md).
 
 Its candidate R3–R6 equations and machine-readable scenario registry are now
 specified in the [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md).
