@@ -45,7 +45,9 @@ See the [Terminology Contract](TERMINOLOGY_CONTRACT.md). Earlier `pleasure = dC/
   [Amendment 2 Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md) checks these and
   other necessary conditions but does not certify runnability.
 
-The prospective governance repair is in [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md).
+The prospective governance repair is in [Amendment 2A](AMENDMENT_2A_GOVERNANCE_RULES.md),
+with its exact adopted commit fixed in the
+[2A Ratification Record](AMENDMENT_2A_RATIFICATION_RECORD.md).
 It does not alter the frozen v0.2 test or Amendment 1 and authorizes no empirical
 verdict by itself. Every future target requires a complete, prospectively frozen
 [Amendment 2B](AMENDMENT_2B_EXECUTION_ANNEX.md); otherwise the result is
