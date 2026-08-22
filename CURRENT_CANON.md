@@ -17,7 +17,7 @@ VOT / The Pleasure Order is a testable research program, not a validated distinc
 | measurable order operator | tested and absorbed by the comparator used | evidence against current distinctiveness, not proof that every FEP model absorbs VOT |
 | `D4-dynamics` | frozen and un-run; no eligible target identified in the declared 2026-08-15 search scope | S1 structural evidence only if it passes |
 | `P3` external Ω-related endpoint | not assembled | S2 external alignment only |
-| explicit strong FEP rivals (`D5`) | 2A governance author-approved; R3–R6 implementation, scenario registry and target-specific 2B remain unfrozen | S3 rival separation only after an operative 2B and a pass |
+| explicit strong FEP rivals (`D5`) | 2A governance author-approved; a development-only shared-fold VOT + R0–R6/S0 reference harness exists, while exact latent-state/EFE implementation, scenario lock and target-specific 2B remain unfrozen | S3 rival separation only after an operative 2B and a pass |
 | Candidate 2L | auxiliary, design-incomplete, un-runnable | baseline-adjusted future-level prediction only |
 | Candidate 2R | design contract only | S4 change/rate bridge after a separate prospective test |
 
@@ -71,7 +71,8 @@ safe development route without activating 2B or authorizing recruitment.
    [Amendment 2B template](AMENDMENT_2B_EXECUTION_ANNEX.md), the
    [Amendment 2 Readiness Audit](AMENDMENT2_READINESS_AUDIT_2026-08-15.md), the
    [Prospective Study Protocol](AMENDMENT2_PROSPECTIVE_STUDY_PROTOCOL.md), the
-   [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md), and the
+   [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md), the
+   [VOT shared-fold development specification](VOT_SHARED_FOLD_ESTIMATOR_SPEC.md), and the
    [Dataset Eligibility Protocol](AMENDMENT2_DATA_ELIGIBILITY_PROTOCOL.md),
    [dated Search Log](AMENDMENT2_DATA_SEARCH_LOG_2026-08-15.md), and
    [Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md);

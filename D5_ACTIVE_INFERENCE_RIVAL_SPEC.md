@@ -238,5 +238,19 @@ It is validated by `simulations/validate_scenario_registry.py`. Locked validatio
 seeds remain deliberately unset until the equations, priors, grids and candidate
 acceptance targets are frozen in a target-specific 2B annex.
 
+**Implementation note (2026-08-22).**
+[`simulations/amendment2_reference_harness.py`](simulations/amendment2_reference_harness.py)
+now provides an executable scalar observed-state reference loop for the
+author-selected shared-fold VOT estimator and every R0–R6/S0 family, with common
+chronological splits, a shared fitting grid and held-out observation/action
+scoring. The fold-family decision and the D5 VOT-versus-best-rival absorption
+disposition are emitted separately. It remains method-development scaffolding,
+not the exact model required above: latent-state VFE and the full multi-step EFE
+policy model are absent, and R6 uses only a ridge partial-pooling approximation.
+Its output is therefore marked `METHOD_DEVELOPMENT_ONLY` and
+`verdict_authorized=False`. See the [VOT estimator development specification](VOT_SHARED_FOLD_ESTIMATOR_SPEC.md)
+and [`simulations` README](simulations/README.md).
+
 `R0` is recorded as a fitted baseline suite rather than a data-generating
-scenario. The required generator coverage is `R1`, `R2`, `S0` and `R3–R6`.
+scenario. The development generator coverage is `VOT`, `R1`, `R2`, `S0` and
+`R3–R6`.

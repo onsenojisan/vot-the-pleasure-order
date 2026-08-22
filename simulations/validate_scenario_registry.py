@@ -9,8 +9,8 @@ from pathlib import Path
 from typing import Any
 
 
-REQUIRED_MODELS = {"R0", "R1", "R2", "S0", "R3", "R4", "R5", "R6"}
-REQUIRED_GENERATORS = {"R1", "R2", "S0", "R3", "R4", "R5", "R6"}
+REQUIRED_MODELS = {"R0", "R1", "R2", "S0", "VOT", "R3", "R4", "R5", "R6"}
+REQUIRED_GENERATORS = {"R1", "R2", "S0", "VOT", "R3", "R4", "R5", "R6"}
 TRUTHS = {"FOLD", "NON_FOLD"}
 REQUIRED_SCENARIO_FIELDS = {
     "id",
@@ -92,8 +92,25 @@ def validate_registry(data: dict[str, Any]) -> dict[str, Any]:
             errors.append(f"{location} cases and observations_per_arm must be positive")
         if scenario["arms"] != ["decline", "recovery"]:
             errors.append(f"{location} must contain ordered decline and recovery arms")
-        if generator in {"R3", "R4", "R5", "R6"} and scenario["action_stream"] != "observed":
+        if generator in {"VOT", "R3", "R4", "R5", "R6"} and scenario["action_stream"] != "observed":
             errors.append(f"{location} must observe actions for active-inference calibration")
+        if generator in {"VOT", "R6"}:
+            parameters = scenario.get("parameters")
+            if not isinstance(parameters, dict):
+                errors.append(f"{location} must declare fold parameters")
+            else:
+                for parameter in ("alpha", "beta", "zeta", "delta"):
+                    value = parameters.get(parameter)
+                    if not isinstance(value, (int, float)):
+                        errors.append(f"{location} fold parameter {parameter} must be numeric")
+                if isinstance(parameters.get("alpha"), (int, float)) and parameters["alpha"] <= 0:
+                    errors.append(f"{location} fold parameter alpha must be positive")
+                if isinstance(parameters.get("delta"), (int, float)) and parameters["delta"] <= 0:
+                    errors.append(f"{location} fold parameter delta must be positive")
+                if generator == "R6":
+                    heterogeneity = parameters.get("hierogeneity_sd")
+                    if not isinstance(heterogeneity, (int, float)) or heterogeneity <= 0:
+                        errors.append(f"{location} R6 hierarchy requires positive heterogeneity_sd")
         for rate_field in ("missingness_rate",):
             value = scenario[rate_field]
             if not isinstance(value, (int, float)) or not 0 <= value < 1:

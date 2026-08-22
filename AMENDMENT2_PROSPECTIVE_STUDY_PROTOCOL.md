@@ -158,6 +158,17 @@ a later exact annex.
 
 ## Current Next Step
 
-Implement the synthetic R0–R6/S0 fitting harness. Until it exists and survives
-calibration, a human collection design has no demonstrated ability to answer the
-question whose burden it would impose.
+**Updated 2026-08-22.** A dependency-free scalar VOT + R0–R6/S0 reference
+harness now exists and passes its software tests. It exercises common inputs,
+chronological splits, a shared fitting grid, separate structure/absorption
+dispositions and the calibration CSV contract. The VOT side now follows the
+author-selected global shared-fold development specification. P0 is still not
+cleared: observed state substitutes for latent-state VFE, the action policy is
+a one-step risk-only approximation, and hierarchical R6 is approximated by
+ridge partial pooling.
+
+The next step is to implement the exact latent-state observation/inference
+model and the full multi-step VFE/EFE rival interface under the same budget,
+then calibrate all registered generators without locked seeds. Until that
+implementation survives calibration, a human collection design has no
+demonstrated ability to answer the question whose burden it would impose.

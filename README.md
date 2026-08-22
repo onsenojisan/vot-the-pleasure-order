@@ -122,6 +122,15 @@ to recruit or inspect outcomes.
 
 Its candidate R3–R6 equations and machine-readable scenario registry are now
 specified in the [D5 Rival Specification](D5_ACTIVE_INFERENCE_RIVAL_SPEC.md).
+
+**Implementation update (2026-08-22):** a scalar synthetic
+[VOT + R0–R6/S0 reference harness](simulations/README.md) now exercises common
+splits, budgets, held-out observation/action scoring and separate structure/D5
+absorption dispositions. The VOT side follows the
+[shared-fold development specification](VOT_SHARED_FOLD_ESTIMATOR_SPEC.md).
+Exact latent-state VFE and full multi-step EFE remain absent, so this does not
+clear P0 or authorize an Amendment 2 verdict.
+
 Before any target dataset is treated as eligible, the
 [Amendment 2 Data Preflight](AMENDMENT2_DATA_PREFLIGHT.md) requires agent action
 to be separated from bidirectional external forcing. Passing that preflight is

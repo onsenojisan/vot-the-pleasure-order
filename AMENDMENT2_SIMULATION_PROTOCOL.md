@@ -135,6 +135,24 @@ Summarize a result file with:
 python simulations/calibrate_amendment2.py results.csv --output calibration_report.json
 ```
 
+A method-development result file can now be produced with the reference
+harness:
+
+```powershell
+python simulations/amendment2_reference_harness.py `
+  simulations/amendment2_scenarios.v0.json `
+  --output reference_results.csv `
+  --audit-output reference_audit.json
+```
+
+This does not fill the ratification block. The reference harness implements the
+author-selected shared-fold VOT only as a scalar observed-state approximation,
+uses a one-step risk-only policy approximation, and approximates hierarchical
+R6 with ridge partial pooling. Its `disposition` and
+`d5_reference_disposition` columns exercise structure and absorption result
+contracts for calibration only; every row separately states
+`verdict_authorized=False`.
+
 Use `--require-pass` only after the acceptance targets have been ratified. The
 command then exits non-zero if any scenario fails.
 

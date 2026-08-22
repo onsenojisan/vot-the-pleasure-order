@@ -90,3 +90,19 @@ The implementation priority is now:
    adjudicate both fold and non-fold families;
 4. create and approve a target-specific 2B immediately before any eligible
    target outcomes become visible.
+
+## Post-Audit Implementation Note (2026-08-22)
+
+The statement above that no R3–R6 pipeline was present was correct on the audit
+date. A scalar synthetic reference harness has since been added at
+[`simulations/amendment2_reference_harness.py`](simulations/amendment2_reference_harness.py),
+with its contract and limitations in [`simulations/README.md`](simulations/README.md).
+
+This is progress on item 1, not completion of the 2B prerequisite. It generates
+and fits the selected shared-fold VOT and every R0–R6/S0 reference family under
+common splits and budgets, emits separate structure and D5 absorption
+dispositions, and preserves the calibration-compatible contract. It does not
+implement exact latent-state VFE or the full multi-step EFE policy model, and
+its R6 hierarchy is a ridge approximation. P0 therefore remains **not
+cleared**, the scenario registry remains unlocked, and the only permitted
+empirical disposition remains `NO AMENDMENT 2 VERDICT`.

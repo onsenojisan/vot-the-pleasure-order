@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.1-draft",
-  "status": "author-ratification draft",
-  "generated_on": "2026-08-15",
+  "schema_version": "0.2-development",
+  "status": "author-selected development draft; not locked validation",
+  "generated_on": "2026-08-22",
   "registry_ready_for_locked_validation": false,
   "common_contract": {
     "state_model": "controlled continuous-Gaussian state space",
@@ -33,6 +33,12 @@
       "name": "non-bifurcation state switching",
       "truth_family": "NON_FOLD",
       "dynamics": "z_next~Markov(P); x_next=b_z+A_z*x+B_z*a+U_z*u+w"
+    },
+    "VOT": {
+      "name": "parameter-light shared fold estimator",
+      "truth_family": "FOLD",
+      "sharing": "one transition law across people and decline/recovery arms",
+      "dynamics": "x_next=x+delta*(alpha*x-x^3+beta*u+zeta*a)+w"
     },
     "R3": {
       "name": "person-arm-specific active inference",
@@ -152,6 +158,36 @@
       "seed": 1601
     },
     {
+      "id": "vot_shared_fold_strong",
+      "truth": "FOLD",
+      "generator": "VOT",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "crosses both fold thresholds",
+      "process_noise_sd": 0.15,
+      "measurement_noise_sd": 0.2,
+      "missingness_rate": 0.05,
+      "parameters": {"alpha": 1.0, "beta": 1.0, "zeta": 0.4, "delta": 0.05},
+      "seed": 1651
+    },
+    {
+      "id": "vot_shared_fold_weak_narrow",
+      "truth": "FOLD",
+      "generator": "VOT",
+      "cases": 32,
+      "observations_per_arm": 100,
+      "arms": ["decline", "recovery"],
+      "action_stream": "observed",
+      "control_coverage": "barely crosses both fold thresholds",
+      "process_noise_sd": 0.3,
+      "measurement_noise_sd": 0.5,
+      "missingness_rate": 0.2,
+      "parameters": {"alpha": 0.35, "beta": 0.55, "zeta": 0.2, "delta": 0.05},
+      "seed": 1661
+    },
+    {
       "id": "r6_fold_strong",
       "truth": "FOLD",
       "generator": "R6",
@@ -163,7 +199,8 @@
       "process_noise_sd": 0.15,
       "measurement_noise_sd": 0.2,
       "missingness_rate": 0.05,
-      "parameters": {"alpha": 1.0, "beta": 1.0, "zeta": 0.4, "delta": 0.05},
+      "stress_target": "strong case heterogeneity must exercise D5 absorption of the globally shared VOT candidate",
+      "parameters": {"alpha": 1.0, "beta": 1.0, "zeta": 0.4, "delta": 0.05, "hierogeneity_sd": 1.5},
       "seed": 1701
     },
     {
@@ -178,7 +215,7 @@
       "process_noise_sd": 0.3,
       "measurement_noise_sd": 0.5,
       "missingness_rate": 0.2,
-      "parameters": {"alpha": 0.35, "beta": 0.55, "zeta": 0.2, "delta": 0.05},
+      "parameters": {"alpha": 0.35, "beta": 0.55, "zeta": 0.2, "delta": 0.05, "hierogeneity_sd": 0.15},
       "seed": 1801
     }
   ],
@@ -186,7 +223,7 @@
     {
       "id": "locked_fold_family",
       "truth": "FOLD",
-      "required_generators": ["R6"],
+      "required_generators": ["VOT", "R6"],
       "parameter_grid": "UNSET_BEFORE_RATIFICATION",
       "seed_commitment": "UNSET_BEFORE_RATIFICATION"
     },
